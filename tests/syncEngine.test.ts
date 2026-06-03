@@ -12,7 +12,11 @@ vi.mock('~~/server/utils/footballDataClient', () => ({
   fetchWorldCupMatches: vi.fn(),
 }))
 
-beforeEach(() => kvStore.clear())
+beforeEach(() => {
+  kvStore.clear()
+  process.env.KV_REST_API_URL = 'http://test'
+  process.env.KV_REST_API_TOKEN = 'test-token'
+})
 
 const { runSync } = await import('~~/server/utils/syncEngine')
 const { fetchWorldCupMatches } = await import('~~/server/utils/footballDataClient')

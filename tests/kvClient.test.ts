@@ -9,7 +9,11 @@ vi.mock('@vercel/kv', () => ({
   },
 }))
 
-beforeEach(() => { store.clear() })
+beforeEach(() => {
+  store.clear()
+  process.env.KV_REST_API_URL = 'http://test'
+  process.env.KV_REST_API_TOKEN = 'test-token'
+})
 
 import { setMatchResult, getMatchResult, setChampionRates, getChampionRates } from '~~/server/utils/kvClient'
 
