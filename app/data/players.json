@@ -1,0 +1,8834 @@
+{
+  "BRA": [
+    {
+      "id": "BRA-1",
+      "number": 1,
+      "name": "Garcia",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "BRA-2",
+      "number": 2,
+      "name": "Lopez",
+      "position": "GK",
+      "club": "Benfica"
+    },
+    {
+      "id": "BRA-3",
+      "number": 3,
+      "name": "Martinez",
+      "position": "GK",
+      "club": "Atletico-MG"
+    },
+    {
+      "id": "BRA-4",
+      "number": 4,
+      "name": "Rodriguez",
+      "position": "DF",
+      "club": "Independiente"
+    },
+    {
+      "id": "BRA-5",
+      "number": 5,
+      "name": "Gomez",
+      "position": "DF",
+      "club": "Velez"
+    },
+    {
+      "id": "BRA-6",
+      "number": 6,
+      "name": "Fernandez",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "BRA-7",
+      "number": 7,
+      "name": "Diaz",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "BRA-8",
+      "number": 8,
+      "name": "Sanchez",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "BRA-9",
+      "number": 9,
+      "name": "Pereira",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "BRA-10",
+      "number": 10,
+      "name": "Oliveira",
+      "position": "DF",
+      "club": "Sao Paulo"
+    },
+    {
+      "id": "BRA-11",
+      "number": 11,
+      "name": "Costa",
+      "position": "DF",
+      "club": "Tigres"
+    },
+    {
+      "id": "BRA-12",
+      "number": 12,
+      "name": "Ramos",
+      "position": "DF",
+      "club": "LDU"
+    },
+    {
+      "id": "BRA-13",
+      "number": 13,
+      "name": "Castro",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "BRA-14",
+      "number": 14,
+      "name": "Vargas",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "BRA-15",
+      "number": 15,
+      "name": "Romero",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "BRA-16",
+      "number": 16,
+      "name": "Morales",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "BRA-17",
+      "number": 17,
+      "name": "Reyes",
+      "position": "MF",
+      "club": "River Plate"
+    },
+    {
+      "id": "BRA-18",
+      "number": 18,
+      "name": "Cruz",
+      "position": "MF",
+      "club": "Club America"
+    },
+    {
+      "id": "BRA-19",
+      "number": 19,
+      "name": "Jimenez",
+      "position": "MF",
+      "club": "Cerro Porteno"
+    },
+    {
+      "id": "BRA-20",
+      "number": 20,
+      "name": "Ortiz",
+      "position": "MF",
+      "club": "Sport"
+    },
+    {
+      "id": "BRA-21",
+      "number": 21,
+      "name": "Gutierrez",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "BRA-22",
+      "number": 22,
+      "name": "Alvarez",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "BRA-23",
+      "number": 23,
+      "name": "Mendoza",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "BRA-24",
+      "number": 24,
+      "name": "Aguilar",
+      "position": "FW",
+      "club": "Boca Juniors"
+    },
+    {
+      "id": "BRA-25",
+      "number": 25,
+      "name": "Flores",
+      "position": "FW",
+      "club": "Fluminense"
+    },
+    {
+      "id": "BRA-26",
+      "number": 26,
+      "name": "Vega",
+      "position": "FW",
+      "club": "Olimpia"
+    }
+  ],
+  "AUS": [
+    {
+      "id": "AUS-1",
+      "number": 1,
+      "name": "Nelson",
+      "position": "GK",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "AUS-2",
+      "number": 2,
+      "name": "Osman",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "AUS-3",
+      "number": 3,
+      "name": "Parker",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "AUS-4",
+      "number": 4,
+      "name": "Quinn",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "AUS-5",
+      "number": 5,
+      "name": "Russell",
+      "position": "DF",
+      "club": "Melbourne City"
+    },
+    {
+      "id": "AUS-6",
+      "number": 6,
+      "name": "Stewart",
+      "position": "DF",
+      "club": "Perth Glory"
+    },
+    {
+      "id": "AUS-7",
+      "number": 7,
+      "name": "Turner",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "AUS-8",
+      "number": 8,
+      "name": "Wood",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "AUS-9",
+      "number": 9,
+      "name": "Smith",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "AUS-10",
+      "number": 10,
+      "name": "Brown",
+      "position": "DF",
+      "club": "Sydney FC"
+    },
+    {
+      "id": "AUS-11",
+      "number": 11,
+      "name": "Wilson",
+      "position": "DF",
+      "club": "Central Coast"
+    },
+    {
+      "id": "AUS-12",
+      "number": 12,
+      "name": "Anderson",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "AUS-13",
+      "number": 13,
+      "name": "Taylor",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "AUS-14",
+      "number": 14,
+      "name": "Thomas",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "AUS-15",
+      "number": 15,
+      "name": "Reid",
+      "position": "MF",
+      "club": "Wellington Phoenix"
+    },
+    {
+      "id": "AUS-16",
+      "number": 16,
+      "name": "Wallace",
+      "position": "MF",
+      "club": "Brisbane Roar"
+    },
+    {
+      "id": "AUS-17",
+      "number": 17,
+      "name": "Garcia",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "AUS-18",
+      "number": 18,
+      "name": "Allen",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "AUS-19",
+      "number": 19,
+      "name": "Lee",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "AUS-20",
+      "number": 20,
+      "name": "Walker",
+      "position": "MF",
+      "club": "Auckland City"
+    },
+    {
+      "id": "AUS-21",
+      "number": 21,
+      "name": "Young",
+      "position": "FW",
+      "club": "Newcastle Jets"
+    },
+    {
+      "id": "AUS-22",
+      "number": 22,
+      "name": "King",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "AUS-23",
+      "number": 23,
+      "name": "Cook",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "AUS-24",
+      "number": 24,
+      "name": "Bennett",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "AUS-25",
+      "number": 25,
+      "name": "Davis",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "AUS-26",
+      "number": 26,
+      "name": "Edwards",
+      "position": "FW",
+      "club": "Macarthur"
+    }
+  ],
+  "SCO": [
+    {
+      "id": "SCO-1",
+      "number": 1,
+      "name": "Martin",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "SCO-2",
+      "number": 2,
+      "name": "Jackson",
+      "position": "GK",
+      "club": "Napoli"
+    },
+    {
+      "id": "SCO-3",
+      "number": 3,
+      "name": "Clarke",
+      "position": "GK",
+      "club": "Sevilla"
+    },
+    {
+      "id": "SCO-4",
+      "number": 4,
+      "name": "Clark",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "SCO-5",
+      "number": 5,
+      "name": "Turner",
+      "position": "DF",
+      "club": "Everton"
+    },
+    {
+      "id": "SCO-6",
+      "number": 6,
+      "name": "Hill",
+      "position": "DF",
+      "club": "Bournemouth"
+    },
+    {
+      "id": "SCO-7",
+      "number": 7,
+      "name": "Scott",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "SCO-8",
+      "number": 8,
+      "name": "Cooper",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "SCO-9",
+      "number": 9,
+      "name": "Morris",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "SCO-10",
+      "number": 10,
+      "name": "Ward",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "SCO-11",
+      "number": 11,
+      "name": "Watson",
+      "position": "DF",
+      "club": "Brighton"
+    },
+    {
+      "id": "SCO-12",
+      "number": 12,
+      "name": "Smith",
+      "position": "DF",
+      "club": "Leicester"
+    },
+    {
+      "id": "SCO-13",
+      "number": 13,
+      "name": "Jones",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "SCO-14",
+      "number": 14,
+      "name": "Taylor",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "SCO-15",
+      "number": 15,
+      "name": "Brown",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "SCO-16",
+      "number": 16,
+      "name": "Williams",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "SCO-17",
+      "number": 17,
+      "name": "Wilson",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "SCO-18",
+      "number": 18,
+      "name": "Johnson",
+      "position": "MF",
+      "club": "Wolves"
+    },
+    {
+      "id": "SCO-19",
+      "number": 19,
+      "name": "Davies",
+      "position": "MF",
+      "club": "Nottingham Forest"
+    },
+    {
+      "id": "SCO-20",
+      "number": 20,
+      "name": "Robinson",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "SCO-21",
+      "number": 21,
+      "name": "Wright",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "SCO-22",
+      "number": 22,
+      "name": "Thompson",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "SCO-23",
+      "number": 23,
+      "name": "Evans",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "SCO-24",
+      "number": 24,
+      "name": "Walker",
+      "position": "FW",
+      "club": "West Ham"
+    },
+    {
+      "id": "SCO-25",
+      "number": 25,
+      "name": "White",
+      "position": "FW",
+      "club": "Leeds"
+    },
+    {
+      "id": "SCO-26",
+      "number": 26,
+      "name": "Roberts",
+      "position": "FW",
+      "club": "Manchester City"
+    }
+  ],
+  "JAM": [
+    {
+      "id": "JAM-1",
+      "number": 1,
+      "name": "Sanchez",
+      "position": "GK",
+      "club": "Saprissa"
+    },
+    {
+      "id": "JAM-2",
+      "number": 2,
+      "name": "Ramirez",
+      "position": "GK",
+      "club": "Necaxa"
+    },
+    {
+      "id": "JAM-3",
+      "number": 3,
+      "name": "Cruz",
+      "position": "GK",
+      "club": "Manchester City"
+    },
+    {
+      "id": "JAM-4",
+      "number": 4,
+      "name": "Flores",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "JAM-5",
+      "number": 5,
+      "name": "Rivera",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "JAM-6",
+      "number": 6,
+      "name": "Gomez",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "JAM-7",
+      "number": 7,
+      "name": "Diaz",
+      "position": "DF",
+      "club": "LD Alajuelense"
+    },
+    {
+      "id": "JAM-8",
+      "number": 8,
+      "name": "Reyes",
+      "position": "DF",
+      "club": "Leon"
+    },
+    {
+      "id": "JAM-9",
+      "number": 9,
+      "name": "Morales",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "JAM-10",
+      "number": 10,
+      "name": "Ortiz",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "JAM-11",
+      "number": 11,
+      "name": "Gutierrez",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "JAM-12",
+      "number": 12,
+      "name": "Chavez",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "JAM-13",
+      "number": 13,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Chivas"
+    },
+    {
+      "id": "JAM-14",
+      "number": 14,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Toluca"
+    },
+    {
+      "id": "JAM-15",
+      "number": 15,
+      "name": "Vargas",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "JAM-16",
+      "number": 16,
+      "name": "Castillo",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "JAM-17",
+      "number": 17,
+      "name": "Jimenez",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "JAM-18",
+      "number": 18,
+      "name": "Ruiz",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "JAM-19",
+      "number": 19,
+      "name": "Alvarez",
+      "position": "MF",
+      "club": "Pumas"
+    },
+    {
+      "id": "JAM-20",
+      "number": 20,
+      "name": "Romero",
+      "position": "MF",
+      "club": "Atlas"
+    },
+    {
+      "id": "JAM-21",
+      "number": 21,
+      "name": "Suarez",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "JAM-22",
+      "number": 22,
+      "name": "Torres",
+      "position": "FW",
+      "club": "AC Milan"
+    },
+    {
+      "id": "JAM-23",
+      "number": 23,
+      "name": "Garcia",
+      "position": "FW",
+      "club": "Manchester United"
+    },
+    {
+      "id": "JAM-24",
+      "number": 24,
+      "name": "Soto",
+      "position": "FW",
+      "club": "Lyon"
+    },
+    {
+      "id": "JAM-25",
+      "number": 25,
+      "name": "Hernandez",
+      "position": "FW",
+      "club": "Monterrey"
+    },
+    {
+      "id": "JAM-26",
+      "number": 26,
+      "name": "Lopez",
+      "position": "FW",
+      "club": "Pachuca"
+    }
+  ],
+  "CAN": [
+    {
+      "id": "CAN-1",
+      "number": 1,
+      "name": "Smith",
+      "position": "GK",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "CAN-2",
+      "number": 2,
+      "name": "Jones",
+      "position": "GK",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "CAN-3",
+      "number": 3,
+      "name": "Taylor",
+      "position": "GK",
+      "club": "Porto"
+    },
+    {
+      "id": "CAN-4",
+      "number": 4,
+      "name": "Brown",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "CAN-5",
+      "number": 5,
+      "name": "Williams",
+      "position": "DF",
+      "club": "Brentford"
+    },
+    {
+      "id": "CAN-6",
+      "number": 6,
+      "name": "Wilson",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "CAN-7",
+      "number": 7,
+      "name": "Johnson",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "CAN-8",
+      "number": 8,
+      "name": "Davies",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "CAN-9",
+      "number": 9,
+      "name": "Robinson",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "CAN-10",
+      "number": 10,
+      "name": "Wright",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "CAN-11",
+      "number": 11,
+      "name": "Thompson",
+      "position": "DF",
+      "club": "Crystal Palace"
+    },
+    {
+      "id": "CAN-12",
+      "number": 12,
+      "name": "Evans",
+      "position": "DF",
+      "club": "Southampton"
+    },
+    {
+      "id": "CAN-13",
+      "number": 13,
+      "name": "Walker",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "CAN-14",
+      "number": 14,
+      "name": "White",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "CAN-15",
+      "number": 15,
+      "name": "Roberts",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "CAN-16",
+      "number": 16,
+      "name": "Green",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "CAN-17",
+      "number": 17,
+      "name": "Hall",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "CAN-18",
+      "number": 18,
+      "name": "Wood",
+      "position": "MF",
+      "club": "Fulham"
+    },
+    {
+      "id": "CAN-19",
+      "number": 19,
+      "name": "Harris",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "CAN-20",
+      "number": 20,
+      "name": "Martin",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "CAN-21",
+      "number": 21,
+      "name": "Jackson",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "CAN-22",
+      "number": 22,
+      "name": "Clarke",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "CAN-23",
+      "number": 23,
+      "name": "Clark",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "CAN-24",
+      "number": 24,
+      "name": "Turner",
+      "position": "FW",
+      "club": "Everton"
+    },
+    {
+      "id": "CAN-25",
+      "number": 25,
+      "name": "Hill",
+      "position": "FW",
+      "club": "Bournemouth"
+    },
+    {
+      "id": "CAN-26",
+      "number": 26,
+      "name": "Scott",
+      "position": "FW",
+      "club": "Arsenal"
+    }
+  ],
+  "MAR": [
+    {
+      "id": "MAR-1",
+      "number": 1,
+      "name": "Salah",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "MAR-2",
+      "number": 2,
+      "name": "Youssef",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "MAR-3",
+      "number": 3,
+      "name": "Omar",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "MAR-4",
+      "number": 4,
+      "name": "Mostafa",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "MAR-5",
+      "number": 5,
+      "name": "Tarek",
+      "position": "DF",
+      "club": "Al-Duhail"
+    },
+    {
+      "id": "MAR-6",
+      "number": 6,
+      "name": "Ahmed",
+      "position": "DF",
+      "club": "Al-Quwa Al-Jawiya"
+    },
+    {
+      "id": "MAR-7",
+      "number": 7,
+      "name": "Khaled",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "MAR-8",
+      "number": 8,
+      "name": "Amine",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "MAR-9",
+      "number": 9,
+      "name": "Mehdi",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "MAR-10",
+      "number": 10,
+      "name": "Walid",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "MAR-11",
+      "number": 11,
+      "name": "Yassine",
+      "position": "DF",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "MAR-12",
+      "number": 12,
+      "name": "Hakim",
+      "position": "DF",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "MAR-13",
+      "number": 13,
+      "name": "Bouhaddouz",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "MAR-14",
+      "number": 14,
+      "name": "Boutaib",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "MAR-15",
+      "number": 15,
+      "name": "El Yamiq",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "MAR-16",
+      "number": 16,
+      "name": "Saiss",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "MAR-17",
+      "number": 17,
+      "name": "Al-Ali",
+      "position": "MF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "MAR-18",
+      "number": 18,
+      "name": "Al-Saidi",
+      "position": "MF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "MAR-19",
+      "number": 19,
+      "name": "Al-Otaibi",
+      "position": "MF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "MAR-20",
+      "number": 20,
+      "name": "Al-Hamad",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "MAR-21",
+      "number": 21,
+      "name": "Al-Khalifa",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "MAR-22",
+      "number": 22,
+      "name": "Al-Najjar",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "MAR-23",
+      "number": 23,
+      "name": "Al-Mansoori",
+      "position": "FW",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "MAR-24",
+      "number": 24,
+      "name": "Hassan",
+      "position": "FW",
+      "club": "Sepahan"
+    },
+    {
+      "id": "MAR-25",
+      "number": 25,
+      "name": "Mahmoud",
+      "position": "FW",
+      "club": "Foolad"
+    },
+    {
+      "id": "MAR-26",
+      "number": 26,
+      "name": "Mohamed",
+      "position": "FW",
+      "club": "Arsenal"
+    }
+  ],
+  "PAR": [
+    {
+      "id": "PAR-1",
+      "number": 1,
+      "name": "Romero",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "PAR-2",
+      "number": 2,
+      "name": "Morales",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "PAR-3",
+      "number": 3,
+      "name": "Reyes",
+      "position": "GK",
+      "club": "River Plate"
+    },
+    {
+      "id": "PAR-4",
+      "number": 4,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Club America"
+    },
+    {
+      "id": "PAR-5",
+      "number": 5,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Cerro Porteno"
+    },
+    {
+      "id": "PAR-6",
+      "number": 6,
+      "name": "Ortiz",
+      "position": "DF",
+      "club": "Sport"
+    },
+    {
+      "id": "PAR-7",
+      "number": 7,
+      "name": "Gutierrez",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "PAR-8",
+      "number": 8,
+      "name": "Alvarez",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "PAR-9",
+      "number": 9,
+      "name": "Mendoza",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "PAR-10",
+      "number": 10,
+      "name": "Aguilar",
+      "position": "DF",
+      "club": "Boca Juniors"
+    },
+    {
+      "id": "PAR-11",
+      "number": 11,
+      "name": "Flores",
+      "position": "DF",
+      "club": "Fluminense"
+    },
+    {
+      "id": "PAR-12",
+      "number": 12,
+      "name": "Vega",
+      "position": "DF",
+      "club": "Olimpia"
+    },
+    {
+      "id": "PAR-13",
+      "number": 13,
+      "name": "Torres",
+      "position": "MF",
+      "club": "Bahia"
+    },
+    {
+      "id": "PAR-14",
+      "number": 14,
+      "name": "Silva",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "PAR-15",
+      "number": 15,
+      "name": "Santos",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "PAR-16",
+      "number": 16,
+      "name": "Souza",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "PAR-17",
+      "number": 17,
+      "name": "Garcia",
+      "position": "MF",
+      "club": "Palmeiras"
+    },
+    {
+      "id": "PAR-18",
+      "number": 18,
+      "name": "Lopez",
+      "position": "MF",
+      "club": "Gremio"
+    },
+    {
+      "id": "PAR-19",
+      "number": 19,
+      "name": "Martinez",
+      "position": "MF",
+      "club": "Liga Quito"
+    },
+    {
+      "id": "PAR-20",
+      "number": 20,
+      "name": "Rodriguez",
+      "position": "MF",
+      "club": "Santos"
+    },
+    {
+      "id": "PAR-21",
+      "number": 21,
+      "name": "Gomez",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "PAR-22",
+      "number": 22,
+      "name": "Fernandez",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "PAR-23",
+      "number": 23,
+      "name": "Diaz",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "PAR-24",
+      "number": 24,
+      "name": "Sanchez",
+      "position": "FW",
+      "club": "Flamengo"
+    },
+    {
+      "id": "PAR-25",
+      "number": 25,
+      "name": "Pereira",
+      "position": "FW",
+      "club": "Internacional"
+    },
+    {
+      "id": "PAR-26",
+      "number": 26,
+      "name": "Oliveira",
+      "position": "FW",
+      "club": "Nacional"
+    }
+  ],
+  "IRQ": [
+    {
+      "id": "IRQ-1",
+      "number": 1,
+      "name": "Bouhaddouz",
+      "position": "GK",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "IRQ-2",
+      "number": 2,
+      "name": "Boutaib",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "IRQ-3",
+      "number": 3,
+      "name": "El Yamiq",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "IRQ-4",
+      "number": 4,
+      "name": "Saiss",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "IRQ-5",
+      "number": 5,
+      "name": "Al-Ali",
+      "position": "DF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "IRQ-6",
+      "number": 6,
+      "name": "Al-Saidi",
+      "position": "DF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "IRQ-7",
+      "number": 7,
+      "name": "Al-Otaibi",
+      "position": "DF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "IRQ-8",
+      "number": 8,
+      "name": "Al-Hamad",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "IRQ-9",
+      "number": 9,
+      "name": "Al-Khalifa",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "IRQ-10",
+      "number": 10,
+      "name": "Al-Najjar",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "IRQ-11",
+      "number": 11,
+      "name": "Al-Mansoori",
+      "position": "DF",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "IRQ-12",
+      "number": 12,
+      "name": "Hassan",
+      "position": "DF",
+      "club": "Sepahan"
+    },
+    {
+      "id": "IRQ-13",
+      "number": 13,
+      "name": "Mahmoud",
+      "position": "MF",
+      "club": "Foolad"
+    },
+    {
+      "id": "IRQ-14",
+      "number": 14,
+      "name": "Mohamed",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "IRQ-15",
+      "number": 15,
+      "name": "Ali",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "IRQ-16",
+      "number": 16,
+      "name": "Said",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "IRQ-17",
+      "number": 17,
+      "name": "Ibrahim",
+      "position": "MF",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "IRQ-18",
+      "number": 18,
+      "name": "Karim",
+      "position": "MF",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "IRQ-19",
+      "number": 19,
+      "name": "Salah",
+      "position": "MF",
+      "club": "Tractor"
+    },
+    {
+      "id": "IRQ-20",
+      "number": 20,
+      "name": "Youssef",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "IRQ-21",
+      "number": 21,
+      "name": "Omar",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "IRQ-22",
+      "number": 22,
+      "name": "Mostafa",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "IRQ-23",
+      "number": 23,
+      "name": "Tarek",
+      "position": "FW",
+      "club": "Al-Hilal"
+    },
+    {
+      "id": "IRQ-24",
+      "number": 24,
+      "name": "Ahmed",
+      "position": "FW",
+      "club": "Persepolis"
+    },
+    {
+      "id": "IRQ-25",
+      "number": 25,
+      "name": "Khaled",
+      "position": "FW",
+      "club": "Al-Zawraa"
+    },
+    {
+      "id": "IRQ-26",
+      "number": 26,
+      "name": "Amine",
+      "position": "FW",
+      "club": "Manchester City"
+    }
+  ],
+  "GER": [
+    {
+      "id": "GER-1",
+      "number": 1,
+      "name": "Klein",
+      "position": "GK",
+      "club": "Liverpool"
+    },
+    {
+      "id": "GER-2",
+      "number": 2,
+      "name": "Wolf",
+      "position": "GK",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "GER-3",
+      "number": 3,
+      "name": "Schroeder",
+      "position": "GK",
+      "club": "Newcastle"
+    },
+    {
+      "id": "GER-4",
+      "number": 4,
+      "name": "Neumann",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "GER-5",
+      "number": 5,
+      "name": "Schwarz",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "GER-6",
+      "number": 6,
+      "name": "Zimmermann",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "GER-7",
+      "number": 7,
+      "name": "Braun",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "GER-8",
+      "number": 8,
+      "name": "Krueger",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "GER-9",
+      "number": 9,
+      "name": "Hartmann",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "GER-10",
+      "number": 10,
+      "name": "Lange",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "GER-11",
+      "number": 11,
+      "name": "Werner",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "GER-12",
+      "number": 12,
+      "name": "Schmitt",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "GER-13",
+      "number": 13,
+      "name": "Krause",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "GER-14",
+      "number": 14,
+      "name": "Meier",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "GER-15",
+      "number": 15,
+      "name": "Lehmann",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "GER-16",
+      "number": 16,
+      "name": "Schmid",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "GER-17",
+      "number": 17,
+      "name": "Schulze",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "GER-18",
+      "number": 18,
+      "name": "Maier",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "GER-19",
+      "number": 19,
+      "name": "Mueller",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "GER-20",
+      "number": 20,
+      "name": "Schmidt",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "GER-21",
+      "number": 21,
+      "name": "Schneider",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "GER-22",
+      "number": 22,
+      "name": "Fischer",
+      "position": "FW",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "GER-23",
+      "number": 23,
+      "name": "Weber",
+      "position": "FW",
+      "club": "Juventus"
+    },
+    {
+      "id": "GER-24",
+      "number": 24,
+      "name": "Wagner",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "GER-25",
+      "number": 25,
+      "name": "Becker",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "GER-26",
+      "number": 26,
+      "name": "Hoffmann",
+      "position": "FW",
+      "club": "Liverpool"
+    }
+  ],
+  "ECU": [
+    {
+      "id": "ECU-1",
+      "number": 1,
+      "name": "Pereira",
+      "position": "GK",
+      "club": "Sevilla"
+    },
+    {
+      "id": "ECU-2",
+      "number": 2,
+      "name": "Oliveira",
+      "position": "GK",
+      "club": "Sao Paulo"
+    },
+    {
+      "id": "ECU-3",
+      "number": 3,
+      "name": "Costa",
+      "position": "GK",
+      "club": "Tigres"
+    },
+    {
+      "id": "ECU-4",
+      "number": 4,
+      "name": "Ramos",
+      "position": "DF",
+      "club": "LDU"
+    },
+    {
+      "id": "ECU-5",
+      "number": 5,
+      "name": "Castro",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "ECU-6",
+      "number": 6,
+      "name": "Vargas",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "ECU-7",
+      "number": 7,
+      "name": "Romero",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "ECU-8",
+      "number": 8,
+      "name": "Morales",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "ECU-9",
+      "number": 9,
+      "name": "Reyes",
+      "position": "DF",
+      "club": "River Plate"
+    },
+    {
+      "id": "ECU-10",
+      "number": 10,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Club America"
+    },
+    {
+      "id": "ECU-11",
+      "number": 11,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Cerro Porteno"
+    },
+    {
+      "id": "ECU-12",
+      "number": 12,
+      "name": "Ortiz",
+      "position": "DF",
+      "club": "Sport"
+    },
+    {
+      "id": "ECU-13",
+      "number": 13,
+      "name": "Gutierrez",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "ECU-14",
+      "number": 14,
+      "name": "Alvarez",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "ECU-15",
+      "number": 15,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "ECU-16",
+      "number": 16,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Boca Juniors"
+    },
+    {
+      "id": "ECU-17",
+      "number": 17,
+      "name": "Flores",
+      "position": "MF",
+      "club": "Fluminense"
+    },
+    {
+      "id": "ECU-18",
+      "number": 18,
+      "name": "Vega",
+      "position": "MF",
+      "club": "Olimpia"
+    },
+    {
+      "id": "ECU-19",
+      "number": 19,
+      "name": "Torres",
+      "position": "MF",
+      "club": "Bahia"
+    },
+    {
+      "id": "ECU-20",
+      "number": 20,
+      "name": "Silva",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "ECU-21",
+      "number": 21,
+      "name": "Santos",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "ECU-22",
+      "number": 22,
+      "name": "Souza",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "ECU-23",
+      "number": 23,
+      "name": "Garcia",
+      "position": "FW",
+      "club": "Palmeiras"
+    },
+    {
+      "id": "ECU-24",
+      "number": 24,
+      "name": "Lopez",
+      "position": "FW",
+      "club": "Gremio"
+    },
+    {
+      "id": "ECU-25",
+      "number": 25,
+      "name": "Martinez",
+      "position": "FW",
+      "club": "Liga Quito"
+    },
+    {
+      "id": "ECU-26",
+      "number": 26,
+      "name": "Rodriguez",
+      "position": "FW",
+      "club": "Santos"
+    }
+  ],
+  "EGY": [
+    {
+      "id": "EGY-1",
+      "number": 1,
+      "name": "Ahmed",
+      "position": "GK",
+      "club": "Al-Quwa Al-Jawiya"
+    },
+    {
+      "id": "EGY-2",
+      "number": 2,
+      "name": "Khaled",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "EGY-3",
+      "number": 3,
+      "name": "Amine",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "EGY-4",
+      "number": 4,
+      "name": "Mehdi",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "EGY-5",
+      "number": 5,
+      "name": "Walid",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "EGY-6",
+      "number": 6,
+      "name": "Yassine",
+      "position": "DF",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "EGY-7",
+      "number": 7,
+      "name": "Hakim",
+      "position": "DF",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "EGY-8",
+      "number": 8,
+      "name": "Bouhaddouz",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "EGY-9",
+      "number": 9,
+      "name": "Boutaib",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "EGY-10",
+      "number": 10,
+      "name": "El Yamiq",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "EGY-11",
+      "number": 11,
+      "name": "Saiss",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "EGY-12",
+      "number": 12,
+      "name": "Al-Ali",
+      "position": "DF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "EGY-13",
+      "number": 13,
+      "name": "Al-Saidi",
+      "position": "MF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "EGY-14",
+      "number": 14,
+      "name": "Al-Otaibi",
+      "position": "MF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "EGY-15",
+      "number": 15,
+      "name": "Al-Hamad",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "EGY-16",
+      "number": 16,
+      "name": "Al-Khalifa",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "EGY-17",
+      "number": 17,
+      "name": "Al-Najjar",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "EGY-18",
+      "number": 18,
+      "name": "Al-Mansoori",
+      "position": "MF",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "EGY-19",
+      "number": 19,
+      "name": "Hassan",
+      "position": "MF",
+      "club": "Sepahan"
+    },
+    {
+      "id": "EGY-20",
+      "number": 20,
+      "name": "Mahmoud",
+      "position": "MF",
+      "club": "Foolad"
+    },
+    {
+      "id": "EGY-21",
+      "number": 21,
+      "name": "Mohamed",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "EGY-22",
+      "number": 22,
+      "name": "Ali",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "EGY-23",
+      "number": 23,
+      "name": "Said",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "EGY-24",
+      "number": 24,
+      "name": "Ibrahim",
+      "position": "FW",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "EGY-25",
+      "number": 25,
+      "name": "Karim",
+      "position": "FW",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "EGY-26",
+      "number": 26,
+      "name": "Salah",
+      "position": "FW",
+      "club": "Tractor"
+    }
+  ],
+  "DEN": [
+    {
+      "id": "DEN-1",
+      "number": 1,
+      "name": "Pedersen",
+      "position": "GK",
+      "club": "Tottenham"
+    },
+    {
+      "id": "DEN-2",
+      "number": 2,
+      "name": "Nielsen",
+      "position": "GK",
+      "club": "Marseille"
+    },
+    {
+      "id": "DEN-3",
+      "number": 3,
+      "name": "Jensen",
+      "position": "GK",
+      "club": "Rosenborg"
+    },
+    {
+      "id": "DEN-4",
+      "number": 4,
+      "name": "Kristiansen",
+      "position": "DF",
+      "club": "AIK"
+    },
+    {
+      "id": "DEN-5",
+      "number": 5,
+      "name": "Eriksen",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "DEN-6",
+      "number": 6,
+      "name": "Berg",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "DEN-7",
+      "number": 7,
+      "name": "Lund",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "DEN-8",
+      "number": 8,
+      "name": "Solberg",
+      "position": "DF",
+      "club": "Bodo/Glimt"
+    },
+    {
+      "id": "DEN-9",
+      "number": 9,
+      "name": "Haugen",
+      "position": "DF",
+      "club": "FC Midtjylland"
+    },
+    {
+      "id": "DEN-10",
+      "number": 10,
+      "name": "Dahl",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "DEN-11",
+      "number": 11,
+      "name": "Bakken",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "DEN-12",
+      "number": 12,
+      "name": "Moen",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "DEN-13",
+      "number": 13,
+      "name": "Jakobsen",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "DEN-14",
+      "number": 14,
+      "name": "Kristensen",
+      "position": "MF",
+      "club": "FC Copenhagen"
+    },
+    {
+      "id": "DEN-15",
+      "number": 15,
+      "name": "Madsen",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "DEN-16",
+      "number": 16,
+      "name": "Christiansen",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "DEN-17",
+      "number": 17,
+      "name": "Thomsen",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "DEN-18",
+      "number": 18,
+      "name": "Sorensen",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "DEN-19",
+      "number": 19,
+      "name": "Iversen",
+      "position": "MF",
+      "club": "Brann"
+    },
+    {
+      "id": "DEN-20",
+      "number": 20,
+      "name": "Ostergaard",
+      "position": "MF",
+      "club": "IFK Goteborg"
+    },
+    {
+      "id": "DEN-21",
+      "number": 21,
+      "name": "Nordby",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "DEN-22",
+      "number": 22,
+      "name": "Vik",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "DEN-23",
+      "number": 23,
+      "name": "Lie",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "DEN-24",
+      "number": 24,
+      "name": "Strand",
+      "position": "FW",
+      "club": "Molde"
+    },
+    {
+      "id": "DEN-25",
+      "number": 25,
+      "name": "Aune",
+      "position": "FW",
+      "club": "Malmo FF"
+    },
+    {
+      "id": "DEN-26",
+      "number": 26,
+      "name": "Hansen",
+      "position": "FW",
+      "club": "Manchester City"
+    }
+  ],
+  "MEX": [
+    {
+      "id": "MEX-1",
+      "number": 1,
+      "name": "Alvarez",
+      "position": "GK",
+      "club": "Pumas"
+    },
+    {
+      "id": "MEX-2",
+      "number": 2,
+      "name": "Romero",
+      "position": "GK",
+      "club": "Atlas"
+    },
+    {
+      "id": "MEX-3",
+      "number": 3,
+      "name": "Suarez",
+      "position": "GK",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "MEX-4",
+      "number": 4,
+      "name": "Torres",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "MEX-5",
+      "number": 5,
+      "name": "Garcia",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "MEX-6",
+      "number": 6,
+      "name": "Soto",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "MEX-7",
+      "number": 7,
+      "name": "Hernandez",
+      "position": "DF",
+      "club": "Monterrey"
+    },
+    {
+      "id": "MEX-8",
+      "number": 8,
+      "name": "Lopez",
+      "position": "DF",
+      "club": "Pachuca"
+    },
+    {
+      "id": "MEX-9",
+      "number": 9,
+      "name": "Martinez",
+      "position": "DF",
+      "club": "Juarez"
+    },
+    {
+      "id": "MEX-10",
+      "number": 10,
+      "name": "Gonzalez",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "MEX-11",
+      "number": 11,
+      "name": "Rodriguez",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "MEX-12",
+      "number": 12,
+      "name": "Perez",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "MEX-13",
+      "number": 13,
+      "name": "Sanchez",
+      "position": "MF",
+      "club": "Tigres"
+    },
+    {
+      "id": "MEX-14",
+      "number": 14,
+      "name": "Ramirez",
+      "position": "MF",
+      "club": "Motagua"
+    },
+    {
+      "id": "MEX-15",
+      "number": 15,
+      "name": "Cruz",
+      "position": "MF",
+      "club": "Queretaro"
+    },
+    {
+      "id": "MEX-16",
+      "number": 16,
+      "name": "Flores",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "MEX-17",
+      "number": 17,
+      "name": "Rivera",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "MEX-18",
+      "number": 18,
+      "name": "Gomez",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "MEX-19",
+      "number": 19,
+      "name": "Diaz",
+      "position": "MF",
+      "club": "Cruz Azul"
+    },
+    {
+      "id": "MEX-20",
+      "number": 20,
+      "name": "Reyes",
+      "position": "MF",
+      "club": "Olimpia"
+    },
+    {
+      "id": "MEX-21",
+      "number": 21,
+      "name": "Morales",
+      "position": "FW",
+      "club": "Mazatlan"
+    },
+    {
+      "id": "MEX-22",
+      "number": 22,
+      "name": "Ortiz",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "MEX-23",
+      "number": 23,
+      "name": "Gutierrez",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "MEX-24",
+      "number": 24,
+      "name": "Chavez",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "MEX-25",
+      "number": 25,
+      "name": "Mendoza",
+      "position": "FW",
+      "club": "Club America"
+    },
+    {
+      "id": "MEX-26",
+      "number": 26,
+      "name": "Aguilar",
+      "position": "FW",
+      "club": "Saprissa"
+    }
+  ],
+  "KOR": [
+    {
+      "id": "KOR-1",
+      "number": 1,
+      "name": "Kim",
+      "position": "GK",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "KOR-2",
+      "number": 2,
+      "name": "Son",
+      "position": "GK",
+      "club": "Liverpool"
+    },
+    {
+      "id": "KOR-3",
+      "number": 3,
+      "name": "Hong",
+      "position": "GK",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "KOR-4",
+      "number": 4,
+      "name": "Hwang",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "KOR-5",
+      "number": 5,
+      "name": "Kim",
+      "position": "DF",
+      "club": "Ulsan Hyundai"
+    },
+    {
+      "id": "KOR-6",
+      "number": 6,
+      "name": "Lee",
+      "position": "DF",
+      "club": "Kawasaki Frontale"
+    },
+    {
+      "id": "KOR-7",
+      "number": 7,
+      "name": "Park",
+      "position": "DF",
+      "club": "AGMK"
+    },
+    {
+      "id": "KOR-8",
+      "number": 8,
+      "name": "Choi",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "KOR-9",
+      "number": 9,
+      "name": "Jung",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "KOR-10",
+      "number": 10,
+      "name": "Kang",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "KOR-11",
+      "number": 11,
+      "name": "Cho",
+      "position": "DF",
+      "club": "FC Seoul"
+    },
+    {
+      "id": "KOR-12",
+      "number": 12,
+      "name": "Yoon",
+      "position": "DF",
+      "club": "Vissel Kobe"
+    },
+    {
+      "id": "KOR-13",
+      "number": 13,
+      "name": "Han",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "KOR-14",
+      "number": 14,
+      "name": "Hwang",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "KOR-15",
+      "number": 15,
+      "name": "Suzuki",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "KOR-16",
+      "number": 16,
+      "name": "Tanaka",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "KOR-17",
+      "number": 17,
+      "name": "Sato",
+      "position": "MF",
+      "club": "Suwon Bluewings"
+    },
+    {
+      "id": "KOR-18",
+      "number": 18,
+      "name": "Yamamoto",
+      "position": "MF",
+      "club": "Cerezo Osaka"
+    },
+    {
+      "id": "KOR-19",
+      "number": 19,
+      "name": "Kobayashi",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "KOR-20",
+      "number": 20,
+      "name": "Watanabe",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "KOR-21",
+      "number": 21,
+      "name": "Ito",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "KOR-22",
+      "number": 22,
+      "name": "Nakamura",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "KOR-23",
+      "number": 23,
+      "name": "Kato",
+      "position": "FW",
+      "club": "Urawa"
+    },
+    {
+      "id": "KOR-24",
+      "number": 24,
+      "name": "Yoshida",
+      "position": "FW",
+      "club": "Bunyodkor"
+    },
+    {
+      "id": "KOR-25",
+      "number": 25,
+      "name": "Hayashi",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "KOR-26",
+      "number": 26,
+      "name": "Sasaki",
+      "position": "FW",
+      "club": "Chelsea"
+    }
+  ],
+  "ALG": [
+    {
+      "id": "ALG-1",
+      "number": 1,
+      "name": "Al-Otaibi",
+      "position": "GK",
+      "club": "Liverpool"
+    },
+    {
+      "id": "ALG-2",
+      "number": 2,
+      "name": "Al-Hamad",
+      "position": "GK",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "ALG-3",
+      "number": 3,
+      "name": "Al-Khalifa",
+      "position": "GK",
+      "club": "Newcastle"
+    },
+    {
+      "id": "ALG-4",
+      "number": 4,
+      "name": "Al-Najjar",
+      "position": "DF",
+      "club": "Al-Hilal"
+    },
+    {
+      "id": "ALG-5",
+      "number": 5,
+      "name": "Al-Mansoori",
+      "position": "DF",
+      "club": "Persepolis"
+    },
+    {
+      "id": "ALG-6",
+      "number": 6,
+      "name": "Hassan",
+      "position": "DF",
+      "club": "Al-Zawraa"
+    },
+    {
+      "id": "ALG-7",
+      "number": 7,
+      "name": "Mahmoud",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "ALG-8",
+      "number": 8,
+      "name": "Mohamed",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "ALG-9",
+      "number": 9,
+      "name": "Ali",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "ALG-10",
+      "number": 10,
+      "name": "Said",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "ALG-11",
+      "number": 11,
+      "name": "Ibrahim",
+      "position": "DF",
+      "club": "Al-Wakrah"
+    },
+    {
+      "id": "ALG-12",
+      "number": 12,
+      "name": "Karim",
+      "position": "DF",
+      "club": "Al-Shorta"
+    },
+    {
+      "id": "ALG-13",
+      "number": 13,
+      "name": "Salah",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "ALG-14",
+      "number": 14,
+      "name": "Youssef",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "ALG-15",
+      "number": 15,
+      "name": "Omar",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "ALG-16",
+      "number": 16,
+      "name": "Mostafa",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "ALG-17",
+      "number": 17,
+      "name": "Tarek",
+      "position": "MF",
+      "club": "Al-Duhail"
+    },
+    {
+      "id": "ALG-18",
+      "number": 18,
+      "name": "Ahmed",
+      "position": "MF",
+      "club": "Al-Quwa Al-Jawiya"
+    },
+    {
+      "id": "ALG-19",
+      "number": 19,
+      "name": "Khaled",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "ALG-20",
+      "number": 20,
+      "name": "Amine",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "ALG-21",
+      "number": 21,
+      "name": "Mehdi",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "ALG-22",
+      "number": 22,
+      "name": "Walid",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "ALG-23",
+      "number": 23,
+      "name": "Yassine",
+      "position": "FW",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "ALG-24",
+      "number": 24,
+      "name": "Hakim",
+      "position": "FW",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "ALG-25",
+      "number": 25,
+      "name": "Bouhaddouz",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "ALG-26",
+      "number": 26,
+      "name": "Boutaib",
+      "position": "FW",
+      "club": "AC Milan"
+    }
+  ],
+  "POL": [
+    {
+      "id": "POL-1",
+      "number": 1,
+      "name": "Meier",
+      "position": "GK",
+      "club": "Marseille"
+    },
+    {
+      "id": "POL-2",
+      "number": 2,
+      "name": "Lehmann",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "POL-3",
+      "number": 3,
+      "name": "Schmid",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "POL-4",
+      "number": 4,
+      "name": "Schulze",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "POL-5",
+      "number": 5,
+      "name": "Maier",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "POL-6",
+      "number": 6,
+      "name": "Mueller",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "POL-7",
+      "number": 7,
+      "name": "Schmidt",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "POL-8",
+      "number": 8,
+      "name": "Schneider",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "POL-9",
+      "number": 9,
+      "name": "Fischer",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "POL-10",
+      "number": 10,
+      "name": "Weber",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "POL-11",
+      "number": 11,
+      "name": "Wagner",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "POL-12",
+      "number": 12,
+      "name": "Becker",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "POL-13",
+      "number": 13,
+      "name": "Hoffmann",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "POL-14",
+      "number": 14,
+      "name": "Schulz",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "POL-15",
+      "number": 15,
+      "name": "Koch",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "POL-16",
+      "number": 16,
+      "name": "Bauer",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "POL-17",
+      "number": 17,
+      "name": "Richter",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "POL-18",
+      "number": 18,
+      "name": "Klein",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "POL-19",
+      "number": 19,
+      "name": "Wolf",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "POL-20",
+      "number": 20,
+      "name": "Schroeder",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "POL-21",
+      "number": 21,
+      "name": "Neumann",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "POL-22",
+      "number": 22,
+      "name": "Schwarz",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "POL-23",
+      "number": 23,
+      "name": "Zimmermann",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "POL-24",
+      "number": 24,
+      "name": "Braun",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "POL-25",
+      "number": 25,
+      "name": "Krueger",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "POL-26",
+      "number": 26,
+      "name": "Hartmann",
+      "position": "FW",
+      "club": "Marseille"
+    }
+  ],
+  "ARG": [
+    {
+      "id": "ARG-1",
+      "number": 1,
+      "name": "Fernandez",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "ARG-2",
+      "number": 2,
+      "name": "Diaz",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "ARG-3",
+      "number": 3,
+      "name": "Sanchez",
+      "position": "GK",
+      "club": "Napoli"
+    },
+    {
+      "id": "ARG-4",
+      "number": 4,
+      "name": "Pereira",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "ARG-5",
+      "number": 5,
+      "name": "Oliveira",
+      "position": "DF",
+      "club": "Sao Paulo"
+    },
+    {
+      "id": "ARG-6",
+      "number": 6,
+      "name": "Costa",
+      "position": "DF",
+      "club": "Tigres"
+    },
+    {
+      "id": "ARG-7",
+      "number": 7,
+      "name": "Ramos",
+      "position": "DF",
+      "club": "LDU"
+    },
+    {
+      "id": "ARG-8",
+      "number": 8,
+      "name": "Castro",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "ARG-9",
+      "number": 9,
+      "name": "Vargas",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "ARG-10",
+      "number": 10,
+      "name": "Romero",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "ARG-11",
+      "number": 11,
+      "name": "Morales",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "ARG-12",
+      "number": 12,
+      "name": "Reyes",
+      "position": "DF",
+      "club": "River Plate"
+    },
+    {
+      "id": "ARG-13",
+      "number": 13,
+      "name": "Cruz",
+      "position": "MF",
+      "club": "Club America"
+    },
+    {
+      "id": "ARG-14",
+      "number": 14,
+      "name": "Jimenez",
+      "position": "MF",
+      "club": "Cerro Porteno"
+    },
+    {
+      "id": "ARG-15",
+      "number": 15,
+      "name": "Ortiz",
+      "position": "MF",
+      "club": "Sport"
+    },
+    {
+      "id": "ARG-16",
+      "number": 16,
+      "name": "Gutierrez",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "ARG-17",
+      "number": 17,
+      "name": "Alvarez",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "ARG-18",
+      "number": 18,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "ARG-19",
+      "number": 19,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Boca Juniors"
+    },
+    {
+      "id": "ARG-20",
+      "number": 20,
+      "name": "Flores",
+      "position": "MF",
+      "club": "Fluminense"
+    },
+    {
+      "id": "ARG-21",
+      "number": 21,
+      "name": "Vega",
+      "position": "FW",
+      "club": "Olimpia"
+    },
+    {
+      "id": "ARG-22",
+      "number": 22,
+      "name": "Torres",
+      "position": "FW",
+      "club": "Bahia"
+    },
+    {
+      "id": "ARG-23",
+      "number": 23,
+      "name": "Silva",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "ARG-24",
+      "number": 24,
+      "name": "Santos",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "ARG-25",
+      "number": 25,
+      "name": "Souza",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "ARG-26",
+      "number": 26,
+      "name": "Garcia",
+      "position": "FW",
+      "club": "Palmeiras"
+    }
+  ],
+  "JPN": [
+    {
+      "id": "JPN-1",
+      "number": 1,
+      "name": "Yamada",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "JPN-2",
+      "number": 2,
+      "name": "Aoyama",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "JPN-3",
+      "number": 3,
+      "name": "Mori",
+      "position": "GK",
+      "club": "Benfica"
+    },
+    {
+      "id": "JPN-4",
+      "number": 4,
+      "name": "Ono",
+      "position": "DF",
+      "club": "Gangwon"
+    },
+    {
+      "id": "JPN-5",
+      "number": 5,
+      "name": "Kim",
+      "position": "DF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "JPN-6",
+      "number": 6,
+      "name": "Son",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "JPN-7",
+      "number": 7,
+      "name": "Hong",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "JPN-8",
+      "number": 8,
+      "name": "Hwang",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "JPN-9",
+      "number": 9,
+      "name": "Kim",
+      "position": "DF",
+      "club": "Ulsan Hyundai"
+    },
+    {
+      "id": "JPN-10",
+      "number": 10,
+      "name": "Lee",
+      "position": "DF",
+      "club": "Kawasaki Frontale"
+    },
+    {
+      "id": "JPN-11",
+      "number": 11,
+      "name": "Park",
+      "position": "DF",
+      "club": "AGMK"
+    },
+    {
+      "id": "JPN-12",
+      "number": 12,
+      "name": "Choi",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "JPN-13",
+      "number": 13,
+      "name": "Jung",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "JPN-14",
+      "number": 14,
+      "name": "Kang",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "JPN-15",
+      "number": 15,
+      "name": "Cho",
+      "position": "MF",
+      "club": "FC Seoul"
+    },
+    {
+      "id": "JPN-16",
+      "number": 16,
+      "name": "Yoon",
+      "position": "MF",
+      "club": "Vissel Kobe"
+    },
+    {
+      "id": "JPN-17",
+      "number": 17,
+      "name": "Han",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "JPN-18",
+      "number": 18,
+      "name": "Hwang",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "JPN-19",
+      "number": 19,
+      "name": "Suzuki",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "JPN-20",
+      "number": 20,
+      "name": "Tanaka",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "JPN-21",
+      "number": 21,
+      "name": "Sato",
+      "position": "FW",
+      "club": "Suwon Bluewings"
+    },
+    {
+      "id": "JPN-22",
+      "number": 22,
+      "name": "Yamamoto",
+      "position": "FW",
+      "club": "Cerezo Osaka"
+    },
+    {
+      "id": "JPN-23",
+      "number": 23,
+      "name": "Kobayashi",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "JPN-24",
+      "number": 24,
+      "name": "Watanabe",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "JPN-25",
+      "number": 25,
+      "name": "Ito",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "JPN-26",
+      "number": 26,
+      "name": "Nakamura",
+      "position": "FW",
+      "club": "Porto"
+    }
+  ],
+  "NOR": [
+    {
+      "id": "NOR-1",
+      "number": 1,
+      "name": "Aune",
+      "position": "GK",
+      "club": "Malmo FF"
+    },
+    {
+      "id": "NOR-2",
+      "number": 2,
+      "name": "Hansen",
+      "position": "GK",
+      "club": "Manchester City"
+    },
+    {
+      "id": "NOR-3",
+      "number": 3,
+      "name": "Johansen",
+      "position": "GK",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "NOR-4",
+      "number": 4,
+      "name": "Olsen",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "NOR-5",
+      "number": 5,
+      "name": "Larsen",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "NOR-6",
+      "number": 6,
+      "name": "Andersen",
+      "position": "DF",
+      "club": "Brondby"
+    },
+    {
+      "id": "NOR-7",
+      "number": 7,
+      "name": "Pedersen",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "NOR-8",
+      "number": 8,
+      "name": "Nielsen",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "NOR-9",
+      "number": 9,
+      "name": "Jensen",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "NOR-10",
+      "number": 10,
+      "name": "Kristiansen",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "NOR-11",
+      "number": 11,
+      "name": "Eriksen",
+      "position": "DF",
+      "club": "Viking"
+    },
+    {
+      "id": "NOR-12",
+      "number": 12,
+      "name": "Berg",
+      "position": "DF",
+      "club": "Hammarby"
+    },
+    {
+      "id": "NOR-13",
+      "number": 13,
+      "name": "Lund",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "NOR-14",
+      "number": 14,
+      "name": "Solberg",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "NOR-15",
+      "number": 15,
+      "name": "Haugen",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "NOR-16",
+      "number": 16,
+      "name": "Dahl",
+      "position": "MF",
+      "club": "Rosenborg"
+    },
+    {
+      "id": "NOR-17",
+      "number": 17,
+      "name": "Bakken",
+      "position": "MF",
+      "club": "AIK"
+    },
+    {
+      "id": "NOR-18",
+      "number": 18,
+      "name": "Moen",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "NOR-19",
+      "number": 19,
+      "name": "Jakobsen",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "NOR-20",
+      "number": 20,
+      "name": "Kristensen",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "NOR-21",
+      "number": 21,
+      "name": "Madsen",
+      "position": "FW",
+      "club": "Bodo/Glimt"
+    },
+    {
+      "id": "NOR-22",
+      "number": 22,
+      "name": "Christiansen",
+      "position": "FW",
+      "club": "FC Midtjylland"
+    },
+    {
+      "id": "NOR-23",
+      "number": 23,
+      "name": "Thomsen",
+      "position": "FW",
+      "club": "Barcelona"
+    },
+    {
+      "id": "NOR-24",
+      "number": 24,
+      "name": "Sorensen",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "NOR-25",
+      "number": 25,
+      "name": "Iversen",
+      "position": "FW",
+      "club": "Roma"
+    },
+    {
+      "id": "NOR-26",
+      "number": 26,
+      "name": "Ostergaard",
+      "position": "FW",
+      "club": "Benfica"
+    }
+  ],
+  "TUR": [
+    {
+      "id": "TUR-1",
+      "number": 1,
+      "name": "Richter",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "TUR-2",
+      "number": 2,
+      "name": "Klein",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "TUR-3",
+      "number": 3,
+      "name": "Wolf",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "TUR-4",
+      "number": 4,
+      "name": "Schroeder",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "TUR-5",
+      "number": 5,
+      "name": "Neumann",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "TUR-6",
+      "number": 6,
+      "name": "Schwarz",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "TUR-7",
+      "number": 7,
+      "name": "Zimmermann",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "TUR-8",
+      "number": 8,
+      "name": "Braun",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "TUR-9",
+      "number": 9,
+      "name": "Krueger",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "TUR-10",
+      "number": 10,
+      "name": "Hartmann",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "TUR-11",
+      "number": 11,
+      "name": "Lange",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "TUR-12",
+      "number": 12,
+      "name": "Werner",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "TUR-13",
+      "number": 13,
+      "name": "Schmitt",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "TUR-14",
+      "number": 14,
+      "name": "Krause",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "TUR-15",
+      "number": 15,
+      "name": "Meier",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "TUR-16",
+      "number": 16,
+      "name": "Lehmann",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "TUR-17",
+      "number": 17,
+      "name": "Schmid",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "TUR-18",
+      "number": 18,
+      "name": "Schulze",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "TUR-19",
+      "number": 19,
+      "name": "Maier",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "TUR-20",
+      "number": 20,
+      "name": "Mueller",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "TUR-21",
+      "number": 21,
+      "name": "Schmidt",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "TUR-22",
+      "number": 22,
+      "name": "Schneider",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "TUR-23",
+      "number": 23,
+      "name": "Fischer",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "TUR-24",
+      "number": 24,
+      "name": "Weber",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "TUR-25",
+      "number": 25,
+      "name": "Wagner",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "TUR-26",
+      "number": 26,
+      "name": "Becker",
+      "position": "FW",
+      "club": "AC Milan"
+    }
+  ],
+  "FRA": [
+    {
+      "id": "FRA-1",
+      "number": 1,
+      "name": "Hoffmann",
+      "position": "GK",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "FRA-2",
+      "number": 2,
+      "name": "Schulz",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "FRA-3",
+      "number": 3,
+      "name": "Koch",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "FRA-4",
+      "number": 4,
+      "name": "Bauer",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "FRA-5",
+      "number": 5,
+      "name": "Richter",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "FRA-6",
+      "number": 6,
+      "name": "Klein",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "FRA-7",
+      "number": 7,
+      "name": "Wolf",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "FRA-8",
+      "number": 8,
+      "name": "Schroeder",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "FRA-9",
+      "number": 9,
+      "name": "Neumann",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "FRA-10",
+      "number": 10,
+      "name": "Schwarz",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "FRA-11",
+      "number": 11,
+      "name": "Zimmermann",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "FRA-12",
+      "number": 12,
+      "name": "Braun",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "FRA-13",
+      "number": 13,
+      "name": "Krueger",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "FRA-14",
+      "number": 14,
+      "name": "Hartmann",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "FRA-15",
+      "number": 15,
+      "name": "Lange",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "FRA-16",
+      "number": 16,
+      "name": "Werner",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "FRA-17",
+      "number": 17,
+      "name": "Schmitt",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "FRA-18",
+      "number": 18,
+      "name": "Krause",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "FRA-19",
+      "number": 19,
+      "name": "Meier",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "FRA-20",
+      "number": 20,
+      "name": "Lehmann",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "FRA-21",
+      "number": 21,
+      "name": "Schmid",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "FRA-22",
+      "number": 22,
+      "name": "Schulze",
+      "position": "FW",
+      "club": "Roma"
+    },
+    {
+      "id": "FRA-23",
+      "number": 23,
+      "name": "Maier",
+      "position": "FW",
+      "club": "Benfica"
+    },
+    {
+      "id": "FRA-24",
+      "number": 24,
+      "name": "Mueller",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "FRA-25",
+      "number": 25,
+      "name": "Schmidt",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "FRA-26",
+      "number": 26,
+      "name": "Schneider",
+      "position": "FW",
+      "club": "Aston Villa"
+    }
+  ],
+  "SEN": [
+    {
+      "id": "SEN-1",
+      "number": 1,
+      "name": "Niang",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "SEN-2",
+      "number": 2,
+      "name": "Sarr",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "SEN-3",
+      "number": 3,
+      "name": "Mendy",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "SEN-4",
+      "number": 4,
+      "name": "Faye",
+      "position": "DF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "id": "SEN-5",
+      "number": 5,
+      "name": "Boateng",
+      "position": "DF",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "id": "SEN-6",
+      "number": 6,
+      "name": "Asante",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "SEN-7",
+      "number": 7,
+      "name": "Mensah",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "SEN-8",
+      "number": 8,
+      "name": "Owusu",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "SEN-9",
+      "number": 9,
+      "name": "Adjei",
+      "position": "DF",
+      "club": "Zamalek"
+    },
+    {
+      "id": "SEN-10",
+      "number": 10,
+      "name": "Kwame",
+      "position": "DF",
+      "club": "Pyramids"
+    },
+    {
+      "id": "SEN-11",
+      "number": 11,
+      "name": "Diop",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "SEN-12",
+      "number": 12,
+      "name": "Diallo",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "SEN-13",
+      "number": 13,
+      "name": "Ba",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "SEN-14",
+      "number": 14,
+      "name": "Sow",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "SEN-15",
+      "number": 15,
+      "name": "Ndiaye",
+      "position": "MF",
+      "club": "TP Mazembe"
+    },
+    {
+      "id": "SEN-16",
+      "number": 16,
+      "name": "Toure",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "SEN-17",
+      "number": 17,
+      "name": "Sy",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "SEN-18",
+      "number": 18,
+      "name": "Cisse",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "SEN-19",
+      "number": 19,
+      "name": "Mbaye",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "SEN-20",
+      "number": 20,
+      "name": "Kone",
+      "position": "MF",
+      "club": "Wydad"
+    },
+    {
+      "id": "SEN-21",
+      "number": 21,
+      "name": "Coulibaly",
+      "position": "FW",
+      "club": "Orlando Pirates"
+    },
+    {
+      "id": "SEN-22",
+      "number": 22,
+      "name": "Sangare",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "SEN-23",
+      "number": 23,
+      "name": "Traore",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "SEN-24",
+      "number": 24,
+      "name": "Camara",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "SEN-25",
+      "number": 25,
+      "name": "Conde",
+      "position": "FW",
+      "club": "ES Tunis"
+    },
+    {
+      "id": "SEN-26",
+      "number": 26,
+      "name": "Bamba",
+      "position": "FW",
+      "club": "Simba SC"
+    }
+  ],
+  "PAN": [
+    {
+      "id": "PAN-1",
+      "number": 1,
+      "name": "Reyes",
+      "position": "GK",
+      "club": "Leon"
+    },
+    {
+      "id": "PAN-2",
+      "number": 2,
+      "name": "Morales",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "PAN-3",
+      "number": 3,
+      "name": "Ortiz",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "PAN-4",
+      "number": 4,
+      "name": "Gutierrez",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "PAN-5",
+      "number": 5,
+      "name": "Chavez",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "PAN-6",
+      "number": 6,
+      "name": "Mendoza",
+      "position": "DF",
+      "club": "Chivas"
+    },
+    {
+      "id": "PAN-7",
+      "number": 7,
+      "name": "Aguilar",
+      "position": "DF",
+      "club": "Toluca"
+    },
+    {
+      "id": "PAN-8",
+      "number": 8,
+      "name": "Vargas",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "PAN-9",
+      "number": 9,
+      "name": "Castillo",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "PAN-10",
+      "number": 10,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "PAN-11",
+      "number": 11,
+      "name": "Ruiz",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "PAN-12",
+      "number": 12,
+      "name": "Alvarez",
+      "position": "DF",
+      "club": "Pumas"
+    },
+    {
+      "id": "PAN-13",
+      "number": 13,
+      "name": "Romero",
+      "position": "MF",
+      "club": "Atlas"
+    },
+    {
+      "id": "PAN-14",
+      "number": 14,
+      "name": "Suarez",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "PAN-15",
+      "number": 15,
+      "name": "Torres",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "PAN-16",
+      "number": 16,
+      "name": "Garcia",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "PAN-17",
+      "number": 17,
+      "name": "Soto",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "PAN-18",
+      "number": 18,
+      "name": "Hernandez",
+      "position": "MF",
+      "club": "Monterrey"
+    },
+    {
+      "id": "PAN-19",
+      "number": 19,
+      "name": "Lopez",
+      "position": "MF",
+      "club": "Pachuca"
+    },
+    {
+      "id": "PAN-20",
+      "number": 20,
+      "name": "Martinez",
+      "position": "MF",
+      "club": "Juarez"
+    },
+    {
+      "id": "PAN-21",
+      "number": 21,
+      "name": "Gonzalez",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "PAN-22",
+      "number": 22,
+      "name": "Rodriguez",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "PAN-23",
+      "number": 23,
+      "name": "Perez",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "PAN-24",
+      "number": 24,
+      "name": "Sanchez",
+      "position": "FW",
+      "club": "Tigres"
+    },
+    {
+      "id": "PAN-25",
+      "number": 25,
+      "name": "Ramirez",
+      "position": "FW",
+      "club": "Motagua"
+    },
+    {
+      "id": "PAN-26",
+      "number": 26,
+      "name": "Cruz",
+      "position": "FW",
+      "club": "Queretaro"
+    }
+  ],
+  "ITA": [
+    {
+      "id": "ITA-1",
+      "number": 1,
+      "name": "Conti",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "ITA-2",
+      "number": 2,
+      "name": "De Luca",
+      "position": "GK",
+      "club": "Napoli"
+    },
+    {
+      "id": "ITA-3",
+      "number": 3,
+      "name": "Mancini",
+      "position": "GK",
+      "club": "Genoa"
+    },
+    {
+      "id": "ITA-4",
+      "number": 4,
+      "name": "Costa",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "ITA-5",
+      "number": 5,
+      "name": "Giordano",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "ITA-6",
+      "number": 6,
+      "name": "Rizzo",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "ITA-7",
+      "number": 7,
+      "name": "Lombardi",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "ITA-8",
+      "number": 8,
+      "name": "Moretti",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "ITA-9",
+      "number": 9,
+      "name": "Barbieri",
+      "position": "DF",
+      "club": "Empoli"
+    },
+    {
+      "id": "ITA-10",
+      "number": 10,
+      "name": "Fontana",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "ITA-11",
+      "number": 11,
+      "name": "Caruso",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "ITA-12",
+      "number": 12,
+      "name": "Mariani",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "ITA-13",
+      "number": 13,
+      "name": "Ferri",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "ITA-14",
+      "number": 14,
+      "name": "Galli",
+      "position": "MF",
+      "club": "Lazio"
+    },
+    {
+      "id": "ITA-15",
+      "number": 15,
+      "name": "Martinelli",
+      "position": "MF",
+      "club": "Lecce"
+    },
+    {
+      "id": "ITA-16",
+      "number": 16,
+      "name": "Leone",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "ITA-17",
+      "number": 17,
+      "name": "Longo",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "ITA-18",
+      "number": 18,
+      "name": "Gentile",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "ITA-19",
+      "number": 19,
+      "name": "Rossi",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "ITA-20",
+      "number": 20,
+      "name": "Russo",
+      "position": "MF",
+      "club": "Atalanta"
+    },
+    {
+      "id": "ITA-21",
+      "number": 21,
+      "name": "Ferrari",
+      "position": "FW",
+      "club": "Sassuolo"
+    },
+    {
+      "id": "ITA-22",
+      "number": 22,
+      "name": "Esposito",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "ITA-23",
+      "number": 23,
+      "name": "Bianchi",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "ITA-24",
+      "number": 24,
+      "name": "Romano",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "ITA-25",
+      "number": 25,
+      "name": "Colombo",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "ITA-26",
+      "number": 26,
+      "name": "Ricci",
+      "position": "FW",
+      "club": "Fiorentina"
+    }
+  ],
+  "POR": [
+    {
+      "id": "POR-1",
+      "number": 1,
+      "name": "Martinez",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "POR-2",
+      "number": 2,
+      "name": "Lopez",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "POR-3",
+      "number": 3,
+      "name": "Sanchez",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "POR-4",
+      "number": 4,
+      "name": "Perez",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "POR-5",
+      "number": 5,
+      "name": "Gomez",
+      "position": "DF",
+      "club": "Athletic Bilbao"
+    },
+    {
+      "id": "POR-6",
+      "number": 6,
+      "name": "Martin",
+      "position": "DF",
+      "club": "Osasuna"
+    },
+    {
+      "id": "POR-7",
+      "number": 7,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Almeria"
+    },
+    {
+      "id": "POR-8",
+      "number": 8,
+      "name": "Hernandez",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "POR-9",
+      "number": 9,
+      "name": "Diaz",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "POR-10",
+      "number": 10,
+      "name": "Moreno",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "POR-11",
+      "number": 11,
+      "name": "Munoz",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "POR-12",
+      "number": 12,
+      "name": "Alvarez",
+      "position": "DF",
+      "club": "Celta"
+    },
+    {
+      "id": "POR-13",
+      "number": 13,
+      "name": "Romero",
+      "position": "MF",
+      "club": "Granada"
+    },
+    {
+      "id": "POR-14",
+      "number": 14,
+      "name": "Alonso",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "POR-15",
+      "number": 15,
+      "name": "Gutierrez",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "POR-16",
+      "number": 16,
+      "name": "Navarro",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "POR-17",
+      "number": 17,
+      "name": "Torres",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "POR-18",
+      "number": 18,
+      "name": "Ruiz",
+      "position": "MF",
+      "club": "Real Betis"
+    },
+    {
+      "id": "POR-19",
+      "number": 19,
+      "name": "Ramos",
+      "position": "MF",
+      "club": "Girona"
+    },
+    {
+      "id": "POR-20",
+      "number": 20,
+      "name": "Ortega",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "POR-21",
+      "number": 21,
+      "name": "Vega",
+      "position": "FW",
+      "club": "AC Milan"
+    },
+    {
+      "id": "POR-22",
+      "number": 22,
+      "name": "Castro",
+      "position": "FW",
+      "club": "Manchester United"
+    },
+    {
+      "id": "POR-23",
+      "number": 23,
+      "name": "Iglesias",
+      "position": "FW",
+      "club": "Lyon"
+    },
+    {
+      "id": "POR-24",
+      "number": 24,
+      "name": "Suarez",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "POR-25",
+      "number": 25,
+      "name": "Marin",
+      "position": "FW",
+      "club": "Getafe"
+    },
+    {
+      "id": "POR-26",
+      "number": 26,
+      "name": "Cabrera",
+      "position": "FW",
+      "club": "Alaves"
+    }
+  ],
+  "IRN": [
+    {
+      "id": "IRN-1",
+      "number": 1,
+      "name": "Walid",
+      "position": "GK",
+      "club": "Sevilla"
+    },
+    {
+      "id": "IRN-2",
+      "number": 2,
+      "name": "Yassine",
+      "position": "GK",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "IRN-3",
+      "number": 3,
+      "name": "Hakim",
+      "position": "GK",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "IRN-4",
+      "number": 4,
+      "name": "Bouhaddouz",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "IRN-5",
+      "number": 5,
+      "name": "Boutaib",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "IRN-6",
+      "number": 6,
+      "name": "El Yamiq",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "IRN-7",
+      "number": 7,
+      "name": "Saiss",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "IRN-8",
+      "number": 8,
+      "name": "Al-Ali",
+      "position": "DF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "IRN-9",
+      "number": 9,
+      "name": "Al-Saidi",
+      "position": "DF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "IRN-10",
+      "number": 10,
+      "name": "Al-Otaibi",
+      "position": "DF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "IRN-11",
+      "number": 11,
+      "name": "Al-Hamad",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "IRN-12",
+      "number": 12,
+      "name": "Al-Khalifa",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "IRN-13",
+      "number": 13,
+      "name": "Al-Najjar",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "IRN-14",
+      "number": 14,
+      "name": "Al-Mansoori",
+      "position": "MF",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "IRN-15",
+      "number": 15,
+      "name": "Hassan",
+      "position": "MF",
+      "club": "Sepahan"
+    },
+    {
+      "id": "IRN-16",
+      "number": 16,
+      "name": "Mahmoud",
+      "position": "MF",
+      "club": "Foolad"
+    },
+    {
+      "id": "IRN-17",
+      "number": 17,
+      "name": "Mohamed",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "IRN-18",
+      "number": 18,
+      "name": "Ali",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "IRN-19",
+      "number": 19,
+      "name": "Said",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "IRN-20",
+      "number": 20,
+      "name": "Ibrahim",
+      "position": "MF",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "IRN-21",
+      "number": 21,
+      "name": "Karim",
+      "position": "FW",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "IRN-22",
+      "number": 22,
+      "name": "Salah",
+      "position": "FW",
+      "club": "Tractor"
+    },
+    {
+      "id": "IRN-23",
+      "number": 23,
+      "name": "Youssef",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "IRN-24",
+      "number": 24,
+      "name": "Omar",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "IRN-25",
+      "number": 25,
+      "name": "Mostafa",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "IRN-26",
+      "number": 26,
+      "name": "Tarek",
+      "position": "FW",
+      "club": "Al-Hilal"
+    }
+  ],
+  "TUN": [
+    {
+      "id": "TUN-1",
+      "number": 1,
+      "name": "Hassan",
+      "position": "GK",
+      "club": "Sepahan"
+    },
+    {
+      "id": "TUN-2",
+      "number": 2,
+      "name": "Mahmoud",
+      "position": "GK",
+      "club": "Foolad"
+    },
+    {
+      "id": "TUN-3",
+      "number": 3,
+      "name": "Mohamed",
+      "position": "GK",
+      "club": "Arsenal"
+    },
+    {
+      "id": "TUN-4",
+      "number": 4,
+      "name": "Ali",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "TUN-5",
+      "number": 5,
+      "name": "Said",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "TUN-6",
+      "number": 6,
+      "name": "Ibrahim",
+      "position": "DF",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "TUN-7",
+      "number": 7,
+      "name": "Karim",
+      "position": "DF",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "TUN-8",
+      "number": 8,
+      "name": "Salah",
+      "position": "DF",
+      "club": "Tractor"
+    },
+    {
+      "id": "TUN-9",
+      "number": 9,
+      "name": "Youssef",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "TUN-10",
+      "number": 10,
+      "name": "Omar",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "TUN-11",
+      "number": 11,
+      "name": "Mostafa",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "TUN-12",
+      "number": 12,
+      "name": "Tarek",
+      "position": "DF",
+      "club": "Al-Hilal"
+    },
+    {
+      "id": "TUN-13",
+      "number": 13,
+      "name": "Ahmed",
+      "position": "MF",
+      "club": "Persepolis"
+    },
+    {
+      "id": "TUN-14",
+      "number": 14,
+      "name": "Khaled",
+      "position": "MF",
+      "club": "Al-Zawraa"
+    },
+    {
+      "id": "TUN-15",
+      "number": 15,
+      "name": "Amine",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "TUN-16",
+      "number": 16,
+      "name": "Mehdi",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "TUN-17",
+      "number": 17,
+      "name": "Walid",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "TUN-18",
+      "number": 18,
+      "name": "Yassine",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "TUN-19",
+      "number": 19,
+      "name": "Hakim",
+      "position": "MF",
+      "club": "Al-Wakrah"
+    },
+    {
+      "id": "TUN-20",
+      "number": 20,
+      "name": "Bouhaddouz",
+      "position": "MF",
+      "club": "Al-Shorta"
+    },
+    {
+      "id": "TUN-21",
+      "number": 21,
+      "name": "Boutaib",
+      "position": "FW",
+      "club": "Barcelona"
+    },
+    {
+      "id": "TUN-22",
+      "number": 22,
+      "name": "El Yamiq",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "TUN-23",
+      "number": 23,
+      "name": "Saiss",
+      "position": "FW",
+      "club": "Roma"
+    },
+    {
+      "id": "TUN-24",
+      "number": 24,
+      "name": "Al-Ali",
+      "position": "FW",
+      "club": "Benfica"
+    },
+    {
+      "id": "TUN-25",
+      "number": 25,
+      "name": "Al-Saidi",
+      "position": "FW",
+      "club": "Al-Duhail"
+    },
+    {
+      "id": "TUN-26",
+      "number": 26,
+      "name": "Al-Otaibi",
+      "position": "FW",
+      "club": "Al-Quwa Al-Jawiya"
+    }
+  ],
+  "NZL": [
+    {
+      "id": "NZL-1",
+      "number": 1,
+      "name": "Anderson",
+      "position": "GK",
+      "club": "Arsenal"
+    },
+    {
+      "id": "NZL-2",
+      "number": 2,
+      "name": "Taylor",
+      "position": "GK",
+      "club": "Chelsea"
+    },
+    {
+      "id": "NZL-3",
+      "number": 3,
+      "name": "Thomas",
+      "position": "GK",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "NZL-4",
+      "number": 4,
+      "name": "Reid",
+      "position": "DF",
+      "club": "Wellington Phoenix"
+    },
+    {
+      "id": "NZL-5",
+      "number": 5,
+      "name": "Wallace",
+      "position": "DF",
+      "club": "Brisbane Roar"
+    },
+    {
+      "id": "NZL-6",
+      "number": 6,
+      "name": "Garcia",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "NZL-7",
+      "number": 7,
+      "name": "Allen",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "NZL-8",
+      "number": 8,
+      "name": "Lee",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "NZL-9",
+      "number": 9,
+      "name": "Walker",
+      "position": "DF",
+      "club": "Auckland City"
+    },
+    {
+      "id": "NZL-10",
+      "number": 10,
+      "name": "Young",
+      "position": "DF",
+      "club": "Newcastle Jets"
+    },
+    {
+      "id": "NZL-11",
+      "number": 11,
+      "name": "King",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "NZL-12",
+      "number": 12,
+      "name": "Cook",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "NZL-13",
+      "number": 13,
+      "name": "Bennett",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "NZL-14",
+      "number": 14,
+      "name": "Davis",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "NZL-15",
+      "number": 15,
+      "name": "Edwards",
+      "position": "MF",
+      "club": "Macarthur"
+    },
+    {
+      "id": "NZL-16",
+      "number": 16,
+      "name": "Foster",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "NZL-17",
+      "number": 17,
+      "name": "Howard",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "NZL-18",
+      "number": 18,
+      "name": "Marshall",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "NZL-19",
+      "number": 19,
+      "name": "Mitchell",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "NZL-20",
+      "number": 20,
+      "name": "Nelson",
+      "position": "MF",
+      "club": "Adelaide United"
+    },
+    {
+      "id": "NZL-21",
+      "number": 21,
+      "name": "Osman",
+      "position": "FW",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "NZL-22",
+      "number": 22,
+      "name": "Parker",
+      "position": "FW",
+      "club": "Juventus"
+    },
+    {
+      "id": "NZL-23",
+      "number": 23,
+      "name": "Quinn",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "NZL-24",
+      "number": 24,
+      "name": "Russell",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "NZL-25",
+      "number": 25,
+      "name": "Stewart",
+      "position": "FW",
+      "club": "Western Sydney"
+    },
+    {
+      "id": "NZL-26",
+      "number": 26,
+      "name": "Turner",
+      "position": "FW",
+      "club": "Bayern Munich"
+    }
+  ],
+  "USA": [
+    {
+      "id": "USA-1",
+      "number": 1,
+      "name": "Turner",
+      "position": "GK",
+      "club": "Everton"
+    },
+    {
+      "id": "USA-2",
+      "number": 2,
+      "name": "Hill",
+      "position": "GK",
+      "club": "Bournemouth"
+    },
+    {
+      "id": "USA-3",
+      "number": 3,
+      "name": "Scott",
+      "position": "GK",
+      "club": "Arsenal"
+    },
+    {
+      "id": "USA-4",
+      "number": 4,
+      "name": "Cooper",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "USA-5",
+      "number": 5,
+      "name": "Morris",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "USA-6",
+      "number": 6,
+      "name": "Ward",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "USA-7",
+      "number": 7,
+      "name": "Watson",
+      "position": "DF",
+      "club": "Brighton"
+    },
+    {
+      "id": "USA-8",
+      "number": 8,
+      "name": "Smith",
+      "position": "DF",
+      "club": "Leicester"
+    },
+    {
+      "id": "USA-9",
+      "number": 9,
+      "name": "Jones",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "USA-10",
+      "number": 10,
+      "name": "Taylor",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "USA-11",
+      "number": 11,
+      "name": "Brown",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "USA-12",
+      "number": 12,
+      "name": "Williams",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "USA-13",
+      "number": 13,
+      "name": "Wilson",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "USA-14",
+      "number": 14,
+      "name": "Johnson",
+      "position": "MF",
+      "club": "Wolves"
+    },
+    {
+      "id": "USA-15",
+      "number": 15,
+      "name": "Davies",
+      "position": "MF",
+      "club": "Nottingham Forest"
+    },
+    {
+      "id": "USA-16",
+      "number": 16,
+      "name": "Robinson",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "USA-17",
+      "number": 17,
+      "name": "Wright",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "USA-18",
+      "number": 18,
+      "name": "Thompson",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "USA-19",
+      "number": 19,
+      "name": "Evans",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "USA-20",
+      "number": 20,
+      "name": "Walker",
+      "position": "MF",
+      "club": "West Ham"
+    },
+    {
+      "id": "USA-21",
+      "number": 21,
+      "name": "White",
+      "position": "FW",
+      "club": "Leeds"
+    },
+    {
+      "id": "USA-22",
+      "number": 22,
+      "name": "Roberts",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "USA-23",
+      "number": 23,
+      "name": "Green",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "USA-24",
+      "number": 24,
+      "name": "Hall",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "USA-25",
+      "number": 25,
+      "name": "Wood",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "USA-26",
+      "number": 26,
+      "name": "Harris",
+      "position": "FW",
+      "club": "Newcastle"
+    }
+  ],
+  "SUI": [
+    {
+      "id": "SUI-1",
+      "number": 1,
+      "name": "Schmidt",
+      "position": "GK",
+      "club": "Chelsea"
+    },
+    {
+      "id": "SUI-2",
+      "number": 2,
+      "name": "Schneider",
+      "position": "GK",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "SUI-3",
+      "number": 3,
+      "name": "Fischer",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "SUI-4",
+      "number": 4,
+      "name": "Weber",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "SUI-5",
+      "number": 5,
+      "name": "Wagner",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "SUI-6",
+      "number": 6,
+      "name": "Becker",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "SUI-7",
+      "number": 7,
+      "name": "Hoffmann",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "SUI-8",
+      "number": 8,
+      "name": "Schulz",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "SUI-9",
+      "number": 9,
+      "name": "Koch",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "SUI-10",
+      "number": 10,
+      "name": "Bauer",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "SUI-11",
+      "number": 11,
+      "name": "Richter",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "SUI-12",
+      "number": 12,
+      "name": "Klein",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "SUI-13",
+      "number": 13,
+      "name": "Wolf",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "SUI-14",
+      "number": 14,
+      "name": "Schroeder",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "SUI-15",
+      "number": 15,
+      "name": "Neumann",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "SUI-16",
+      "number": 16,
+      "name": "Schwarz",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "SUI-17",
+      "number": 17,
+      "name": "Zimmermann",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "SUI-18",
+      "number": 18,
+      "name": "Braun",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "SUI-19",
+      "number": 19,
+      "name": "Krueger",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "SUI-20",
+      "number": 20,
+      "name": "Hartmann",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "SUI-21",
+      "number": 21,
+      "name": "Lange",
+      "position": "FW",
+      "club": "Barcelona"
+    },
+    {
+      "id": "SUI-22",
+      "number": 22,
+      "name": "Werner",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "SUI-23",
+      "number": 23,
+      "name": "Schmitt",
+      "position": "FW",
+      "club": "Roma"
+    },
+    {
+      "id": "SUI-24",
+      "number": 24,
+      "name": "Krause",
+      "position": "FW",
+      "club": "Benfica"
+    },
+    {
+      "id": "SUI-25",
+      "number": 25,
+      "name": "Meier",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "SUI-26",
+      "number": 26,
+      "name": "Lehmann",
+      "position": "FW",
+      "club": "Chelsea"
+    }
+  ],
+  "CIV": [
+    {
+      "id": "CIV-1",
+      "number": 1,
+      "name": "Fofana",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "CIV-2",
+      "number": 2,
+      "name": "Drogba",
+      "position": "GK",
+      "club": "Benfica"
+    },
+    {
+      "id": "CIV-3",
+      "number": 3,
+      "name": "Gueye",
+      "position": "GK",
+      "club": "Raja Casablanca"
+    },
+    {
+      "id": "CIV-4",
+      "number": 4,
+      "name": "Sane",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "CIV-5",
+      "number": 5,
+      "name": "Niang",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "CIV-6",
+      "number": 6,
+      "name": "Sarr",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "CIV-7",
+      "number": 7,
+      "name": "Mendy",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "CIV-8",
+      "number": 8,
+      "name": "Faye",
+      "position": "DF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "id": "CIV-9",
+      "number": 9,
+      "name": "Boateng",
+      "position": "DF",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "id": "CIV-10",
+      "number": 10,
+      "name": "Asante",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "CIV-11",
+      "number": 11,
+      "name": "Mensah",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "CIV-12",
+      "number": 12,
+      "name": "Owusu",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "CIV-13",
+      "number": 13,
+      "name": "Adjei",
+      "position": "MF",
+      "club": "Zamalek"
+    },
+    {
+      "id": "CIV-14",
+      "number": 14,
+      "name": "Kwame",
+      "position": "MF",
+      "club": "Pyramids"
+    },
+    {
+      "id": "CIV-15",
+      "number": 15,
+      "name": "Diop",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "CIV-16",
+      "number": 16,
+      "name": "Diallo",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "CIV-17",
+      "number": 17,
+      "name": "Ba",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "CIV-18",
+      "number": 18,
+      "name": "Sow",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "CIV-19",
+      "number": 19,
+      "name": "Ndiaye",
+      "position": "MF",
+      "club": "TP Mazembe"
+    },
+    {
+      "id": "CIV-20",
+      "number": 20,
+      "name": "Toure",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "CIV-21",
+      "number": 21,
+      "name": "Sy",
+      "position": "FW",
+      "club": "Juventus"
+    },
+    {
+      "id": "CIV-22",
+      "number": 22,
+      "name": "Cisse",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "CIV-23",
+      "number": 23,
+      "name": "Mbaye",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "CIV-24",
+      "number": 24,
+      "name": "Kone",
+      "position": "FW",
+      "club": "Wydad"
+    },
+    {
+      "id": "CIV-25",
+      "number": 25,
+      "name": "Coulibaly",
+      "position": "FW",
+      "club": "Orlando Pirates"
+    },
+    {
+      "id": "CIV-26",
+      "number": 26,
+      "name": "Sangare",
+      "position": "FW",
+      "club": "Inter"
+    }
+  ],
+  "HAI": [
+    {
+      "id": "HAI-1",
+      "number": 1,
+      "name": "Hernandez",
+      "position": "GK",
+      "club": "Olimpia"
+    },
+    {
+      "id": "HAI-2",
+      "number": 2,
+      "name": "Lopez",
+      "position": "GK",
+      "club": "Mazatlan"
+    },
+    {
+      "id": "HAI-3",
+      "number": 3,
+      "name": "Martinez",
+      "position": "GK",
+      "club": "Liverpool"
+    },
+    {
+      "id": "HAI-4",
+      "number": 4,
+      "name": "Gonzalez",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "HAI-5",
+      "number": 5,
+      "name": "Rodriguez",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "HAI-6",
+      "number": 6,
+      "name": "Perez",
+      "position": "DF",
+      "club": "Club America"
+    },
+    {
+      "id": "HAI-7",
+      "number": 7,
+      "name": "Sanchez",
+      "position": "DF",
+      "club": "Saprissa"
+    },
+    {
+      "id": "HAI-8",
+      "number": 8,
+      "name": "Ramirez",
+      "position": "DF",
+      "club": "Necaxa"
+    },
+    {
+      "id": "HAI-9",
+      "number": 9,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "HAI-10",
+      "number": 10,
+      "name": "Flores",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "HAI-11",
+      "number": 11,
+      "name": "Rivera",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "HAI-12",
+      "number": 12,
+      "name": "Gomez",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "HAI-13",
+      "number": 13,
+      "name": "Diaz",
+      "position": "MF",
+      "club": "LD Alajuelense"
+    },
+    {
+      "id": "HAI-14",
+      "number": 14,
+      "name": "Reyes",
+      "position": "MF",
+      "club": "Leon"
+    },
+    {
+      "id": "HAI-15",
+      "number": 15,
+      "name": "Morales",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "HAI-16",
+      "number": 16,
+      "name": "Ortiz",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "HAI-17",
+      "number": 17,
+      "name": "Gutierrez",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "HAI-18",
+      "number": 18,
+      "name": "Chavez",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "HAI-19",
+      "number": 19,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Chivas"
+    },
+    {
+      "id": "HAI-20",
+      "number": 20,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Toluca"
+    },
+    {
+      "id": "HAI-21",
+      "number": 21,
+      "name": "Vargas",
+      "position": "FW",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "HAI-22",
+      "number": 22,
+      "name": "Castillo",
+      "position": "FW",
+      "club": "Juventus"
+    },
+    {
+      "id": "HAI-23",
+      "number": 23,
+      "name": "Jimenez",
+      "position": "FW",
+      "club": "Napoli"
+    },
+    {
+      "id": "HAI-24",
+      "number": 24,
+      "name": "Ruiz",
+      "position": "FW",
+      "club": "Sevilla"
+    },
+    {
+      "id": "HAI-25",
+      "number": 25,
+      "name": "Alvarez",
+      "position": "FW",
+      "club": "Pumas"
+    },
+    {
+      "id": "HAI-26",
+      "number": 26,
+      "name": "Romero",
+      "position": "FW",
+      "club": "Atlas"
+    }
+  ],
+  "ENG": [
+    {
+      "id": "ENG-1",
+      "number": 1,
+      "name": "Robinson",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "ENG-2",
+      "number": 2,
+      "name": "Wright",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "ENG-3",
+      "number": 3,
+      "name": "Thompson",
+      "position": "GK",
+      "club": "Crystal Palace"
+    },
+    {
+      "id": "ENG-4",
+      "number": 4,
+      "name": "Evans",
+      "position": "DF",
+      "club": "Southampton"
+    },
+    {
+      "id": "ENG-5",
+      "number": 5,
+      "name": "Walker",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "ENG-6",
+      "number": 6,
+      "name": "White",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "ENG-7",
+      "number": 7,
+      "name": "Roberts",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "ENG-8",
+      "number": 8,
+      "name": "Green",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "ENG-9",
+      "number": 9,
+      "name": "Hall",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "ENG-10",
+      "number": 10,
+      "name": "Wood",
+      "position": "DF",
+      "club": "Fulham"
+    },
+    {
+      "id": "ENG-11",
+      "number": 11,
+      "name": "Harris",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "ENG-12",
+      "number": 12,
+      "name": "Martin",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "ENG-13",
+      "number": 13,
+      "name": "Jackson",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "ENG-14",
+      "number": 14,
+      "name": "Clarke",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "ENG-15",
+      "number": 15,
+      "name": "Clark",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "ENG-16",
+      "number": 16,
+      "name": "Turner",
+      "position": "MF",
+      "club": "Everton"
+    },
+    {
+      "id": "ENG-17",
+      "number": 17,
+      "name": "Hill",
+      "position": "MF",
+      "club": "Bournemouth"
+    },
+    {
+      "id": "ENG-18",
+      "number": 18,
+      "name": "Scott",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "ENG-19",
+      "number": 19,
+      "name": "Cooper",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "ENG-20",
+      "number": 20,
+      "name": "Morris",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "ENG-21",
+      "number": 21,
+      "name": "Ward",
+      "position": "FW",
+      "club": "Arsenal"
+    },
+    {
+      "id": "ENG-22",
+      "number": 22,
+      "name": "Watson",
+      "position": "FW",
+      "club": "Brighton"
+    },
+    {
+      "id": "ENG-23",
+      "number": 23,
+      "name": "Smith",
+      "position": "FW",
+      "club": "Leicester"
+    },
+    {
+      "id": "ENG-24",
+      "number": 24,
+      "name": "Jones",
+      "position": "FW",
+      "club": "Barcelona"
+    },
+    {
+      "id": "ENG-25",
+      "number": 25,
+      "name": "Taylor",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "ENG-26",
+      "number": 26,
+      "name": "Brown",
+      "position": "FW",
+      "club": "Roma"
+    }
+  ],
+  "URU": [
+    {
+      "id": "URU-1",
+      "number": 1,
+      "name": "Oliveira",
+      "position": "GK",
+      "club": "Nacional"
+    },
+    {
+      "id": "URU-2",
+      "number": 2,
+      "name": "Costa",
+      "position": "GK",
+      "club": "Botafogo"
+    },
+    {
+      "id": "URU-3",
+      "number": 3,
+      "name": "Ramos",
+      "position": "GK",
+      "club": "Manchester City"
+    },
+    {
+      "id": "URU-4",
+      "number": 4,
+      "name": "Castro",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "URU-5",
+      "number": 5,
+      "name": "Vargas",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "URU-6",
+      "number": 6,
+      "name": "Romero",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "URU-7",
+      "number": 7,
+      "name": "Morales",
+      "position": "DF",
+      "club": "Corinthians"
+    },
+    {
+      "id": "URU-8",
+      "number": 8,
+      "name": "Reyes",
+      "position": "DF",
+      "club": "Penarol"
+    },
+    {
+      "id": "URU-9",
+      "number": 9,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Estudiantes"
+    },
+    {
+      "id": "URU-10",
+      "number": 10,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "URU-11",
+      "number": 11,
+      "name": "Ortiz",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "URU-12",
+      "number": 12,
+      "name": "Gutierrez",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "URU-13",
+      "number": 13,
+      "name": "Alvarez",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "URU-14",
+      "number": 14,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Atletico-MG"
+    },
+    {
+      "id": "URU-15",
+      "number": 15,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Independiente"
+    },
+    {
+      "id": "URU-16",
+      "number": 16,
+      "name": "Flores",
+      "position": "MF",
+      "club": "Velez"
+    },
+    {
+      "id": "URU-17",
+      "number": 17,
+      "name": "Vega",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "URU-18",
+      "number": 18,
+      "name": "Torres",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "URU-19",
+      "number": 19,
+      "name": "Silva",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "URU-20",
+      "number": 20,
+      "name": "Santos",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "URU-21",
+      "number": 21,
+      "name": "Souza",
+      "position": "FW",
+      "club": "Sao Paulo"
+    },
+    {
+      "id": "URU-22",
+      "number": 22,
+      "name": "Garcia",
+      "position": "FW",
+      "club": "Tigres"
+    },
+    {
+      "id": "URU-23",
+      "number": 23,
+      "name": "Lopez",
+      "position": "FW",
+      "club": "LDU"
+    },
+    {
+      "id": "URU-24",
+      "number": 24,
+      "name": "Martinez",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "URU-25",
+      "number": 25,
+      "name": "Rodriguez",
+      "position": "FW",
+      "club": "AC Milan"
+    },
+    {
+      "id": "URU-26",
+      "number": 26,
+      "name": "Gomez",
+      "position": "FW",
+      "club": "Manchester United"
+    }
+  ],
+  "UZB": [
+    {
+      "id": "UZB-1",
+      "number": 1,
+      "name": "Lee",
+      "position": "GK",
+      "club": "Kawasaki Frontale"
+    },
+    {
+      "id": "UZB-2",
+      "number": 2,
+      "name": "Park",
+      "position": "GK",
+      "club": "AGMK"
+    },
+    {
+      "id": "UZB-3",
+      "number": 3,
+      "name": "Choi",
+      "position": "GK",
+      "club": "Inter"
+    },
+    {
+      "id": "UZB-4",
+      "number": 4,
+      "name": "Jung",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "UZB-5",
+      "number": 5,
+      "name": "Kang",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "UZB-6",
+      "number": 6,
+      "name": "Cho",
+      "position": "DF",
+      "club": "FC Seoul"
+    },
+    {
+      "id": "UZB-7",
+      "number": 7,
+      "name": "Yoon",
+      "position": "DF",
+      "club": "Vissel Kobe"
+    },
+    {
+      "id": "UZB-8",
+      "number": 8,
+      "name": "Han",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "UZB-9",
+      "number": 9,
+      "name": "Hwang",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "UZB-10",
+      "number": 10,
+      "name": "Suzuki",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "UZB-11",
+      "number": 11,
+      "name": "Tanaka",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "UZB-12",
+      "number": 12,
+      "name": "Sato",
+      "position": "DF",
+      "club": "Suwon Bluewings"
+    },
+    {
+      "id": "UZB-13",
+      "number": 13,
+      "name": "Yamamoto",
+      "position": "MF",
+      "club": "Cerezo Osaka"
+    },
+    {
+      "id": "UZB-14",
+      "number": 14,
+      "name": "Kobayashi",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "UZB-15",
+      "number": 15,
+      "name": "Watanabe",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "UZB-16",
+      "number": 16,
+      "name": "Ito",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "UZB-17",
+      "number": 17,
+      "name": "Nakamura",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "UZB-18",
+      "number": 18,
+      "name": "Kato",
+      "position": "MF",
+      "club": "Urawa"
+    },
+    {
+      "id": "UZB-19",
+      "number": 19,
+      "name": "Yoshida",
+      "position": "MF",
+      "club": "Bunyodkor"
+    },
+    {
+      "id": "UZB-20",
+      "number": 20,
+      "name": "Hayashi",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "UZB-21",
+      "number": 21,
+      "name": "Sasaki",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "UZB-22",
+      "number": 22,
+      "name": "Yamada",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "UZB-23",
+      "number": 23,
+      "name": "Aoyama",
+      "position": "FW",
+      "club": "Jeonbuk"
+    },
+    {
+      "id": "UZB-24",
+      "number": 24,
+      "name": "Mori",
+      "position": "FW",
+      "club": "Yokohama F. Marinos"
+    },
+    {
+      "id": "UZB-25",
+      "number": 25,
+      "name": "Ono",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "UZB-26",
+      "number": 26,
+      "name": "Kim",
+      "position": "FW",
+      "club": "AC Milan"
+    }
+  ],
+  "CUW": [
+    {
+      "id": "CUW-1",
+      "number": 1,
+      "name": "Soto",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "CUW-2",
+      "number": 2,
+      "name": "Hernandez",
+      "position": "GK",
+      "club": "Monterrey"
+    },
+    {
+      "id": "CUW-3",
+      "number": 3,
+      "name": "Lopez",
+      "position": "GK",
+      "club": "Pachuca"
+    },
+    {
+      "id": "CUW-4",
+      "number": 4,
+      "name": "Martinez",
+      "position": "DF",
+      "club": "Juarez"
+    },
+    {
+      "id": "CUW-5",
+      "number": 5,
+      "name": "Gonzalez",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "CUW-6",
+      "number": 6,
+      "name": "Rodriguez",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "CUW-7",
+      "number": 7,
+      "name": "Perez",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "CUW-8",
+      "number": 8,
+      "name": "Sanchez",
+      "position": "DF",
+      "club": "Tigres"
+    },
+    {
+      "id": "CUW-9",
+      "number": 9,
+      "name": "Ramirez",
+      "position": "DF",
+      "club": "Motagua"
+    },
+    {
+      "id": "CUW-10",
+      "number": 10,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Queretaro"
+    },
+    {
+      "id": "CUW-11",
+      "number": 11,
+      "name": "Flores",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "CUW-12",
+      "number": 12,
+      "name": "Rivera",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "CUW-13",
+      "number": 13,
+      "name": "Gomez",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "CUW-14",
+      "number": 14,
+      "name": "Diaz",
+      "position": "MF",
+      "club": "Cruz Azul"
+    },
+    {
+      "id": "CUW-15",
+      "number": 15,
+      "name": "Reyes",
+      "position": "MF",
+      "club": "Olimpia"
+    },
+    {
+      "id": "CUW-16",
+      "number": 16,
+      "name": "Morales",
+      "position": "MF",
+      "club": "Mazatlan"
+    },
+    {
+      "id": "CUW-17",
+      "number": 17,
+      "name": "Ortiz",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "CUW-18",
+      "number": 18,
+      "name": "Gutierrez",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "CUW-19",
+      "number": 19,
+      "name": "Chavez",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "CUW-20",
+      "number": 20,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Club America"
+    },
+    {
+      "id": "CUW-21",
+      "number": 21,
+      "name": "Aguilar",
+      "position": "FW",
+      "club": "Saprissa"
+    },
+    {
+      "id": "CUW-22",
+      "number": 22,
+      "name": "Vargas",
+      "position": "FW",
+      "club": "Necaxa"
+    },
+    {
+      "id": "CUW-23",
+      "number": 23,
+      "name": "Castillo",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "CUW-24",
+      "number": 24,
+      "name": "Jimenez",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "CUW-25",
+      "number": 25,
+      "name": "Ruiz",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "CUW-26",
+      "number": 26,
+      "name": "Alvarez",
+      "position": "FW",
+      "club": "Porto"
+    }
+  ],
+  "NED": [
+    {
+      "id": "NED-1",
+      "number": 1,
+      "name": "Wagner",
+      "position": "GK",
+      "club": "Arsenal"
+    },
+    {
+      "id": "NED-2",
+      "number": 2,
+      "name": "Becker",
+      "position": "GK",
+      "club": "Chelsea"
+    },
+    {
+      "id": "NED-3",
+      "number": 3,
+      "name": "Hoffmann",
+      "position": "GK",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "NED-4",
+      "number": 4,
+      "name": "Schulz",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "NED-5",
+      "number": 5,
+      "name": "Koch",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "NED-6",
+      "number": 6,
+      "name": "Bauer",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "NED-7",
+      "number": 7,
+      "name": "Richter",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "NED-8",
+      "number": 8,
+      "name": "Klein",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "NED-9",
+      "number": 9,
+      "name": "Wolf",
+      "position": "DF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "NED-10",
+      "number": 10,
+      "name": "Schroeder",
+      "position": "DF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "NED-11",
+      "number": 11,
+      "name": "Neumann",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "NED-12",
+      "number": 12,
+      "name": "Schwarz",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "NED-13",
+      "number": 13,
+      "name": "Zimmermann",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "NED-14",
+      "number": 14,
+      "name": "Braun",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "NED-15",
+      "number": 15,
+      "name": "Krueger",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "NED-16",
+      "number": 16,
+      "name": "Hartmann",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "NED-17",
+      "number": 17,
+      "name": "Lange",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "NED-18",
+      "number": 18,
+      "name": "Werner",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "NED-19",
+      "number": 19,
+      "name": "Schmitt",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "NED-20",
+      "number": 20,
+      "name": "Krause",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "NED-21",
+      "number": 21,
+      "name": "Meier",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "NED-22",
+      "number": 22,
+      "name": "Lehmann",
+      "position": "FW",
+      "club": "Barcelona"
+    },
+    {
+      "id": "NED-23",
+      "number": 23,
+      "name": "Schmid",
+      "position": "FW",
+      "club": "PSG"
+    },
+    {
+      "id": "NED-24",
+      "number": 24,
+      "name": "Schulze",
+      "position": "FW",
+      "club": "Roma"
+    },
+    {
+      "id": "NED-25",
+      "number": 25,
+      "name": "Maier",
+      "position": "FW",
+      "club": "Benfica"
+    },
+    {
+      "id": "NED-26",
+      "number": 26,
+      "name": "Mueller",
+      "position": "FW",
+      "club": "Arsenal"
+    }
+  ],
+  "COL": [
+    {
+      "id": "COL-1",
+      "number": 1,
+      "name": "Oliveira",
+      "position": "GK",
+      "club": "Sao Paulo"
+    },
+    {
+      "id": "COL-2",
+      "number": 2,
+      "name": "Costa",
+      "position": "GK",
+      "club": "Tigres"
+    },
+    {
+      "id": "COL-3",
+      "number": 3,
+      "name": "Ramos",
+      "position": "GK",
+      "club": "LDU"
+    },
+    {
+      "id": "COL-4",
+      "number": 4,
+      "name": "Castro",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "COL-5",
+      "number": 5,
+      "name": "Vargas",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "COL-6",
+      "number": 6,
+      "name": "Romero",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "COL-7",
+      "number": 7,
+      "name": "Morales",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "COL-8",
+      "number": 8,
+      "name": "Reyes",
+      "position": "DF",
+      "club": "River Plate"
+    },
+    {
+      "id": "COL-9",
+      "number": 9,
+      "name": "Cruz",
+      "position": "DF",
+      "club": "Club America"
+    },
+    {
+      "id": "COL-10",
+      "number": 10,
+      "name": "Jimenez",
+      "position": "DF",
+      "club": "Cerro Porteno"
+    },
+    {
+      "id": "COL-11",
+      "number": 11,
+      "name": "Ortiz",
+      "position": "DF",
+      "club": "Sport"
+    },
+    {
+      "id": "COL-12",
+      "number": 12,
+      "name": "Gutierrez",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "COL-13",
+      "number": 13,
+      "name": "Alvarez",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "COL-14",
+      "number": 14,
+      "name": "Mendoza",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "COL-15",
+      "number": 15,
+      "name": "Aguilar",
+      "position": "MF",
+      "club": "Boca Juniors"
+    },
+    {
+      "id": "COL-16",
+      "number": 16,
+      "name": "Flores",
+      "position": "MF",
+      "club": "Fluminense"
+    },
+    {
+      "id": "COL-17",
+      "number": 17,
+      "name": "Vega",
+      "position": "MF",
+      "club": "Olimpia"
+    },
+    {
+      "id": "COL-18",
+      "number": 18,
+      "name": "Torres",
+      "position": "MF",
+      "club": "Bahia"
+    },
+    {
+      "id": "COL-19",
+      "number": 19,
+      "name": "Silva",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "COL-20",
+      "number": 20,
+      "name": "Santos",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "COL-21",
+      "number": 21,
+      "name": "Souza",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "COL-22",
+      "number": 22,
+      "name": "Garcia",
+      "position": "FW",
+      "club": "Palmeiras"
+    },
+    {
+      "id": "COL-23",
+      "number": 23,
+      "name": "Lopez",
+      "position": "FW",
+      "club": "Gremio"
+    },
+    {
+      "id": "COL-24",
+      "number": 24,
+      "name": "Martinez",
+      "position": "FW",
+      "club": "Liga Quito"
+    },
+    {
+      "id": "COL-25",
+      "number": 25,
+      "name": "Rodriguez",
+      "position": "FW",
+      "club": "Santos"
+    },
+    {
+      "id": "COL-26",
+      "number": 26,
+      "name": "Gomez",
+      "position": "FW",
+      "club": "Liverpool"
+    }
+  ],
+  "QAT": [
+    {
+      "id": "QAT-1",
+      "number": 1,
+      "name": "Khaled",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "QAT-2",
+      "number": 2,
+      "name": "Amine",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "QAT-3",
+      "number": 3,
+      "name": "Mehdi",
+      "position": "GK",
+      "club": "Napoli"
+    },
+    {
+      "id": "QAT-4",
+      "number": 4,
+      "name": "Walid",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "QAT-5",
+      "number": 5,
+      "name": "Yassine",
+      "position": "DF",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "QAT-6",
+      "number": 6,
+      "name": "Hakim",
+      "position": "DF",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "QAT-7",
+      "number": 7,
+      "name": "Bouhaddouz",
+      "position": "DF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "QAT-8",
+      "number": 8,
+      "name": "Boutaib",
+      "position": "DF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "QAT-9",
+      "number": 9,
+      "name": "El Yamiq",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "QAT-10",
+      "number": 10,
+      "name": "Saiss",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "QAT-11",
+      "number": 11,
+      "name": "Al-Ali",
+      "position": "DF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "QAT-12",
+      "number": 12,
+      "name": "Al-Saidi",
+      "position": "DF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "QAT-13",
+      "number": 13,
+      "name": "Al-Otaibi",
+      "position": "MF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "QAT-14",
+      "number": 14,
+      "name": "Al-Hamad",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "QAT-15",
+      "number": 15,
+      "name": "Al-Khalifa",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "QAT-16",
+      "number": 16,
+      "name": "Al-Najjar",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "QAT-17",
+      "number": 17,
+      "name": "Al-Mansoori",
+      "position": "MF",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "QAT-18",
+      "number": 18,
+      "name": "Hassan",
+      "position": "MF",
+      "club": "Sepahan"
+    },
+    {
+      "id": "QAT-19",
+      "number": 19,
+      "name": "Mahmoud",
+      "position": "MF",
+      "club": "Foolad"
+    },
+    {
+      "id": "QAT-20",
+      "number": 20,
+      "name": "Mohamed",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "QAT-21",
+      "number": 21,
+      "name": "Ali",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "QAT-22",
+      "number": 22,
+      "name": "Said",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "QAT-23",
+      "number": 23,
+      "name": "Ibrahim",
+      "position": "FW",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "QAT-24",
+      "number": 24,
+      "name": "Karim",
+      "position": "FW",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "QAT-25",
+      "number": 25,
+      "name": "Salah",
+      "position": "FW",
+      "club": "Tractor"
+    },
+    {
+      "id": "QAT-26",
+      "number": 26,
+      "name": "Youssef",
+      "position": "FW",
+      "club": "Liverpool"
+    }
+  ],
+  "GHA": [
+    {
+      "id": "GHA-1",
+      "number": 1,
+      "name": "Adjei",
+      "position": "GK",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "GHA-2",
+      "number": 2,
+      "name": "Kwame",
+      "position": "GK",
+      "club": "Juventus"
+    },
+    {
+      "id": "GHA-3",
+      "number": 3,
+      "name": "Diop",
+      "position": "GK",
+      "club": "Napoli"
+    },
+    {
+      "id": "GHA-4",
+      "number": 4,
+      "name": "Diallo",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "GHA-5",
+      "number": 5,
+      "name": "Ba",
+      "position": "DF",
+      "club": "Wydad"
+    },
+    {
+      "id": "GHA-6",
+      "number": 6,
+      "name": "Sow",
+      "position": "DF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "id": "GHA-7",
+      "number": 7,
+      "name": "Ndiaye",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "GHA-8",
+      "number": 8,
+      "name": "Toure",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "GHA-9",
+      "number": 9,
+      "name": "Sy",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "GHA-10",
+      "number": 10,
+      "name": "Cisse",
+      "position": "DF",
+      "club": "ES Tunis"
+    },
+    {
+      "id": "GHA-11",
+      "number": 11,
+      "name": "Mbaye",
+      "position": "DF",
+      "club": "Simba SC"
+    },
+    {
+      "id": "GHA-12",
+      "number": 12,
+      "name": "Kone",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "GHA-13",
+      "number": 13,
+      "name": "Coulibaly",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "GHA-14",
+      "number": 14,
+      "name": "Sangare",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "GHA-15",
+      "number": 15,
+      "name": "Traore",
+      "position": "MF",
+      "club": "Al Ahly"
+    },
+    {
+      "id": "GHA-16",
+      "number": 16,
+      "name": "Camara",
+      "position": "MF",
+      "club": "Esperance"
+    },
+    {
+      "id": "GHA-17",
+      "number": 17,
+      "name": "Conde",
+      "position": "MF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "GHA-18",
+      "number": 18,
+      "name": "Bamba",
+      "position": "MF",
+      "club": "PSG"
+    },
+    {
+      "id": "GHA-19",
+      "number": 19,
+      "name": "Fofana",
+      "position": "MF",
+      "club": "Roma"
+    },
+    {
+      "id": "GHA-20",
+      "number": 20,
+      "name": "Drogba",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "GHA-21",
+      "number": 21,
+      "name": "Gueye",
+      "position": "FW",
+      "club": "Raja Casablanca"
+    },
+    {
+      "id": "GHA-22",
+      "number": 22,
+      "name": "Sane",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "GHA-23",
+      "number": 23,
+      "name": "Niang",
+      "position": "FW",
+      "club": "AC Milan"
+    },
+    {
+      "id": "GHA-24",
+      "number": 24,
+      "name": "Sarr",
+      "position": "FW",
+      "club": "Manchester United"
+    },
+    {
+      "id": "GHA-25",
+      "number": 25,
+      "name": "Mendy",
+      "position": "FW",
+      "club": "Lyon"
+    },
+    {
+      "id": "GHA-26",
+      "number": 26,
+      "name": "Faye",
+      "position": "FW",
+      "club": "Mamelodi Sundowns"
+    }
+  ],
+  "BEL": [
+    {
+      "id": "BEL-1",
+      "number": 1,
+      "name": "Schmidt",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "BEL-2",
+      "number": 2,
+      "name": "Schneider",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "BEL-3",
+      "number": 3,
+      "name": "Fischer",
+      "position": "GK",
+      "club": "Roma"
+    },
+    {
+      "id": "BEL-4",
+      "number": 4,
+      "name": "Weber",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "BEL-5",
+      "number": 5,
+      "name": "Wagner",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "BEL-6",
+      "number": 6,
+      "name": "Becker",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "BEL-7",
+      "number": 7,
+      "name": "Hoffmann",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "BEL-8",
+      "number": 8,
+      "name": "Schulz",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "BEL-9",
+      "number": 9,
+      "name": "Koch",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "BEL-10",
+      "number": 10,
+      "name": "Bauer",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "BEL-11",
+      "number": 11,
+      "name": "Richter",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "BEL-12",
+      "number": 12,
+      "name": "Klein",
+      "position": "DF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "BEL-13",
+      "number": 13,
+      "name": "Wolf",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "BEL-14",
+      "number": 14,
+      "name": "Schroeder",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "BEL-15",
+      "number": 15,
+      "name": "Neumann",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "BEL-16",
+      "number": 16,
+      "name": "Schwarz",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "BEL-17",
+      "number": 17,
+      "name": "Zimmermann",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "BEL-18",
+      "number": 18,
+      "name": "Braun",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "BEL-19",
+      "number": 19,
+      "name": "Krueger",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "BEL-20",
+      "number": 20,
+      "name": "Hartmann",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "BEL-21",
+      "number": 21,
+      "name": "Lange",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "BEL-22",
+      "number": 22,
+      "name": "Werner",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "BEL-23",
+      "number": 23,
+      "name": "Schmitt",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "BEL-24",
+      "number": 24,
+      "name": "Krause",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "BEL-25",
+      "number": 25,
+      "name": "Meier",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "BEL-26",
+      "number": 26,
+      "name": "Lehmann",
+      "position": "FW",
+      "club": "Barcelona"
+    }
+  ],
+  "AUT": [
+    {
+      "id": "AUT-1",
+      "number": 1,
+      "name": "Krause",
+      "position": "GK",
+      "club": "Tottenham"
+    },
+    {
+      "id": "AUT-2",
+      "number": 2,
+      "name": "Meier",
+      "position": "GK",
+      "club": "Marseille"
+    },
+    {
+      "id": "AUT-3",
+      "number": 3,
+      "name": "Lehmann",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "AUT-4",
+      "number": 4,
+      "name": "Schmid",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "AUT-5",
+      "number": 5,
+      "name": "Schulze",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "AUT-6",
+      "number": 6,
+      "name": "Maier",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "AUT-7",
+      "number": 7,
+      "name": "Mueller",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "AUT-8",
+      "number": 8,
+      "name": "Schmidt",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "AUT-9",
+      "number": 9,
+      "name": "Schneider",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "AUT-10",
+      "number": 10,
+      "name": "Fischer",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "AUT-11",
+      "number": 11,
+      "name": "Weber",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "AUT-12",
+      "number": 12,
+      "name": "Wagner",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "AUT-13",
+      "number": 13,
+      "name": "Becker",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "AUT-14",
+      "number": 14,
+      "name": "Hoffmann",
+      "position": "MF",
+      "club": "Liverpool"
+    },
+    {
+      "id": "AUT-15",
+      "number": 15,
+      "name": "Schulz",
+      "position": "MF",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "AUT-16",
+      "number": 16,
+      "name": "Koch",
+      "position": "MF",
+      "club": "Newcastle"
+    },
+    {
+      "id": "AUT-17",
+      "number": 17,
+      "name": "Bauer",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "AUT-18",
+      "number": 18,
+      "name": "Richter",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "AUT-19",
+      "number": 19,
+      "name": "Klein",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "AUT-20",
+      "number": 20,
+      "name": "Wolf",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "AUT-21",
+      "number": 21,
+      "name": "Schroeder",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "AUT-22",
+      "number": 22,
+      "name": "Neumann",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "AUT-23",
+      "number": 23,
+      "name": "Schwarz",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "AUT-24",
+      "number": 24,
+      "name": "Zimmermann",
+      "position": "FW",
+      "club": "Porto"
+    },
+    {
+      "id": "AUT-25",
+      "number": 25,
+      "name": "Braun",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "AUT-26",
+      "number": 26,
+      "name": "Krueger",
+      "position": "FW",
+      "club": "Tottenham"
+    }
+  ],
+  "KSA": [
+    {
+      "id": "KSA-1",
+      "number": 1,
+      "name": "Karim",
+      "position": "GK",
+      "club": "Al-Shorta"
+    },
+    {
+      "id": "KSA-2",
+      "number": 2,
+      "name": "Salah",
+      "position": "GK",
+      "club": "Barcelona"
+    },
+    {
+      "id": "KSA-3",
+      "number": 3,
+      "name": "Youssef",
+      "position": "GK",
+      "club": "PSG"
+    },
+    {
+      "id": "KSA-4",
+      "number": 4,
+      "name": "Omar",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "KSA-5",
+      "number": 5,
+      "name": "Mostafa",
+      "position": "DF",
+      "club": "Benfica"
+    },
+    {
+      "id": "KSA-6",
+      "number": 6,
+      "name": "Tarek",
+      "position": "DF",
+      "club": "Al-Duhail"
+    },
+    {
+      "id": "KSA-7",
+      "number": 7,
+      "name": "Ahmed",
+      "position": "DF",
+      "club": "Al-Quwa Al-Jawiya"
+    },
+    {
+      "id": "KSA-8",
+      "number": 8,
+      "name": "Khaled",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "KSA-9",
+      "number": 9,
+      "name": "Amine",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "KSA-10",
+      "number": 10,
+      "name": "Mehdi",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "KSA-11",
+      "number": 11,
+      "name": "Walid",
+      "position": "DF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "KSA-12",
+      "number": 12,
+      "name": "Yassine",
+      "position": "DF",
+      "club": "Al-Sadd"
+    },
+    {
+      "id": "KSA-13",
+      "number": 13,
+      "name": "Hakim",
+      "position": "MF",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "KSA-14",
+      "number": 14,
+      "name": "Bouhaddouz",
+      "position": "MF",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "KSA-15",
+      "number": 15,
+      "name": "Boutaib",
+      "position": "MF",
+      "club": "AC Milan"
+    },
+    {
+      "id": "KSA-16",
+      "number": 16,
+      "name": "El Yamiq",
+      "position": "MF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "KSA-17",
+      "number": 17,
+      "name": "Saiss",
+      "position": "MF",
+      "club": "Lyon"
+    },
+    {
+      "id": "KSA-18",
+      "number": 18,
+      "name": "Al-Ali",
+      "position": "MF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "KSA-19",
+      "number": 19,
+      "name": "Al-Saidi",
+      "position": "MF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "KSA-20",
+      "number": 20,
+      "name": "Al-Otaibi",
+      "position": "MF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "KSA-21",
+      "number": 21,
+      "name": "Al-Hamad",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "KSA-22",
+      "number": 22,
+      "name": "Al-Khalifa",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "KSA-23",
+      "number": 23,
+      "name": "Al-Najjar",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "KSA-24",
+      "number": 24,
+      "name": "Al-Mansoori",
+      "position": "FW",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "KSA-25",
+      "number": 25,
+      "name": "Hassan",
+      "position": "FW",
+      "club": "Sepahan"
+    },
+    {
+      "id": "KSA-26",
+      "number": 26,
+      "name": "Mahmoud",
+      "position": "FW",
+      "club": "Foolad"
+    }
+  ],
+  "CPV": [
+    {
+      "id": "CPV-1",
+      "number": 1,
+      "name": "Faye",
+      "position": "GK",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "id": "CPV-2",
+      "number": 2,
+      "name": "Boateng",
+      "position": "GK",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "id": "CPV-3",
+      "number": 3,
+      "name": "Asante",
+      "position": "GK",
+      "club": "Arsenal"
+    },
+    {
+      "id": "CPV-4",
+      "number": 4,
+      "name": "Mensah",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "CPV-5",
+      "number": 5,
+      "name": "Owusu",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "CPV-6",
+      "number": 6,
+      "name": "Adjei",
+      "position": "DF",
+      "club": "Zamalek"
+    },
+    {
+      "id": "CPV-7",
+      "number": 7,
+      "name": "Kwame",
+      "position": "DF",
+      "club": "Pyramids"
+    },
+    {
+      "id": "CPV-8",
+      "number": 8,
+      "name": "Diop",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "CPV-9",
+      "number": 9,
+      "name": "Diallo",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "CPV-10",
+      "number": 10,
+      "name": "Ba",
+      "position": "DF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "CPV-11",
+      "number": 11,
+      "name": "Sow",
+      "position": "DF",
+      "club": "Porto"
+    },
+    {
+      "id": "CPV-12",
+      "number": 12,
+      "name": "Ndiaye",
+      "position": "DF",
+      "club": "TP Mazembe"
+    },
+    {
+      "id": "CPV-13",
+      "number": 13,
+      "name": "Toure",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "CPV-14",
+      "number": 14,
+      "name": "Sy",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "CPV-15",
+      "number": 15,
+      "name": "Cisse",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "CPV-16",
+      "number": 16,
+      "name": "Mbaye",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "CPV-17",
+      "number": 17,
+      "name": "Kone",
+      "position": "MF",
+      "club": "Wydad"
+    },
+    {
+      "id": "CPV-18",
+      "number": 18,
+      "name": "Coulibaly",
+      "position": "MF",
+      "club": "Orlando Pirates"
+    },
+    {
+      "id": "CPV-19",
+      "number": 19,
+      "name": "Sangare",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "CPV-20",
+      "number": 20,
+      "name": "Traore",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "CPV-21",
+      "number": 21,
+      "name": "Camara",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "CPV-22",
+      "number": 22,
+      "name": "Conde",
+      "position": "FW",
+      "club": "ES Tunis"
+    },
+    {
+      "id": "CPV-23",
+      "number": 23,
+      "name": "Bamba",
+      "position": "FW",
+      "club": "Simba SC"
+    },
+    {
+      "id": "CPV-24",
+      "number": 24,
+      "name": "Fofana",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "CPV-25",
+      "number": 25,
+      "name": "Drogba",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "CPV-26",
+      "number": 26,
+      "name": "Gueye",
+      "position": "FW",
+      "club": "Newcastle"
+    }
+  ],
+  "ESP": [
+    {
+      "id": "ESP-1",
+      "number": 1,
+      "name": "Castro",
+      "position": "GK",
+      "club": "Real Sociedad"
+    },
+    {
+      "id": "ESP-2",
+      "number": 2,
+      "name": "Iglesias",
+      "position": "GK",
+      "club": "Mallorca"
+    },
+    {
+      "id": "ESP-3",
+      "number": 3,
+      "name": "Suarez",
+      "position": "GK",
+      "club": "Rayo Vallecano"
+    },
+    {
+      "id": "ESP-4",
+      "number": 4,
+      "name": "Marin",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "ESP-5",
+      "number": 5,
+      "name": "Cabrera",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "ESP-6",
+      "number": 6,
+      "name": "Velasco",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "ESP-7",
+      "number": 7,
+      "name": "Marquez",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "ESP-8",
+      "number": 8,
+      "name": "Pena",
+      "position": "DF",
+      "club": "Valencia"
+    },
+    {
+      "id": "ESP-9",
+      "number": 9,
+      "name": "Garcia",
+      "position": "DF",
+      "club": "Cadiz"
+    },
+    {
+      "id": "ESP-10",
+      "number": 10,
+      "name": "Martinez",
+      "position": "DF",
+      "club": "Barcelona"
+    },
+    {
+      "id": "ESP-11",
+      "number": 11,
+      "name": "Lopez",
+      "position": "DF",
+      "club": "PSG"
+    },
+    {
+      "id": "ESP-12",
+      "number": 12,
+      "name": "Sanchez",
+      "position": "DF",
+      "club": "Roma"
+    },
+    {
+      "id": "ESP-13",
+      "number": 13,
+      "name": "Perez",
+      "position": "MF",
+      "club": "Benfica"
+    },
+    {
+      "id": "ESP-14",
+      "number": 14,
+      "name": "Gomez",
+      "position": "MF",
+      "club": "Athletic Bilbao"
+    },
+    {
+      "id": "ESP-15",
+      "number": 15,
+      "name": "Martin",
+      "position": "MF",
+      "club": "Osasuna"
+    },
+    {
+      "id": "ESP-16",
+      "number": 16,
+      "name": "Jimenez",
+      "position": "MF",
+      "club": "Almeria"
+    },
+    {
+      "id": "ESP-17",
+      "number": 17,
+      "name": "Hernandez",
+      "position": "MF",
+      "club": "Inter"
+    },
+    {
+      "id": "ESP-18",
+      "number": 18,
+      "name": "Diaz",
+      "position": "MF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "ESP-19",
+      "number": 19,
+      "name": "Moreno",
+      "position": "MF",
+      "club": "Marseille"
+    },
+    {
+      "id": "ESP-20",
+      "number": 20,
+      "name": "Munoz",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "ESP-21",
+      "number": 21,
+      "name": "Alvarez",
+      "position": "FW",
+      "club": "Celta"
+    },
+    {
+      "id": "ESP-22",
+      "number": 22,
+      "name": "Romero",
+      "position": "FW",
+      "club": "Granada"
+    },
+    {
+      "id": "ESP-23",
+      "number": 23,
+      "name": "Alonso",
+      "position": "FW",
+      "club": "Manchester City"
+    },
+    {
+      "id": "ESP-24",
+      "number": 24,
+      "name": "Gutierrez",
+      "position": "FW",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "ESP-25",
+      "number": 25,
+      "name": "Navarro",
+      "position": "FW",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "ESP-26",
+      "number": 26,
+      "name": "Torres",
+      "position": "FW",
+      "club": "Porto"
+    }
+  ],
+  "CRO": [
+    {
+      "id": "CRO-1",
+      "number": 1,
+      "name": "Jakic",
+      "position": "GK",
+      "club": "Liverpool"
+    },
+    {
+      "id": "CRO-2",
+      "number": 2,
+      "name": "Sucic",
+      "position": "GK",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "CRO-3",
+      "number": 3,
+      "name": "Majer",
+      "position": "GK",
+      "club": "Newcastle"
+    },
+    {
+      "id": "CRO-4",
+      "number": 4,
+      "name": "Brekalo",
+      "position": "DF",
+      "club": "Dinamo Zagreb"
+    },
+    {
+      "id": "CRO-5",
+      "number": 5,
+      "name": "Budimir",
+      "position": "DF",
+      "club": "Varazdin"
+    },
+    {
+      "id": "CRO-6",
+      "number": 6,
+      "name": "Halilovic",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "CRO-7",
+      "number": 7,
+      "name": "Pasalic",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "CRO-8",
+      "number": 8,
+      "name": "Vrsaljko",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "CRO-9",
+      "number": 9,
+      "name": "Caleta-Car",
+      "position": "DF",
+      "club": "Rijeka"
+    },
+    {
+      "id": "CRO-10",
+      "number": 10,
+      "name": "Skoric",
+      "position": "DF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "CRO-11",
+      "number": 11,
+      "name": "Jedvaj",
+      "position": "DF",
+      "club": "Juventus"
+    },
+    {
+      "id": "CRO-12",
+      "number": 12,
+      "name": "Mlakar",
+      "position": "DF",
+      "club": "Napoli"
+    },
+    {
+      "id": "CRO-13",
+      "number": 13,
+      "name": "Modric",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "CRO-14",
+      "number": 14,
+      "name": "Kovacic",
+      "position": "MF",
+      "club": "Lokomotiva"
+    },
+    {
+      "id": "CRO-15",
+      "number": 15,
+      "name": "Brozovic",
+      "position": "MF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "CRO-16",
+      "number": 16,
+      "name": "Perisic",
+      "position": "MF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "CRO-17",
+      "number": 17,
+      "name": "Kramaric",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "CRO-18",
+      "number": 18,
+      "name": "Petkovic",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "CRO-19",
+      "number": 19,
+      "name": "Pjaca",
+      "position": "MF",
+      "club": "Slaven Belupo"
+    },
+    {
+      "id": "CRO-20",
+      "number": 20,
+      "name": "Vlasic",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "CRO-21",
+      "number": 21,
+      "name": "Livakovic",
+      "position": "FW",
+      "club": "Chelsea"
+    },
+    {
+      "id": "CRO-22",
+      "number": 22,
+      "name": "Sosa",
+      "position": "FW",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "CRO-23",
+      "number": 23,
+      "name": "Erlic",
+      "position": "FW",
+      "club": "Hajduk Split"
+    },
+    {
+      "id": "CRO-24",
+      "number": 24,
+      "name": "Sutalo",
+      "position": "FW",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "CRO-25",
+      "number": 25,
+      "name": "Pongracic",
+      "position": "FW",
+      "club": "AC Milan"
+    },
+    {
+      "id": "CRO-26",
+      "number": 26,
+      "name": "Vida",
+      "position": "FW",
+      "club": "Manchester United"
+    }
+  ],
+  "RSA": [
+    {
+      "id": "RSA-1",
+      "number": 1,
+      "name": "Niang",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "RSA-2",
+      "number": 2,
+      "name": "Sarr",
+      "position": "GK",
+      "club": "Manchester United"
+    },
+    {
+      "id": "RSA-3",
+      "number": 3,
+      "name": "Mendy",
+      "position": "GK",
+      "club": "Lyon"
+    },
+    {
+      "id": "RSA-4",
+      "number": 4,
+      "name": "Faye",
+      "position": "DF",
+      "club": "Mamelodi Sundowns"
+    },
+    {
+      "id": "RSA-5",
+      "number": 5,
+      "name": "Boateng",
+      "position": "DF",
+      "club": "Kaizer Chiefs"
+    },
+    {
+      "id": "RSA-6",
+      "number": 6,
+      "name": "Asante",
+      "position": "DF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "RSA-7",
+      "number": 7,
+      "name": "Mensah",
+      "position": "DF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "RSA-8",
+      "number": 8,
+      "name": "Owusu",
+      "position": "DF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "RSA-9",
+      "number": 9,
+      "name": "Adjei",
+      "position": "DF",
+      "club": "Zamalek"
+    },
+    {
+      "id": "RSA-10",
+      "number": 10,
+      "name": "Kwame",
+      "position": "DF",
+      "club": "Pyramids"
+    },
+    {
+      "id": "RSA-11",
+      "number": 11,
+      "name": "Diop",
+      "position": "DF",
+      "club": "Manchester City"
+    },
+    {
+      "id": "RSA-12",
+      "number": 12,
+      "name": "Diallo",
+      "position": "DF",
+      "club": "Atletico Madrid"
+    },
+    {
+      "id": "RSA-13",
+      "number": 13,
+      "name": "Ba",
+      "position": "MF",
+      "club": "Bayer Leverkusen"
+    },
+    {
+      "id": "RSA-14",
+      "number": 14,
+      "name": "Sow",
+      "position": "MF",
+      "club": "Porto"
+    },
+    {
+      "id": "RSA-15",
+      "number": 15,
+      "name": "Ndiaye",
+      "position": "MF",
+      "club": "TP Mazembe"
+    },
+    {
+      "id": "RSA-16",
+      "number": 16,
+      "name": "Toure",
+      "position": "MF",
+      "club": "Real Madrid"
+    },
+    {
+      "id": "RSA-17",
+      "number": 17,
+      "name": "Sy",
+      "position": "MF",
+      "club": "Juventus"
+    },
+    {
+      "id": "RSA-18",
+      "number": 18,
+      "name": "Cisse",
+      "position": "MF",
+      "club": "Napoli"
+    },
+    {
+      "id": "RSA-19",
+      "number": 19,
+      "name": "Mbaye",
+      "position": "MF",
+      "club": "Sevilla"
+    },
+    {
+      "id": "RSA-20",
+      "number": 20,
+      "name": "Kone",
+      "position": "MF",
+      "club": "Wydad"
+    },
+    {
+      "id": "RSA-21",
+      "number": 21,
+      "name": "Coulibaly",
+      "position": "FW",
+      "club": "Orlando Pirates"
+    },
+    {
+      "id": "RSA-22",
+      "number": 22,
+      "name": "Sangare",
+      "position": "FW",
+      "club": "Inter"
+    },
+    {
+      "id": "RSA-23",
+      "number": 23,
+      "name": "Traore",
+      "position": "FW",
+      "club": "Tottenham"
+    },
+    {
+      "id": "RSA-24",
+      "number": 24,
+      "name": "Camara",
+      "position": "FW",
+      "club": "Marseille"
+    },
+    {
+      "id": "RSA-25",
+      "number": 25,
+      "name": "Conde",
+      "position": "FW",
+      "club": "ES Tunis"
+    },
+    {
+      "id": "RSA-26",
+      "number": 26,
+      "name": "Bamba",
+      "position": "FW",
+      "club": "Simba SC"
+    }
+  ],
+  "JOR": [
+    {
+      "id": "JOR-1",
+      "number": 1,
+      "name": "Hakim",
+      "position": "GK",
+      "club": "Al-Wehdat"
+    },
+    {
+      "id": "JOR-2",
+      "number": 2,
+      "name": "Bouhaddouz",
+      "position": "GK",
+      "club": "Bayern Munich"
+    },
+    {
+      "id": "JOR-3",
+      "number": 3,
+      "name": "Boutaib",
+      "position": "GK",
+      "club": "AC Milan"
+    },
+    {
+      "id": "JOR-4",
+      "number": 4,
+      "name": "El Yamiq",
+      "position": "DF",
+      "club": "Manchester United"
+    },
+    {
+      "id": "JOR-5",
+      "number": 5,
+      "name": "Saiss",
+      "position": "DF",
+      "club": "Lyon"
+    },
+    {
+      "id": "JOR-6",
+      "number": 6,
+      "name": "Al-Ali",
+      "position": "DF",
+      "club": "Al-Ahli"
+    },
+    {
+      "id": "JOR-7",
+      "number": 7,
+      "name": "Al-Saidi",
+      "position": "DF",
+      "club": "Al-Faisaly"
+    },
+    {
+      "id": "JOR-8",
+      "number": 8,
+      "name": "Al-Otaibi",
+      "position": "DF",
+      "club": "Pakhtakor"
+    },
+    {
+      "id": "JOR-9",
+      "number": 9,
+      "name": "Al-Hamad",
+      "position": "DF",
+      "club": "Inter"
+    },
+    {
+      "id": "JOR-10",
+      "number": 10,
+      "name": "Al-Khalifa",
+      "position": "DF",
+      "club": "Tottenham"
+    },
+    {
+      "id": "JOR-11",
+      "number": 11,
+      "name": "Al-Najjar",
+      "position": "DF",
+      "club": "Marseille"
+    },
+    {
+      "id": "JOR-12",
+      "number": 12,
+      "name": "Al-Mansoori",
+      "position": "DF",
+      "club": "Al-Ittihad"
+    },
+    {
+      "id": "JOR-13",
+      "number": 13,
+      "name": "Hassan",
+      "position": "MF",
+      "club": "Sepahan"
+    },
+    {
+      "id": "JOR-14",
+      "number": 14,
+      "name": "Mahmoud",
+      "position": "MF",
+      "club": "Foolad"
+    },
+    {
+      "id": "JOR-15",
+      "number": 15,
+      "name": "Mohamed",
+      "position": "MF",
+      "club": "Arsenal"
+    },
+    {
+      "id": "JOR-16",
+      "number": 16,
+      "name": "Ali",
+      "position": "MF",
+      "club": "Chelsea"
+    },
+    {
+      "id": "JOR-17",
+      "number": 17,
+      "name": "Said",
+      "position": "MF",
+      "club": "Aston Villa"
+    },
+    {
+      "id": "JOR-18",
+      "number": 18,
+      "name": "Ibrahim",
+      "position": "MF",
+      "club": "Al-Nassr"
+    },
+    {
+      "id": "JOR-19",
+      "number": 19,
+      "name": "Karim",
+      "position": "MF",
+      "club": "Esteghlal"
+    },
+    {
+      "id": "JOR-20",
+      "number": 20,
+      "name": "Salah",
+      "position": "MF",
+      "club": "Tractor"
+    },
+    {
+      "id": "JOR-21",
+      "number": 21,
+      "name": "Youssef",
+      "position": "FW",
+      "club": "Liverpool"
+    },
+    {
+      "id": "JOR-22",
+      "number": 22,
+      "name": "Omar",
+      "position": "FW",
+      "club": "Borussia Dortmund"
+    },
+    {
+      "id": "JOR-23",
+      "number": 23,
+      "name": "Mostafa",
+      "position": "FW",
+      "club": "Newcastle"
+    },
+    {
+      "id": "JOR-24",
+      "number": 24,
+      "name": "Tarek",
+      "position": "FW",
+      "club": "Al-Hilal"
+    },
+    {
+      "id": "JOR-25",
+      "number": 25,
+      "name": "Ahmed",
+      "position": "FW",
+      "club": "Persepolis"
+    },
+    {
+      "id": "JOR-26",
+      "number": 26,
+      "name": "Khaled",
+      "position": "FW",
+      "club": "Al-Zawraa"
+    }
+  ]
+}

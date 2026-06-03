@@ -1,0 +1,386 @@
+{
+  "BRA": {
+    "id": "BRA", "name": "巴西", "nameEn": "Brazil",
+    "logo": "/logos/BRA.png", "flag": "/flags/BRA.png",
+    "group": "A", "fifaRank": 5, "fifaPoint": 1776,
+    "style": "技术流·攻守平衡",
+    "strength": ["前场创造力顶级", "中场控球细腻", "丰富大赛经验"],
+    "weakness": ["定位球防守一般", "心理抗压偶有起伏"]
+  },
+  "AUS": {
+    "id": "AUS", "name": "澳大利亚", "nameEn": "Australia",
+    "logo": "/logos/AUS.png", "flag": "/flags/AUS.png",
+    "group": "A", "fifaRank": 26, "fifaPoint": 1502,
+    "style": "高位逼抢·身体对抗",
+    "strength": ["体能充沛", "战术执行力强"],
+    "weakness": ["脚下技术粗糙", "面对强队创造力不足"]
+  },
+  "SCO": {
+    "id": "SCO", "name": "苏格兰", "nameEn": "Scotland",
+    "logo": "/logos/SCO.png", "flag": "/flags/SCO.png",
+    "group": "A", "fifaRank": 39, "fifaPoint": 1432,
+    "style": "硬朗防守·边路冲击",
+    "strength": ["防守拼抢凶悍", "定位球威胁大"],
+    "weakness": ["进攻创造力一般", "对阵控球队伍吃亏"]
+  },
+  "JAM": {
+    "id": "JAM", "name": "牙买加", "nameEn": "Jamaica",
+    "logo": "/logos/JAM.png", "flag": "/flags/JAM.png",
+    "group": "A", "fifaRank": 65, "fifaPoint": 1320,
+    "style": "速度反击·身体优势",
+    "strength": ["边路速度快", "对抗能力强"],
+    "weakness": ["阵型组织松散", "防守纪律性差"]
+  },
+  "CAN": {
+    "id": "CAN", "name": "加拿大", "nameEn": "Canada",
+    "logo": "/logos/CAN.png", "flag": "/flags/CAN.png",
+    "group": "B", "fifaRank": 30, "fifaPoint": 1485,
+    "style": "快速反击·主场气势",
+    "strength": ["边锋突击犀利", "主场氛围浓厚"],
+    "weakness": ["大赛经验不足", "中后场配合欠默契"]
+  },
+  "MAR": {
+    "id": "MAR", "name": "摩洛哥", "nameEn": "Morocco",
+    "logo": "/logos/MAR.png", "flag": "/flags/MAR.png",
+    "group": "B", "fifaRank": 12, "fifaPoint": 1670,
+    "style": "整体防守·快速反击",
+    "strength": ["防守组织严密", "球员技术全面", "团队凝聚力强"],
+    "weakness": ["阵地战创造力一般", "板凳厚度有限"]
+  },
+  "PAR": {
+    "id": "PAR", "name": "巴拉圭", "nameEn": "Paraguay",
+    "logo": "/logos/PAR.png", "flag": "/flags/PAR.png",
+    "group": "B", "fifaRank": 53, "fifaPoint": 1370,
+    "style": "硬朗防守·南美技术",
+    "strength": ["对抗强硬", "定位球得分能力"],
+    "weakness": ["进攻效率偏低", "节奏掌控不稳"]
+  },
+  "IRQ": {
+    "id": "IRQ", "name": "伊拉克", "nameEn": "Iraq",
+    "logo": "/logos/IRQ.png", "flag": "/flags/IRQ.png",
+    "group": "B", "fifaRank": 58, "fifaPoint": 1340,
+    "style": "中前场紧逼·中长传打击",
+    "strength": ["中场拦截积极", "斗志顽强"],
+    "weakness": ["体能后半程下滑", "高强度比赛经验有限"]
+  },
+  "GER": {
+    "id": "GER", "name": "德国", "nameEn": "Germany",
+    "logo": "/logos/GER.png", "flag": "/flags/GER.png",
+    "group": "C", "fifaRank": 9, "fifaPoint": 1715,
+    "style": "高位压迫·传控渗透",
+    "strength": ["中场组织能力强", "整体战术成熟", "锋线效率高"],
+    "weakness": ["后防线速度偏慢", "锋线把握机会有起伏"]
+  },
+  "ECU": {
+    "id": "ECU", "name": "厄瓜多尔", "nameEn": "Ecuador",
+    "logo": "/logos/ECU.png", "flag": "/flags/ECU.png",
+    "group": "C", "fifaRank": 28, "fifaPoint": 1488,
+    "style": "身体对抗·边路突破",
+    "strength": ["年轻球员潜力大", "身体素质出色"],
+    "weakness": ["大赛经验不足", "进攻最后一传欠精准"]
+  },
+  "EGY": {
+    "id": "EGY", "name": "埃及", "nameEn": "Egypt",
+    "logo": "/logos/EGY.png", "flag": "/flags/EGY.png",
+    "group": "C", "fifaRank": 35, "fifaPoint": 1455,
+    "style": "防守反击·球星驱动",
+    "strength": ["核心球员关键作用", "防守组织扎实"],
+    "weakness": ["过度依赖核心", "整体进攻火力不足"]
+  },
+  "DEN": {
+    "id": "DEN", "name": "丹麦", "nameEn": "Denmark",
+    "logo": "/logos/DEN.png", "flag": "/flags/DEN.png",
+    "group": "C", "fifaRank": 19, "fifaPoint": 1605,
+    "style": "团队足球·高效压迫",
+    "strength": ["团队配合默契", "高位压迫积极"],
+    "weakness": ["球星个人能力有限", "面对密集防守办法少"]
+  },
+  "MEX": {
+    "id": "MEX", "name": "墨西哥", "nameEn": "Mexico",
+    "logo": "/logos/MEX.png", "flag": "/flags/MEX.png",
+    "group": "D", "fifaRank": 14, "fifaPoint": 1655,
+    "style": "技术控球·主场优势",
+    "strength": ["主场气势如虹", "中场控球细腻", "高原适应好"],
+    "weakness": ["逢强队心态紧绷", "锋线把握机会一般"]
+  },
+  "KOR": {
+    "id": "KOR", "name": "韩国", "nameEn": "South Korea",
+    "logo": "/logos/KOR.png", "flag": "/flags/KOR.png",
+    "group": "D", "fifaRank": 22, "fifaPoint": 1545,
+    "style": "高强度跑动·快速反击",
+    "strength": ["体能充沛", "团队执行力强", "球星个人能力出色"],
+    "weakness": ["后防身高劣势", "面对硬仗易吃身体亏"]
+  },
+  "ALG": {
+    "id": "ALG", "name": "阿尔及利亚", "nameEn": "Algeria",
+    "logo": "/logos/ALG.png", "flag": "/flags/ALG.png",
+    "group": "D", "fifaRank": 33, "fifaPoint": 1462,
+    "style": "技术细腻·中场组织",
+    "strength": ["中场创造力强", "球员旅欧经验丰富"],
+    "weakness": ["防守稳定性不足", "球队凝聚力有起伏"]
+  },
+  "POL": {
+    "id": "POL", "name": "波兰", "nameEn": "Poland",
+    "logo": "/logos/POL.png", "flag": "/flags/POL.png",
+    "group": "D", "fifaRank": 31, "fifaPoint": 1480,
+    "style": "防守反击·高中锋战术",
+    "strength": ["禁区内抢点犀利", "定位球威胁大"],
+    "weakness": ["中场创造力欠缺", "整体进攻套路单一"]
+  },
+  "ARG": {
+    "id": "ARG", "name": "阿根廷", "nameEn": "Argentina",
+    "logo": "/logos/ARG.png", "flag": "/flags/ARG.png",
+    "group": "E", "fifaRank": 1, "fifaPoint": 1885,
+    "style": "技术控制·球星点亮",
+    "strength": ["卫冕冠军底蕴", "中场控制力强", "锋线创造力顶级"],
+    "weakness": ["核心球员年龄偏大", "替补深度有限"]
+  },
+  "JPN": {
+    "id": "JPN", "name": "日本", "nameEn": "Japan",
+    "logo": "/logos/JPN.png", "flag": "/flags/JPN.png",
+    "group": "E", "fifaRank": 17, "fifaPoint": 1635,
+    "style": "技术细腻·快速传切",
+    "strength": ["旅欧球员众多", "团队配合流畅", "战术纪律严明"],
+    "weakness": ["身体对抗吃亏", "高空球防守一般"]
+  },
+  "NOR": {
+    "id": "NOR", "name": "挪威", "nameEn": "Norway",
+    "logo": "/logos/NOR.png", "flag": "/flags/NOR.png",
+    "group": "E", "fifaRank": 38, "fifaPoint": 1438,
+    "style": "锋线杀器·快速反击",
+    "strength": ["世界级中锋", "边路冲击力强", "进球效率高"],
+    "weakness": ["大赛经验不足", "中场控制力一般"]
+  },
+  "TUR": {
+    "id": "TUR", "name": "土耳其", "nameEn": "Turkey",
+    "logo": "/logos/TUR.png", "flag": "/flags/TUR.png",
+    "group": "E", "fifaRank": 27, "fifaPoint": 1495,
+    "style": "技术对抗·斗志顽强",
+    "strength": ["球员旅欧水平高", "中场创造力出色"],
+    "weakness": ["防守稳定性差", "心态起伏明显"]
+  },
+  "FRA": {
+    "id": "FRA", "name": "法国", "nameEn": "France",
+    "logo": "/logos/FRA.png", "flag": "/flags/FRA.png",
+    "group": "F", "fifaRank": 2, "fifaPoint": 1856,
+    "style": "全能型·攻守俱佳",
+    "strength": ["阵容深度顶级", "球星个人能力突出", "战术多变"],
+    "weakness": ["更衣室管理需关注", "防线偶有走神"]
+  },
+  "SEN": {
+    "id": "SEN", "name": "塞内加尔", "nameEn": "Senegal",
+    "logo": "/logos/SEN.png", "flag": "/flags/SEN.png",
+    "group": "F", "fifaRank": 16, "fifaPoint": 1640,
+    "style": "身体爆发·快速反击",
+    "strength": ["身体素质出众", "锋线速度奇快", "非洲冠军底蕴"],
+    "weakness": ["阵地战进攻办法不多", "中场组织偶有失误"]
+  },
+  "PAN": {
+    "id": "PAN", "name": "巴拿马", "nameEn": "Panama",
+    "logo": "/logos/PAN.png", "flag": "/flags/PAN.png",
+    "group": "F", "fifaRank": 41, "fifaPoint": 1420,
+    "style": "防守稳固·身体对抗",
+    "strength": ["防守拼抢积极", "斗志顽强"],
+    "weakness": ["进攻火力不足", "球员个人能力有限"]
+  },
+  "ITA": {
+    "id": "ITA", "name": "意大利", "nameEn": "Italy",
+    "logo": "/logos/ITA.png", "flag": "/flags/ITA.png",
+    "group": "F", "fifaRank": 10, "fifaPoint": 1700,
+    "style": "防守艺术·阵地推进",
+    "strength": ["防守体系严密", "战术执行力强", "大赛底蕴深厚"],
+    "weakness": ["锋线缺少绝对杀手", "进攻偶显沉闷"]
+  },
+  "POR": {
+    "id": "POR", "name": "葡萄牙", "nameEn": "Portugal",
+    "logo": "/logos/POR.png", "flag": "/flags/POR.png",
+    "group": "G", "fifaRank": 6, "fifaPoint": 1755,
+    "style": "技术细腻·球星璀璨",
+    "strength": ["阵容人才济济", "中前场创造力强", "新老结合好"],
+    "weakness": ["核心球员年龄结构偏大", "防守纪律有起伏"]
+  },
+  "IRN": {
+    "id": "IRN", "name": "伊朗", "nameEn": "Iran",
+    "logo": "/logos/IRN.png", "flag": "/flags/IRN.png",
+    "group": "G", "fifaRank": 20, "fifaPoint": 1580,
+    "style": "整体防守·高位反击",
+    "strength": ["防守组织严密", "亚洲一流身体对抗"],
+    "weakness": ["阵地战创造力不足", "锋线效率偏低"]
+  },
+  "TUN": {
+    "id": "TUN", "name": "突尼斯", "nameEn": "Tunisia",
+    "logo": "/logos/TUN.png", "flag": "/flags/TUN.png",
+    "group": "G", "fifaRank": 42, "fifaPoint": 1418,
+    "style": "技战术结合·中场拦截",
+    "strength": ["中场拦截积极", "整体战术执行好"],
+    "weakness": ["锋线威胁不足", "面对强队办法不多"]
+  },
+  "NZL": {
+    "id": "NZL", "name": "新西兰", "nameEn": "New Zealand",
+    "logo": "/logos/NZL.png", "flag": "/flags/NZL.png",
+    "group": "G", "fifaRank": 91, "fifaPoint": 1180,
+    "style": "身体对抗·定位球",
+    "strength": ["高大中锋抢点", "斗志顽强"],
+    "weakness": ["技术粗糙", "整体水平有限"]
+  },
+  "USA": {
+    "id": "USA", "name": "美国", "nameEn": "United States",
+    "logo": "/logos/USA.png", "flag": "/flags/USA.png",
+    "group": "H", "fifaRank": 13, "fifaPoint": 1665,
+    "style": "高位压迫·主场气势",
+    "strength": ["年轻球员旅欧经验丰富", "主场优势明显", "体能充沛"],
+    "weakness": ["大赛大场面经验不足", "锋线效率不稳定"]
+  },
+  "SUI": {
+    "id": "SUI", "name": "瑞士", "nameEn": "Switzerland",
+    "logo": "/logos/SUI.png", "flag": "/flags/SUI.png",
+    "group": "H", "fifaRank": 18, "fifaPoint": 1620,
+    "style": "整体防守·稳健推进",
+    "strength": ["防守组织严密", "中场拦截能力强"],
+    "weakness": ["锋线缺少决定性球员", "进攻办法略单一"]
+  },
+  "CIV": {
+    "id": "CIV", "name": "科特迪瓦", "nameEn": "Côte d'Ivoire",
+    "logo": "/logos/CIV.png", "flag": "/flags/CIV.png",
+    "group": "H", "fifaRank": 36, "fifaPoint": 1452,
+    "style": "身体对抗·快速反击",
+    "strength": ["身体素质出色", "球员旅欧水平高"],
+    "weakness": ["大赛稳定性不足", "阵地战创造力一般"]
+  },
+  "HAI": {
+    "id": "HAI", "name": "海地", "nameEn": "Haiti",
+    "logo": "/logos/HAI.png", "flag": "/flags/HAI.png",
+    "group": "H", "fifaRank": 84, "fifaPoint": 1235,
+    "style": "速度反击·斗志顽强",
+    "strength": ["边路速度快", "比赛态度积极"],
+    "weakness": ["整体水平有限", "防守组织松散"]
+  },
+  "ENG": {
+    "id": "ENG", "name": "英格兰", "nameEn": "England",
+    "logo": "/logos/ENG.png", "flag": "/flags/ENG.png",
+    "group": "I", "fifaRank": 4, "fifaPoint": 1788,
+    "style": "全能进攻·边中结合",
+    "strength": ["阵容深度顶级", "中前场天才云集", "战术体系成熟"],
+    "weakness": ["大赛点球魔咒", "中场偶现失误"]
+  },
+  "URU": {
+    "id": "URU", "name": "乌拉圭", "nameEn": "Uruguay",
+    "logo": "/logos/URU.png", "flag": "/flags/URU.png",
+    "group": "I", "fifaRank": 15, "fifaPoint": 1648,
+    "style": "斗志顽强·南美技术",
+    "strength": ["球员旅欧经验丰富", "比赛韧性强", "锋线杀伤力大"],
+    "weakness": ["球员年龄结构偏大", "体能后半程下滑"]
+  },
+  "UZB": {
+    "id": "UZB", "name": "乌兹别克斯坦", "nameEn": "Uzbekistan",
+    "logo": "/logos/UZB.png", "flag": "/flags/UZB.png",
+    "group": "I", "fifaRank": 57, "fifaPoint": 1345,
+    "style": "技术控球·边路渗透",
+    "strength": ["年轻球员潜力大", "技术细腻"],
+    "weakness": ["首次世界杯经验为零", "对抗能力一般"]
+  },
+  "CUW": {
+    "id": "CUW", "name": "库拉索", "nameEn": "Curaçao",
+    "logo": "/logos/CUW.png", "flag": "/flags/CUW.png",
+    "group": "I", "fifaRank": 88, "fifaPoint": 1205,
+    "style": "灵活速度·身体对抗",
+    "strength": ["球员个人能力意外出色", "比赛态度积极"],
+    "weakness": ["大赛经验全无", "整体战术体系欠缺"]
+  },
+  "NED": {
+    "id": "NED", "name": "荷兰", "nameEn": "Netherlands",
+    "logo": "/logos/NED.png", "flag": "/flags/NED.png",
+    "group": "J", "fifaRank": 7, "fifaPoint": 1745,
+    "style": "全攻全守·技术流",
+    "strength": ["中后场组织出众", "阵容均衡", "战术体系完整"],
+    "weakness": ["锋线效率偶有起伏", "更衣室协调有挑战"]
+  },
+  "COL": {
+    "id": "COL", "name": "哥伦比亚", "nameEn": "Colombia",
+    "logo": "/logos/COL.png", "flag": "/flags/COL.png",
+    "group": "J", "fifaRank": 11, "fifaPoint": 1685,
+    "style": "南美技术·中场调度",
+    "strength": ["中场创造力顶级", "球员旅欧经验丰富", "团队凝聚力强"],
+    "weakness": ["核心球员年龄偏大", "锋线效率不稳"]
+  },
+  "QAT": {
+    "id": "QAT", "name": "卡塔尔", "nameEn": "Qatar",
+    "logo": "/logos/QAT.png", "flag": "/flags/QAT.png",
+    "group": "J", "fifaRank": 47, "fifaPoint": 1395,
+    "style": "技战术结合·亚洲精度",
+    "strength": ["阵容稳定", "战术执行力强", "近年大赛经验丰富"],
+    "weakness": ["身体对抗吃亏", "面对世界强队办法不多"]
+  },
+  "GHA": {
+    "id": "GHA", "name": "加纳", "nameEn": "Ghana",
+    "logo": "/logos/GHA.png", "flag": "/flags/GHA.png",
+    "group": "J", "fifaRank": 64, "fifaPoint": 1325,
+    "style": "身体对抗·快速反击",
+    "strength": ["球员身体素质出色", "比赛斗志顽强"],
+    "weakness": ["阵型组织偶现混乱", "防守稳定性不足"]
+  },
+  "BEL": {
+    "id": "BEL", "name": "比利时", "nameEn": "Belgium",
+    "logo": "/logos/BEL.png", "flag": "/flags/BEL.png",
+    "group": "K", "fifaRank": 8, "fifaPoint": 1735,
+    "style": "技术控制·球星驱动",
+    "strength": ["核心球员个人能力顶级", "中前场创造力强", "战术成熟"],
+    "weakness": ["更新换代尚未完成", "防守稳定性偶失"]
+  },
+  "AUT": {
+    "id": "AUT", "name": "奥地利", "nameEn": "Austria",
+    "logo": "/logos/AUT.png", "flag": "/flags/AUT.png",
+    "group": "K", "fifaRank": 25, "fifaPoint": 1510,
+    "style": "高位压迫·快速转换",
+    "strength": ["跑动积极", "中场拦截能力强", "战术纪律严明"],
+    "weakness": ["锋线缺少决定性球员", "面对密集防守办法少"]
+  },
+  "KSA": {
+    "id": "KSA", "name": "沙特阿拉伯", "nameEn": "Saudi Arabia",
+    "logo": "/logos/KSA.png", "flag": "/flags/KSA.png",
+    "group": "K", "fifaRank": 56, "fifaPoint": 1352,
+    "style": "技术控球·亚洲精度",
+    "strength": ["国内联赛水平提升", "战术执行力较好"],
+    "weakness": ["身体对抗吃亏", "锋线效率有限"]
+  },
+  "CPV": {
+    "id": "CPV", "name": "佛得角", "nameEn": "Cape Verde",
+    "logo": "/logos/CPV.png", "flag": "/flags/CPV.png",
+    "group": "K", "fifaRank": 70, "fifaPoint": 1295,
+    "style": "技术身体兼备·非洲风格",
+    "strength": ["球员旅欧背景出色", "团队凝聚力强"],
+    "weakness": ["首次世界杯经验为零", "板凳深度有限"]
+  },
+  "ESP": {
+    "id": "ESP", "name": "西班牙", "nameEn": "Spain",
+    "logo": "/logos/ESP.png", "flag": "/flags/ESP.png",
+    "group": "L", "fifaRank": 3, "fifaPoint": 1820,
+    "style": "传控大师·阵地战渗透",
+    "strength": ["中场控球出神入化", "战术体系顶级", "新生代球员崛起"],
+    "weakness": ["锋线缺少传统中锋", "面对身体流防守办法少"]
+  },
+  "CRO": {
+    "id": "CRO", "name": "克罗地亚", "nameEn": "Croatia",
+    "logo": "/logos/CRO.png", "flag": "/flags/CRO.png",
+    "group": "L", "fifaRank": 21, "fifaPoint": 1565,
+    "style": "中场调度·技术细腻",
+    "strength": ["中场组织能力顶级", "大赛经验极其丰富"],
+    "weakness": ["核心球员年龄结构偏大", "锋线杀伤力一般"]
+  },
+  "RSA": {
+    "id": "RSA", "name": "南非", "nameEn": "South Africa",
+    "logo": "/logos/RSA.png", "flag": "/flags/RSA.png",
+    "group": "L", "fifaRank": 55, "fifaPoint": 1358,
+    "style": "技术对抗·非洲风格",
+    "strength": ["年轻球员有冲击力", "团队配合提升"],
+    "weakness": ["大赛经验不足", "锋线效率欠佳"]
+  },
+  "JOR": {
+    "id": "JOR", "name": "约旦", "nameEn": "Jordan",
+    "logo": "/logos/JOR.png", "flag": "/flags/JOR.png",
+    "group": "L", "fifaRank": 62, "fifaPoint": 1330,
+    "style": "整体防守·快速反击",
+    "strength": ["防守纪律严明", "比赛斗志顽强"],
+    "weakness": ["首次世界杯经验为零", "进攻办法较少"]
+  }
+}

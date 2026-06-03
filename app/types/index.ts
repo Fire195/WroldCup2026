@@ -33,7 +33,7 @@ export interface Team {
   recentRecord: RecentRecord
 }
 
-export type MatchStage = 'group' | 'r16' | 'qf' | 'sf' | 'final' | 'third'
+export type MatchStage = 'group' | 'r32' | 'r16' | 'qf' | 'sf' | 'final' | 'third'
 export type MatchStatus = 'pending' | 'live' | 'ended'
 
 export interface MatchResult {

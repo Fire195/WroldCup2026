@@ -1,0 +1,14 @@
+{
+  "A": ["BRA","AUS","SCO","JAM"],
+  "B": ["CAN","MAR","PAR","IRQ"],
+  "C": ["GER","ECU","EGY","DEN"],
+  "D": ["MEX","KOR","ALG","POL"],
+  "E": ["ARG","JPN","NOR","TUR"],
+  "F": ["FRA","SEN","PAN","ITA"],
+  "G": ["POR","IRN","TUN","NZL"],
+  "H": ["USA","SUI","CIV","HAI"],
+  "I": ["ENG","URU","UZB","CUW"],
+  "J": ["NED","COL","QAT","GHA"],
+  "K": ["BEL","AUT","KSA","CPV"],
+  "L": ["ESP","CRO","RSA","JOR"]
+}
