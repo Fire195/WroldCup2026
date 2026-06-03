@@ -1,4 +1,5 @@
-import { defineEventHandler, getHeader, getMethod, createError, useRuntimeConfig } from 'h3'
+import { defineEventHandler, getHeader, getMethod, createError } from 'h3'
+import { useRuntimeConfig } from '#imports'
 import { runSync } from '~~/server/utils/syncEngine'
 
 export default defineEventHandler(async (event) => {

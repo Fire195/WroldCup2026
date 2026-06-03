@@ -51,7 +51,8 @@ export function calcChampionRates(teams: Team[], aliveIds: Set<string>): Record<
   const total = Object.values(raw).reduce((s, v) => s + v, 0)
   const out: Record<string, number> = {}
   for (const id of Object.keys(raw)) {
-    out[id] = total === 0 ? 0 : Math.round((raw[id] / total) * 100 * 10) / 10
+    const v = raw[id] ?? 0
+    out[id] = total === 0 ? 0 : Math.round((v / total) * 100 * 10) / 10
   }
   return out
 }

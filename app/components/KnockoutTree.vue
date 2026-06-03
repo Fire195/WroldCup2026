@@ -30,7 +30,7 @@ function eliminated(m: Match, side: 'home'|'away'): boolean {
     </div>
 
     <div class="md:hidden space-y-3">
-      <div v-for="m in props.bracket[stages[activeIndex].key]" :key="m.id"
+      <div v-for="m in (stages[activeIndex] && props.bracket[stages[activeIndex]!.key]) || []" :key="m.id"
         class="rounded-lg border border-gray-200 dark:border-gray-800 p-3 text-sm">
         <div class="flex justify-between" :class="eliminated(m,'home') ? 'opacity-40 line-through' : ''">
           <span>{{ teamName(m.homeTeamId) }}</span>

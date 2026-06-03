@@ -1,4 +1,5 @@
-import { defineEventHandler, useRuntimeConfig, createError } from 'h3'
+import { defineEventHandler, createError } from 'h3'
+import { useRuntimeConfig } from '#imports'
 import { kv } from '@vercel/kv'
 
 interface Scorer { rank: number; player: { name: string; nationality: string }; team: { tla: string }; goals: number }

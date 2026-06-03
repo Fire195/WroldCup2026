@@ -10,7 +10,10 @@ const group = computed(() => (route.params.group as string).toUpperCase())
 const teams = useTeamStore()
 await teams.hydrate()
 
-const { data } = await useFetch(() => `/api/groups/${group.value}`, { watch: [group] })
+const { data } = await useFetch<{ standings: any[]; fixtures: any[] }>(
+  () => `/api/groups/${group.value}`,
+  { watch: [group], default: () => ({ standings: [], fixtures: [] }) }
+)
 </script>
 <template>
   <div class="max-w-6xl mx-auto px-4 py-6 space-y-6">
