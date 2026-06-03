@@ -24,6 +24,7 @@ export interface Team {
   nameEn: string
   logo: string
   flag: string
+  flagEmoji?: string
   group: string
   fifaRank: number
   fifaPoint: number

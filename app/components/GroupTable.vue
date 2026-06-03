@@ -31,7 +31,8 @@ function toggle(id: string) { expanded.value = expanded.value === id ? null : id
             @click="toggle(row.teamId)"
           >
             <td class="px-3 py-2">
-              <NuxtLink :to="`/teams/${row.teamId}`" class="font-medium hover:text-brand-accent">
+              <NuxtLink :to="`/teams/${row.teamId}`" class="font-medium hover:text-brand-accent inline-flex items-center gap-1.5">
+                <span v-if="teams.byId(row.teamId)?.flagEmoji">{{ teams.byId(row.teamId)?.flagEmoji }}</span>
                 {{ teams.byId(row.teamId)?.name ?? row.teamId }}
               </NuxtLink>
             </td>

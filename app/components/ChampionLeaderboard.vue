@@ -13,6 +13,7 @@ const sorted = computed(() =>
   <ol class="rounded-xl border border-gray-200 dark:border-gray-800 divide-y divide-gray-200 dark:divide-gray-800">
     <li v-for="(item, i) in sorted" :key="item.id" class="flex items-center gap-3 p-3">
       <span class="w-6 text-center font-bold tabular-nums">{{ i + 1 }}</span>
+      <span v-if="item.team?.flagEmoji" class="text-lg">{{ item.team.flagEmoji }}</span>
       <NuxtLink v-if="item.team" :to="`/teams/${item.id}`" class="flex-1 truncate hover:text-brand-accent">
         {{ item.team.name }}
       </NuxtLink>

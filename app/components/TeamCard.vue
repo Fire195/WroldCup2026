@@ -5,7 +5,8 @@ defineProps<{ team: Team & { championRate: number } }>()
 <template>
   <div class="rounded-xl border border-gray-200 dark:border-gray-800 p-5">
     <div class="flex items-start gap-4">
-      <img :src="team.flag" :alt="team.name" class="w-16 h-12 object-cover rounded shadow"
+      <div v-if="team.flagEmoji" class="text-5xl leading-none flex-shrink-0">{{ team.flagEmoji }}</div>
+      <img v-else :src="team.flag" :alt="team.name" class="w-16 h-12 object-cover rounded shadow"
         loading="lazy" width="64" height="48" />
       <div class="flex-1 min-w-0">
         <h1 class="text-2xl font-bold truncate">{{ team.name }}</h1>

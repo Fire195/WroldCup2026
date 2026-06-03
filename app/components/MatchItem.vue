@@ -25,12 +25,16 @@ const time = computed(() => new Date(props.match.matchTime).toLocaleString('zh-C
       </span>
     </div>
     <div class="mt-2 grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <div class="text-right truncate">{{ home?.name }}</div>
+      <div class="text-right truncate">
+        <span v-if="home?.flagEmoji" class="mr-1">{{ home.flagEmoji }}</span>{{ home?.name }}
+      </div>
       <div class="text-center font-bold tabular-nums min-w-[64px]">
         <template v-if="match.result">{{ match.result.homeScore }} - {{ match.result.awayScore }}</template>
         <template v-else>VS</template>
       </div>
-      <div class="truncate">{{ away?.name }}</div>
+      <div class="truncate">
+        <span v-if="away?.flagEmoji" class="mr-1">{{ away.flagEmoji }}</span>{{ away?.name }}
+      </div>
     </div>
   </NuxtLink>
 </template>
