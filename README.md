@@ -1,75 +1,29 @@
-# Nuxt Minimal Starter
+# 2026 World Cup Predictions
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Nuxt 4 web app for the 2026 FIFA World Cup with live predictions, group standings,
+match prediction, and a knockout bracket with dynamic championship probabilities.
 
-## Setup
-
-Make sure to install dependencies:
+## Local development
 
 ```bash
-# npm
-npm install
-
-# pnpm
 pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
+cp .env.example .env  # fill in FOOTBALL_DATA_API_KEY
 pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
-
-Build the application for production:
+## Tests
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+pnpm test
+pnpm typecheck
 ```
 
-Locally preview production build:
+## Deploy to Vercel
 
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+1. Push to GitHub.
+2. Import repo on Vercel (Hobby tier is enough).
+3. Set environment variables:
+   - `FOOTBALL_DATA_API_KEY` — get one at https://www.football-data.org/client/register
+   - `CRON_SECRET` — random string; passed as `Authorization: Bearer ...` by Vercel cron
+4. Add the Vercel KV integration from the Vercel dashboard → Storage → KV.
+5. Deploy. Cron job will run at 02:00 / 09:00 / 14:00 / 22:00 UTC.
