@@ -8,32 +8,25 @@ const links = [
 ]
 </script>
 <template>
-  <header class="sticky top-0 z-30 bg-white border-b-4 border-black">
-    <!-- Trophy gold accent line -->
-    <div class="trophy-line"></div>
-
+  <header class="sticky top-0 z-30 bg-white/80 backdrop-blur-xl border-b border-stone-200/60">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-      <!-- Brand mark with stacked 26 -->
-      <NuxtLink to="/" class="flex items-center gap-3">
-        <div class="relative w-10 h-10 flex-shrink-0">
-          <div class="absolute inset-0 bg-wc-blue"></div>
-          <div class="absolute inset-0 m-0.5 bg-wc-green flex items-center justify-center">
-            <span class="font-display text-white text-xl tracking-tighter leading-none">26</span>
-          </div>
+      <!-- Brand -->
+      <NuxtLink to="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-wc-green to-wc-blue flex items-center justify-center text-white font-bold text-lg shadow-soft">
+          ⚽
         </div>
         <div class="flex flex-col">
-          <span class="font-display text-xl leading-none tracking-tight text-black">FIFA WORLD CUP</span>
-          <span class="font-mono text-[10px] text-wc-gray tracking-widest">PREDICT · 2026</span>
+          <span class="font-bold text-lg text-stone-900 tracking-tight">World Cup 2026</span>
+          <span class="text-2xs text-stone-500 font-medium">AI Predictions</span>
         </div>
       </NuxtLink>
 
       <!-- Desktop nav -->
-      <nav class="hidden md:flex items-center">
+      <nav class="hidden md:flex items-center gap-1">
         <NuxtLink v-for="l in links" :key="l.to" :to="l.to"
-          class="relative px-4 py-2 font-bold text-sm uppercase tracking-wide text-black hover:text-wc-green transition-colors group"
-          active-class="!text-wc-green">
+          class="px-4 py-2 text-sm font-medium text-stone-600 hover:text-stone-900 rounded-lg hover:bg-stone-100/60 transition-all"
+          active-class="!text-wc-green !bg-wc-green/10">
           {{ l.label }}
-          <span class="absolute bottom-0 left-4 right-4 h-0.5 bg-wc-green scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></span>
         </NuxtLink>
       </nav>
 

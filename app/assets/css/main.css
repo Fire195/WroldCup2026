@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Import World Cup Official Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap');
 
 @layer base {
   html {
@@ -12,98 +11,55 @@
   }
 
   body {
-    @apply bg-white text-gray-900 font-sans antialiased;
-  }
-
-  /* Stadium grass texture background (subtle) */
-  .bg-pitch {
+    @apply bg-stone-50 text-stone-900 font-sans antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     background-image:
-      repeating-linear-gradient(
-        90deg,
-        rgba(60, 172, 59, 0.02) 0px,
-        rgba(60, 172, 59, 0.02) 80px,
-        rgba(60, 172, 59, 0.04) 80px,
-        rgba(60, 172, 59, 0.04) 160px
-      );
+      radial-gradient(at 40% 20%, rgba(60, 172, 59, 0.03) 0px, transparent 50%),
+      radial-gradient(at 80% 80%, rgba(42, 57, 141, 0.03) 0px, transparent 50%);
   }
 }
 
 @layer components {
-  /* Section Eyebrow */
-  .eyebrow {
-    @apply text-[10px] uppercase tracking-widest font-bold text-wc-gray;
+  /* Refined Card */
+  .card-refined {
+    @apply bg-white rounded-2xl shadow-soft hover:shadow-soft-lg transition-shadow duration-300;
   }
 
-  /* Sport Card Frame */
-  .card-sport {
-    @apply bg-white border-2 border-black rounded-none relative;
-    box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 1);
-  }
-
-  .card-sport::before {
-    content: '';
-    @apply absolute top-0 left-0 w-1 h-full bg-wc-green;
-  }
-
-  /* Score Display */
+  /* Score Display - Clean & Bold */
   .score-display {
-    @apply font-display text-6xl tracking-tighter font-bold tabular-nums;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
+    @apply font-bold text-5xl tabular-nums tracking-tight;
   }
 
-  /* Status Pills - Sports Broadcast Style */
-  .pill {
-    @apply inline-flex items-center px-3 py-1 text-[11px] font-bold uppercase tracking-wider;
+  /* Status Badge */
+  .badge {
+    @apply inline-flex items-center px-2.5 py-1 rounded-full text-2xs font-semibold uppercase tracking-wide;
   }
 
-  .pill-pending { @apply pill bg-wc-gray-light text-wc-gray; }
-  .pill-live    { @apply pill bg-wc-red text-white animate-pulse; }
-  .pill-ended   { @apply pill bg-black text-white; }
+  .badge-pending { @apply badge bg-stone-200 text-stone-600; }
+  .badge-live    { @apply badge bg-wc-red/10 text-wc-red ring-1 ring-wc-red/20; }
+  .badge-ended   { @apply badge bg-stone-800 text-stone-100; }
 
-  /* Trophy Accent Line */
-  .trophy-line {
-    @apply h-1 bg-gradient-to-r from-wc-gold via-yellow-300 to-wc-gold;
+  /* Accent Line */
+  .accent-line {
+    @apply h-0.5 w-12 bg-gradient-to-r from-wc-green to-wc-blue rounded-full;
   }
 
-  /* Diagonal Stripe Pattern (team colors) */
-  .stripe-pattern {
-    background-image: repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 10px,
-      rgba(255, 255, 255, 0.05) 10px,
-      rgba(255, 255, 255, 0.05) 20px
-    );
-  }
-
-  /* Button - Primary Action */
+  /* Primary Button */
   .btn-primary {
-    @apply bg-wc-green text-white font-bold px-6 py-3 uppercase tracking-wider;
-    @apply border-2 border-black shadow-brutal hover:shadow-brutal-lg;
-    @apply transition-all duration-150 hover:-translate-y-0.5;
+    @apply bg-wc-green text-white font-semibold px-6 py-3 rounded-xl;
+    @apply hover:bg-wc-green/90 transition-all duration-200;
+    @apply shadow-soft hover:shadow-soft-lg;
   }
 
-  /* Geometric Corner Accent */
-  .corner-accent::after {
-    content: '';
-    @apply absolute top-0 right-0 w-0 h-0;
-    border-top: 20px solid currentColor;
-    border-left: 20px solid transparent;
+  /* Section Title */
+  .section-title {
+    @apply text-2xl font-bold text-stone-900 tracking-tight;
   }
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
-  }
-
-  /* Brutalist text shadow for scores */
-  .text-brutal {
-    text-shadow: 3px 3px 0 rgba(0, 0, 0, 1);
-  }
-
-  /* Stadium floodlight glow */
-  .glow-stadium {
-    box-shadow: 0 0 60px rgba(60, 172, 59, 0.3);
   }
 }

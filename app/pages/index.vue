@@ -13,63 +13,72 @@ const latestEnded = computed(() => matches.latestEnded)
 </script>
 <template>
   <div>
-    <!-- Hero Section -->
-    <section class="relative bg-wc-blue border-b-4 border-black overflow-hidden">
-      <div class="trophy-line"></div>
+    <!-- Hero -->
+    <section class="relative bg-gradient-to-br from-wc-blue via-wc-blue to-wc-green overflow-hidden">
+      <!-- Background image with overlay -->
+      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1920&q=80')] bg-cover bg-center opacity-20"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-wc-blue/90 via-wc-blue/85 to-wc-green/90"></div>
 
-      <!-- Geometric background pattern -->
+      <!-- Subtle pattern -->
       <div class="absolute inset-0 opacity-10">
-        <div class="absolute top-10 right-10 w-32 h-32 border-4 border-white rotate-45"></div>
-        <div class="absolute bottom-10 left-10 w-40 h-40 rounded-full border-4 border-white"></div>
+        <div class="absolute top-20 right-20 w-48 h-48 rounded-full border-4 border-white/30"></div>
+        <div class="absolute bottom-20 left-20 w-32 h-32 rounded-full border-4 border-white/30"></div>
       </div>
 
-      <div class="max-w-6xl mx-auto px-4 py-12 relative">
-        <div class="flex flex-col md:flex-row items-center justify-between gap-8">
-          <div class="text-white">
-            <div class="eyebrow text-wc-gold mb-2">AI 驱动预测引擎</div>
-            <h1 class="font-display text-5xl md:text-6xl mb-4 tracking-tight leading-none">
-              2026 FIFA<br>WORLD CUP
+      <div class="max-w-6xl mx-auto px-4 py-16 md:py-24 relative">
+        <div class="flex flex-col md:flex-row items-center justify-between gap-12">
+          <div class="text-white text-center md:text-left">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/20 backdrop-blur-sm text-sm font-semibold mb-6">
+              <span>⚡</span>
+              <span>AI 实时预测</span>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">
+              2026 FIFA<br>World Cup
             </h1>
-            <p class="text-lg opacity-90 mb-6">实时数据 · 深度分析 · 夺冠概率</p>
-            <div class="flex gap-3">
-              <NuxtLink to="/knockout" class="btn-primary">淘汰赛对阵</NuxtLink>
+            <p class="text-lg text-white/80 mb-8 max-w-md">
+              基于深度学习的赛事预测，实时更新夺冠概率与比赛结果
+            </p>
+            <div class="flex flex-wrap gap-3 justify-center md:justify-start">
+              <NuxtLink to="/knockout" class="btn-primary">
+                查看淘汰赛对阵
+              </NuxtLink>
               <NuxtLink to="/groups/A"
-                class="px-6 py-3 bg-white text-wc-blue font-bold uppercase tracking-wider border-2 border-black hover:bg-wc-gold hover:text-white transition-colors">
-                查看小组赛
+                class="px-6 py-3 rounded-xl bg-white/20 backdrop-blur-sm text-white font-semibold hover:bg-white/30 transition-all">
+                小组赛积分榜
               </NuxtLink>
             </div>
           </div>
 
-          <div class="text-9xl md:text-[12rem] animate-subtle-pulse">🏆</div>
+          <div class="text-8xl md:text-9xl opacity-90">🏆</div>
         </div>
       </div>
     </section>
 
     <div class="max-w-6xl mx-auto px-4 py-8 space-y-8">
-      <!-- TOP 5 Widget -->
+      <!-- TOP 5 -->
       <TopChampionWidget />
 
-      <!-- Today's Matches -->
+      <!-- Today -->
       <section>
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-1 h-8 bg-wc-green"></div>
-          <h2 class="font-display text-3xl uppercase tracking-tight">今日赛事</h2>
+          <h2 class="section-title">今日赛事</h2>
+          <div class="accent-line"></div>
         </div>
         <div v-if="todayMatches.length === 0"
-          class="text-center py-12 border-2 border-dashed border-gray-300">
-          <span class="text-4xl mb-2 block">⚽</span>
-          <p class="text-wc-gray font-bold">今日无比赛</p>
+          class="card-refined p-12 text-center">
+          <span class="text-5xl mb-3 block opacity-40">⚽</span>
+          <p class="text-stone-500 font-medium">今日无比赛</p>
         </div>
         <div v-else class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <MatchItem v-for="m in todayMatches" :key="m.id" :match="m" />
         </div>
       </section>
 
-      <!-- Latest Results -->
+      <!-- Latest -->
       <section>
         <div class="flex items-center gap-3 mb-4">
-          <div class="w-1 h-8 bg-wc-red"></div>
-          <h2 class="font-display text-3xl uppercase tracking-tight">最新赛果</h2>
+          <h2 class="section-title">最新赛果</h2>
+          <div class="accent-line"></div>
         </div>
         <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <MatchItem v-for="m in latestEnded" :key="m.id" :match="m" />

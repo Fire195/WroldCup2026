@@ -6,51 +6,54 @@ export default {
   theme: {
     extend: {
       colors: {
-        // 2026 FIFA World Cup Official Colors (flattened for @apply)
-        'wc-green': '#3CAC3B',        // American Green - primary action
-        'wc-blue': '#2A398D',         // Dark Blue - headers/cards
-        'wc-red': '#E61D25',          // Red - live/alert
-        'wc-gold': '#D4AF37',         // Trophy gold
-        'wc-gray': '#474A4A',         // Dark gray
-        'wc-gray-light': '#D1D4D1',   // Light gray
-        // Legacy brand kept for compatibility
+        // 2026 FIFA World Cup - Refined Palette
+        'wc-green': '#3CAC3B',
+        'wc-blue': '#2A398D',
+        'wc-red': '#E61D25',
+        'wc-gold': '#D4AF37',
+        'wc-gray': '#474A4A',
+        'wc-gray-light': '#D1D4D1',
+        // Softer neutrals for refined aesthetic
+        stone: {
+          50: '#FAFAF9',
+          100: '#F5F5F4',
+          200: '#E7E5E4',
+          300: '#D6D3D1',
+          800: '#292524',
+          900: '#1C1917',
+        },
         brand: { DEFAULT: '#3CAC3B', accent: '#E61D25' },
       },
       fontFamily: {
-        display: ['"Bebas Neue"', '"Oswald"', 'Impact', 'sans-serif'],
-        sans: ['"DM Sans"', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['"Inter"', 'system-ui', 'sans-serif'],
+        sans: ['"Inter"', 'system-ui', 'sans-serif'],
         mono: ['"JetBrains Mono"', 'Consolas', 'monospace'],
       },
-      letterSpacing: {
-        tighter: '-0.02em',
-        tight: '-0.01em',
-        widest: '0.15em',
+      fontSize: {
+        '2xs': ['0.625rem', '0.875rem'],
+      },
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
       },
       animation: {
-        'score-flip': 'scoreFlip 0.6s cubic-bezier(0.45, 0, 0.55, 1)',
-        'slide-in-right': 'slideInRight 0.5s cubic-bezier(0.16, 1, 0.3, 1)',
-        'pulse-ring': 'pulseRing 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+        'fade-in': 'fadeIn 600ms ease-out',
+        'slide-up': 'slideUp 600ms cubic-bezier(0.16, 1, 0.3, 1)',
       },
       keyframes: {
-        scoreFlip: {
-          '0%': { transform: 'rotateX(0deg)', opacity: '1' },
-          '49%': { transform: 'rotateX(90deg)', opacity: '0' },
-          '50%': { transform: 'rotateX(-90deg)', opacity: '0' },
-          '100%': { transform: 'rotateX(0deg)', opacity: '1' },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
         },
-        slideInRight: {
-          '0%': { transform: 'translateX(100%)', opacity: '0' },
-          '100%': { transform: 'translateX(0)', opacity: '1' },
-        },
-        pulseRing: {
-          '0%, 100%': { transform: 'scale(1)', opacity: '0.3' },
-          '50%': { transform: 'scale(1.05)', opacity: '0.5' },
+        slideUp: {
+          '0%': { opacity: '0', transform: 'translateY(16px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
         },
       },
       boxShadow: {
-        'brutal': '4px 4px 0 0 rgba(0, 0, 0, 1)',
-        'brutal-lg': '8px 8px 0 0 rgba(0, 0, 0, 1)',
-        'stadium': '0 20px 60px -10px rgba(42, 57, 141, 0.3)',
+        'soft': '0 2px 8px rgba(0, 0, 0, 0.06)',
+        'soft-lg': '0 4px 20px rgba(0, 0, 0, 0.08)',
+        'soft-xl': '0 8px 40px rgba(0, 0, 0, 0.1)',
       },
       screens: { xs: '375px' },
     },
