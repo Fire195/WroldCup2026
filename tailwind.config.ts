@@ -6,15 +6,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        // 2026 FIFA World Cup Official Colors
-        wc: {
-          green: '#3CAC3B',    // American Green - primary action
-          blue: '#2A398D',      // Dark Blue - headers/cards
-          red: '#E61D25',       // Red - live/alert
-          gold: '#D4AF37',      // Trophy gold
-          gray: '#474A4A',      // Dark gray
-          'gray-light': '#D1D4D1',
-        },
+        // 2026 FIFA World Cup Official Colors (flattened for @apply)
+        'wc-green': '#3CAC3B',        // American Green - primary action
+        'wc-blue': '#2A398D',         // Dark Blue - headers/cards
+        'wc-red': '#E61D25',          // Red - live/alert
+        'wc-gold': '#D4AF37',         // Trophy gold
+        'wc-gray': '#474A4A',         // Dark gray
+        'wc-gray-light': '#D1D4D1',   // Light gray
         // Legacy brand kept for compatibility
         brand: { DEFAULT: '#3CAC3B', accent: '#E61D25' },
       },
