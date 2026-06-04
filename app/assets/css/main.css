@@ -23,7 +23,12 @@
 @layer components {
   /* Refined Card */
   .card-refined {
-    @apply bg-white rounded-2xl shadow-soft hover:shadow-soft-lg transition-shadow duration-300;
+    @apply bg-white rounded-2xl transition-shadow duration-300;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .card-refined:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   }
 
   /* Score Display - Clean & Bold */
@@ -49,7 +54,11 @@
   .btn-primary {
     @apply bg-wc-green text-white font-semibold px-6 py-3 rounded-xl;
     @apply hover:bg-wc-green/90 transition-all duration-200;
-    @apply shadow-soft hover:shadow-soft-lg;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+
+  .btn-primary:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
   }
 
   /* Section Title */
