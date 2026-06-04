@@ -24,8 +24,8 @@ const { fetchWorldCupMatches } = await import('~~/server/utils/footballDataClien
 describe('runSync', () => {
   it('writes finished matches to KV with mapped TLAs', async () => {
     vi.mocked(fetchWorldCupMatches).mockResolvedValue([
-      { externalId: 1, homeTla: 'BRA', awayTla: 'AUS', status: 'FINISHED',
-        homeScore: 3, awayScore: 0, utcDate: '2026-06-11T16:00:00Z' },
+      { externalId: 1, homeTla: 'BRA', awayTla: 'MAR', status: 'FINISHED',
+        homeScore: 3, awayScore: 0, utcDate: '2026-06-13T22:00:00Z' },
     ])
     const result = await runSync('test-token')
     expect(result.updated).toBe(1)
@@ -34,8 +34,8 @@ describe('runSync', () => {
 
   it('skips matches not yet finished', async () => {
     vi.mocked(fetchWorldCupMatches).mockResolvedValue([
-      { externalId: 1, homeTla: 'BRA', awayTla: 'AUS', status: 'SCHEDULED',
-        homeScore: null, awayScore: null, utcDate: '2026-06-11T16:00:00Z' },
+      { externalId: 1, homeTla: 'BRA', awayTla: 'MAR', status: 'SCHEDULED',
+        homeScore: null, awayScore: null, utcDate: '2026-06-13T22:00:00Z' },
     ])
     const result = await runSync('test-token')
     expect(result.updated).toBe(0)

@@ -551,190 +551,6 @@
       "club": "Manchester City"
     }
   ],
-  "JAM": [
-    {
-      "id": "JAM-1",
-      "number": 1,
-      "name": "Sanchez",
-      "position": "GK",
-      "club": "Saprissa"
-    },
-    {
-      "id": "JAM-2",
-      "number": 2,
-      "name": "Ramirez",
-      "position": "GK",
-      "club": "Necaxa"
-    },
-    {
-      "id": "JAM-3",
-      "number": 3,
-      "name": "Cruz",
-      "position": "GK",
-      "club": "Manchester City"
-    },
-    {
-      "id": "JAM-4",
-      "number": 4,
-      "name": "Flores",
-      "position": "DF",
-      "club": "Atletico Madrid"
-    },
-    {
-      "id": "JAM-5",
-      "number": 5,
-      "name": "Rivera",
-      "position": "DF",
-      "club": "Bayer Leverkusen"
-    },
-    {
-      "id": "JAM-6",
-      "number": 6,
-      "name": "Gomez",
-      "position": "DF",
-      "club": "Porto"
-    },
-    {
-      "id": "JAM-7",
-      "number": 7,
-      "name": "Diaz",
-      "position": "DF",
-      "club": "LD Alajuelense"
-    },
-    {
-      "id": "JAM-8",
-      "number": 8,
-      "name": "Reyes",
-      "position": "DF",
-      "club": "Leon"
-    },
-    {
-      "id": "JAM-9",
-      "number": 9,
-      "name": "Morales",
-      "position": "DF",
-      "club": "Barcelona"
-    },
-    {
-      "id": "JAM-10",
-      "number": 10,
-      "name": "Ortiz",
-      "position": "DF",
-      "club": "PSG"
-    },
-    {
-      "id": "JAM-11",
-      "number": 11,
-      "name": "Gutierrez",
-      "position": "DF",
-      "club": "Roma"
-    },
-    {
-      "id": "JAM-12",
-      "number": 12,
-      "name": "Chavez",
-      "position": "DF",
-      "club": "Benfica"
-    },
-    {
-      "id": "JAM-13",
-      "number": 13,
-      "name": "Mendoza",
-      "position": "MF",
-      "club": "Chivas"
-    },
-    {
-      "id": "JAM-14",
-      "number": 14,
-      "name": "Aguilar",
-      "position": "MF",
-      "club": "Toluca"
-    },
-    {
-      "id": "JAM-15",
-      "number": 15,
-      "name": "Vargas",
-      "position": "MF",
-      "club": "Real Madrid"
-    },
-    {
-      "id": "JAM-16",
-      "number": 16,
-      "name": "Castillo",
-      "position": "MF",
-      "club": "Juventus"
-    },
-    {
-      "id": "JAM-17",
-      "number": 17,
-      "name": "Jimenez",
-      "position": "MF",
-      "club": "Napoli"
-    },
-    {
-      "id": "JAM-18",
-      "number": 18,
-      "name": "Ruiz",
-      "position": "MF",
-      "club": "Sevilla"
-    },
-    {
-      "id": "JAM-19",
-      "number": 19,
-      "name": "Alvarez",
-      "position": "MF",
-      "club": "Pumas"
-    },
-    {
-      "id": "JAM-20",
-      "number": 20,
-      "name": "Romero",
-      "position": "MF",
-      "club": "Atlas"
-    },
-    {
-      "id": "JAM-21",
-      "number": 21,
-      "name": "Suarez",
-      "position": "FW",
-      "club": "Bayern Munich"
-    },
-    {
-      "id": "JAM-22",
-      "number": 22,
-      "name": "Torres",
-      "position": "FW",
-      "club": "AC Milan"
-    },
-    {
-      "id": "JAM-23",
-      "number": 23,
-      "name": "Garcia",
-      "position": "FW",
-      "club": "Manchester United"
-    },
-    {
-      "id": "JAM-24",
-      "number": 24,
-      "name": "Soto",
-      "position": "FW",
-      "club": "Lyon"
-    },
-    {
-      "id": "JAM-25",
-      "number": 25,
-      "name": "Hernandez",
-      "position": "FW",
-      "club": "Monterrey"
-    },
-    {
-      "id": "JAM-26",
-      "number": 26,
-      "name": "Lopez",
-      "position": "FW",
-      "club": "Pachuca"
-    }
-  ],
   "CAN": [
     {
       "id": "CAN-1",
@@ -2023,190 +1839,6 @@
       "club": "Tractor"
     }
   ],
-  "DEN": [
-    {
-      "id": "DEN-1",
-      "number": 1,
-      "name": "Pedersen",
-      "position": "GK",
-      "club": "Tottenham"
-    },
-    {
-      "id": "DEN-2",
-      "number": 2,
-      "name": "Nielsen",
-      "position": "GK",
-      "club": "Marseille"
-    },
-    {
-      "id": "DEN-3",
-      "number": 3,
-      "name": "Jensen",
-      "position": "GK",
-      "club": "Rosenborg"
-    },
-    {
-      "id": "DEN-4",
-      "number": 4,
-      "name": "Kristiansen",
-      "position": "DF",
-      "club": "AIK"
-    },
-    {
-      "id": "DEN-5",
-      "number": 5,
-      "name": "Eriksen",
-      "position": "DF",
-      "club": "Liverpool"
-    },
-    {
-      "id": "DEN-6",
-      "number": 6,
-      "name": "Berg",
-      "position": "DF",
-      "club": "Borussia Dortmund"
-    },
-    {
-      "id": "DEN-7",
-      "number": 7,
-      "name": "Lund",
-      "position": "DF",
-      "club": "Newcastle"
-    },
-    {
-      "id": "DEN-8",
-      "number": 8,
-      "name": "Solberg",
-      "position": "DF",
-      "club": "Bodo/Glimt"
-    },
-    {
-      "id": "DEN-9",
-      "number": 9,
-      "name": "Haugen",
-      "position": "DF",
-      "club": "FC Midtjylland"
-    },
-    {
-      "id": "DEN-10",
-      "number": 10,
-      "name": "Dahl",
-      "position": "DF",
-      "club": "Barcelona"
-    },
-    {
-      "id": "DEN-11",
-      "number": 11,
-      "name": "Bakken",
-      "position": "DF",
-      "club": "PSG"
-    },
-    {
-      "id": "DEN-12",
-      "number": 12,
-      "name": "Moen",
-      "position": "DF",
-      "club": "Roma"
-    },
-    {
-      "id": "DEN-13",
-      "number": 13,
-      "name": "Jakobsen",
-      "position": "MF",
-      "club": "Benfica"
-    },
-    {
-      "id": "DEN-14",
-      "number": 14,
-      "name": "Kristensen",
-      "position": "MF",
-      "club": "FC Copenhagen"
-    },
-    {
-      "id": "DEN-15",
-      "number": 15,
-      "name": "Madsen",
-      "position": "MF",
-      "club": "Bayern Munich"
-    },
-    {
-      "id": "DEN-16",
-      "number": 16,
-      "name": "Christiansen",
-      "position": "MF",
-      "club": "AC Milan"
-    },
-    {
-      "id": "DEN-17",
-      "number": 17,
-      "name": "Thomsen",
-      "position": "MF",
-      "club": "Manchester United"
-    },
-    {
-      "id": "DEN-18",
-      "number": 18,
-      "name": "Sorensen",
-      "position": "MF",
-      "club": "Lyon"
-    },
-    {
-      "id": "DEN-19",
-      "number": 19,
-      "name": "Iversen",
-      "position": "MF",
-      "club": "Brann"
-    },
-    {
-      "id": "DEN-20",
-      "number": 20,
-      "name": "Ostergaard",
-      "position": "MF",
-      "club": "IFK Goteborg"
-    },
-    {
-      "id": "DEN-21",
-      "number": 21,
-      "name": "Nordby",
-      "position": "FW",
-      "club": "Arsenal"
-    },
-    {
-      "id": "DEN-22",
-      "number": 22,
-      "name": "Vik",
-      "position": "FW",
-      "club": "Chelsea"
-    },
-    {
-      "id": "DEN-23",
-      "number": 23,
-      "name": "Lie",
-      "position": "FW",
-      "club": "Aston Villa"
-    },
-    {
-      "id": "DEN-24",
-      "number": 24,
-      "name": "Strand",
-      "position": "FW",
-      "club": "Molde"
-    },
-    {
-      "id": "DEN-25",
-      "number": 25,
-      "name": "Aune",
-      "position": "FW",
-      "club": "Malmo FF"
-    },
-    {
-      "id": "DEN-26",
-      "number": 26,
-      "name": "Hansen",
-      "position": "FW",
-      "club": "Manchester City"
-    }
-  ],
   "MEX": [
     {
       "id": "MEX-1",
@@ -2757,190 +2389,6 @@
       "name": "Boutaib",
       "position": "FW",
       "club": "AC Milan"
-    }
-  ],
-  "POL": [
-    {
-      "id": "POL-1",
-      "number": 1,
-      "name": "Meier",
-      "position": "GK",
-      "club": "Marseille"
-    },
-    {
-      "id": "POL-2",
-      "number": 2,
-      "name": "Lehmann",
-      "position": "GK",
-      "club": "Barcelona"
-    },
-    {
-      "id": "POL-3",
-      "number": 3,
-      "name": "Schmid",
-      "position": "GK",
-      "club": "PSG"
-    },
-    {
-      "id": "POL-4",
-      "number": 4,
-      "name": "Schulze",
-      "position": "DF",
-      "club": "Roma"
-    },
-    {
-      "id": "POL-5",
-      "number": 5,
-      "name": "Maier",
-      "position": "DF",
-      "club": "Benfica"
-    },
-    {
-      "id": "POL-6",
-      "number": 6,
-      "name": "Mueller",
-      "position": "DF",
-      "club": "Arsenal"
-    },
-    {
-      "id": "POL-7",
-      "number": 7,
-      "name": "Schmidt",
-      "position": "DF",
-      "club": "Chelsea"
-    },
-    {
-      "id": "POL-8",
-      "number": 8,
-      "name": "Schneider",
-      "position": "DF",
-      "club": "Aston Villa"
-    },
-    {
-      "id": "POL-9",
-      "number": 9,
-      "name": "Fischer",
-      "position": "DF",
-      "club": "Real Madrid"
-    },
-    {
-      "id": "POL-10",
-      "number": 10,
-      "name": "Weber",
-      "position": "DF",
-      "club": "Juventus"
-    },
-    {
-      "id": "POL-11",
-      "number": 11,
-      "name": "Wagner",
-      "position": "DF",
-      "club": "Napoli"
-    },
-    {
-      "id": "POL-12",
-      "number": 12,
-      "name": "Becker",
-      "position": "DF",
-      "club": "Sevilla"
-    },
-    {
-      "id": "POL-13",
-      "number": 13,
-      "name": "Hoffmann",
-      "position": "MF",
-      "club": "Liverpool"
-    },
-    {
-      "id": "POL-14",
-      "number": 14,
-      "name": "Schulz",
-      "position": "MF",
-      "club": "Borussia Dortmund"
-    },
-    {
-      "id": "POL-15",
-      "number": 15,
-      "name": "Koch",
-      "position": "MF",
-      "club": "Newcastle"
-    },
-    {
-      "id": "POL-16",
-      "number": 16,
-      "name": "Bauer",
-      "position": "MF",
-      "club": "Bayern Munich"
-    },
-    {
-      "id": "POL-17",
-      "number": 17,
-      "name": "Richter",
-      "position": "MF",
-      "club": "AC Milan"
-    },
-    {
-      "id": "POL-18",
-      "number": 18,
-      "name": "Klein",
-      "position": "MF",
-      "club": "Manchester United"
-    },
-    {
-      "id": "POL-19",
-      "number": 19,
-      "name": "Wolf",
-      "position": "MF",
-      "club": "Lyon"
-    },
-    {
-      "id": "POL-20",
-      "number": 20,
-      "name": "Schroeder",
-      "position": "MF",
-      "club": "Manchester City"
-    },
-    {
-      "id": "POL-21",
-      "number": 21,
-      "name": "Neumann",
-      "position": "FW",
-      "club": "Atletico Madrid"
-    },
-    {
-      "id": "POL-22",
-      "number": 22,
-      "name": "Schwarz",
-      "position": "FW",
-      "club": "Bayer Leverkusen"
-    },
-    {
-      "id": "POL-23",
-      "number": 23,
-      "name": "Zimmermann",
-      "position": "FW",
-      "club": "Porto"
-    },
-    {
-      "id": "POL-24",
-      "number": 24,
-      "name": "Braun",
-      "position": "FW",
-      "club": "Inter"
-    },
-    {
-      "id": "POL-25",
-      "number": 25,
-      "name": "Krueger",
-      "position": "FW",
-      "club": "Tottenham"
-    },
-    {
-      "id": "POL-26",
-      "number": 26,
-      "name": "Hartmann",
-      "position": "FW",
-      "club": "Marseille"
     }
   ],
   "ARG": [
@@ -4229,190 +3677,6 @@
       "name": "Cruz",
       "position": "FW",
       "club": "Queretaro"
-    }
-  ],
-  "ITA": [
-    {
-      "id": "ITA-1",
-      "number": 1,
-      "name": "Conti",
-      "position": "GK",
-      "club": "Lyon"
-    },
-    {
-      "id": "ITA-2",
-      "number": 2,
-      "name": "De Luca",
-      "position": "GK",
-      "club": "Napoli"
-    },
-    {
-      "id": "ITA-3",
-      "number": 3,
-      "name": "Mancini",
-      "position": "GK",
-      "club": "Genoa"
-    },
-    {
-      "id": "ITA-4",
-      "number": 4,
-      "name": "Costa",
-      "position": "DF",
-      "club": "Real Madrid"
-    },
-    {
-      "id": "ITA-5",
-      "number": 5,
-      "name": "Giordano",
-      "position": "DF",
-      "club": "Juventus"
-    },
-    {
-      "id": "ITA-6",
-      "number": 6,
-      "name": "Rizzo",
-      "position": "DF",
-      "club": "Napoli"
-    },
-    {
-      "id": "ITA-7",
-      "number": 7,
-      "name": "Lombardi",
-      "position": "DF",
-      "club": "Sevilla"
-    },
-    {
-      "id": "ITA-8",
-      "number": 8,
-      "name": "Moretti",
-      "position": "DF",
-      "club": "Roma"
-    },
-    {
-      "id": "ITA-9",
-      "number": 9,
-      "name": "Barbieri",
-      "position": "DF",
-      "club": "Empoli"
-    },
-    {
-      "id": "ITA-10",
-      "number": 10,
-      "name": "Fontana",
-      "position": "DF",
-      "club": "Barcelona"
-    },
-    {
-      "id": "ITA-11",
-      "number": 11,
-      "name": "Caruso",
-      "position": "DF",
-      "club": "PSG"
-    },
-    {
-      "id": "ITA-12",
-      "number": 12,
-      "name": "Mariani",
-      "position": "DF",
-      "club": "Roma"
-    },
-    {
-      "id": "ITA-13",
-      "number": 13,
-      "name": "Ferri",
-      "position": "MF",
-      "club": "Benfica"
-    },
-    {
-      "id": "ITA-14",
-      "number": 14,
-      "name": "Galli",
-      "position": "MF",
-      "club": "Lazio"
-    },
-    {
-      "id": "ITA-15",
-      "number": 15,
-      "name": "Martinelli",
-      "position": "MF",
-      "club": "Lecce"
-    },
-    {
-      "id": "ITA-16",
-      "number": 16,
-      "name": "Leone",
-      "position": "MF",
-      "club": "Manchester City"
-    },
-    {
-      "id": "ITA-17",
-      "number": 17,
-      "name": "Longo",
-      "position": "MF",
-      "club": "Atletico Madrid"
-    },
-    {
-      "id": "ITA-18",
-      "number": 18,
-      "name": "Gentile",
-      "position": "MF",
-      "club": "Bayer Leverkusen"
-    },
-    {
-      "id": "ITA-19",
-      "number": 19,
-      "name": "Rossi",
-      "position": "MF",
-      "club": "Porto"
-    },
-    {
-      "id": "ITA-20",
-      "number": 20,
-      "name": "Russo",
-      "position": "MF",
-      "club": "Atalanta"
-    },
-    {
-      "id": "ITA-21",
-      "number": 21,
-      "name": "Ferrari",
-      "position": "FW",
-      "club": "Sassuolo"
-    },
-    {
-      "id": "ITA-22",
-      "number": 22,
-      "name": "Esposito",
-      "position": "FW",
-      "club": "Liverpool"
-    },
-    {
-      "id": "ITA-23",
-      "number": 23,
-      "name": "Bianchi",
-      "position": "FW",
-      "club": "Borussia Dortmund"
-    },
-    {
-      "id": "ITA-24",
-      "number": 24,
-      "name": "Romano",
-      "position": "FW",
-      "club": "Newcastle"
-    },
-    {
-      "id": "ITA-25",
-      "number": 25,
-      "name": "Colombo",
-      "position": "FW",
-      "club": "Inter"
-    },
-    {
-      "id": "ITA-26",
-      "number": 26,
-      "name": "Ricci",
-      "position": "FW",
-      "club": "Fiorentina"
     }
   ],
   "POR": [
@@ -8829,6 +8093,742 @@
       "name": "Khaled",
       "position": "FW",
       "club": "Al-Zawraa"
+    }
+  ],
+  "CZE": [
+    {
+      "id": "CZE_01",
+      "number": 1,
+      "name": "Czech Player 1",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_02",
+      "number": 2,
+      "name": "Czech Player 2",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_03",
+      "number": 3,
+      "name": "Czech Player 3",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_04",
+      "number": 4,
+      "name": "Czech Player 4",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_05",
+      "number": 5,
+      "name": "Czech Player 5",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_06",
+      "number": 6,
+      "name": "Czech Player 6",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_07",
+      "number": 7,
+      "name": "Czech Player 7",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_08",
+      "number": 8,
+      "name": "Czech Player 8",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_09",
+      "number": 9,
+      "name": "Czech Player 9",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_10",
+      "number": 10,
+      "name": "Czech Player 10",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_11",
+      "number": 11,
+      "name": "Czech Player 11",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_12",
+      "number": 12,
+      "name": "Czech Player 12",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_13",
+      "number": 13,
+      "name": "Czech Player 13",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_14",
+      "number": 14,
+      "name": "Czech Player 14",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_15",
+      "number": 15,
+      "name": "Czech Player 15",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_16",
+      "number": 16,
+      "name": "Czech Player 16",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_17",
+      "number": 17,
+      "name": "Czech Player 17",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_18",
+      "number": 18,
+      "name": "Czech Player 18",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_19",
+      "number": 19,
+      "name": "Czech Player 19",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_20",
+      "number": 20,
+      "name": "Czech Player 20",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_21",
+      "number": 21,
+      "name": "Czech Player 21",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_22",
+      "number": 22,
+      "name": "Czech Player 22",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_23",
+      "number": 23,
+      "name": "Czech Player 23",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_24",
+      "number": 24,
+      "name": "Czech Player 24",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_25",
+      "number": 25,
+      "name": "Czech Player 25",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "CZE_26",
+      "number": 26,
+      "name": "Czech Player 26",
+      "position": "FW",
+      "club": "TBD"
+    }
+  ],
+  "BIH": [
+    {
+      "id": "BIH_01",
+      "number": 1,
+      "name": "Bosnian Player 1",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_02",
+      "number": 2,
+      "name": "Bosnian Player 2",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_03",
+      "number": 3,
+      "name": "Bosnian Player 3",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_04",
+      "number": 4,
+      "name": "Bosnian Player 4",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_05",
+      "number": 5,
+      "name": "Bosnian Player 5",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_06",
+      "number": 6,
+      "name": "Bosnian Player 6",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_07",
+      "number": 7,
+      "name": "Bosnian Player 7",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_08",
+      "number": 8,
+      "name": "Bosnian Player 8",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_09",
+      "number": 9,
+      "name": "Bosnian Player 9",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_10",
+      "number": 10,
+      "name": "Bosnian Player 10",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_11",
+      "number": 11,
+      "name": "Bosnian Player 11",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_12",
+      "number": 12,
+      "name": "Bosnian Player 12",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_13",
+      "number": 13,
+      "name": "Bosnian Player 13",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_14",
+      "number": 14,
+      "name": "Bosnian Player 14",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_15",
+      "number": 15,
+      "name": "Bosnian Player 15",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_16",
+      "number": 16,
+      "name": "Bosnian Player 16",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_17",
+      "number": 17,
+      "name": "Bosnian Player 17",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_18",
+      "number": 18,
+      "name": "Bosnian Player 18",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_19",
+      "number": 19,
+      "name": "Bosnian Player 19",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_20",
+      "number": 20,
+      "name": "Bosnian Player 20",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_21",
+      "number": 21,
+      "name": "Bosnian Player 21",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_22",
+      "number": 22,
+      "name": "Bosnian Player 22",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_23",
+      "number": 23,
+      "name": "Bosnian Player 23",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_24",
+      "number": 24,
+      "name": "Bosnian Player 24",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_25",
+      "number": 25,
+      "name": "Bosnian Player 25",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "BIH_26",
+      "number": 26,
+      "name": "Bosnian Player 26",
+      "position": "FW",
+      "club": "TBD"
+    }
+  ],
+  "SWE": [
+    {
+      "id": "SWE_01",
+      "number": 1,
+      "name": "Swedish Player 1",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_02",
+      "number": 2,
+      "name": "Swedish Player 2",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_03",
+      "number": 3,
+      "name": "Swedish Player 3",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_04",
+      "number": 4,
+      "name": "Swedish Player 4",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_05",
+      "number": 5,
+      "name": "Swedish Player 5",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_06",
+      "number": 6,
+      "name": "Swedish Player 6",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_07",
+      "number": 7,
+      "name": "Swedish Player 7",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_08",
+      "number": 8,
+      "name": "Swedish Player 8",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_09",
+      "number": 9,
+      "name": "Swedish Player 9",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_10",
+      "number": 10,
+      "name": "Swedish Player 10",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_11",
+      "number": 11,
+      "name": "Swedish Player 11",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_12",
+      "number": 12,
+      "name": "Swedish Player 12",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_13",
+      "number": 13,
+      "name": "Swedish Player 13",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_14",
+      "number": 14,
+      "name": "Swedish Player 14",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_15",
+      "number": 15,
+      "name": "Swedish Player 15",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_16",
+      "number": 16,
+      "name": "Swedish Player 16",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_17",
+      "number": 17,
+      "name": "Swedish Player 17",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_18",
+      "number": 18,
+      "name": "Swedish Player 18",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_19",
+      "number": 19,
+      "name": "Swedish Player 19",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_20",
+      "number": 20,
+      "name": "Swedish Player 20",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_21",
+      "number": 21,
+      "name": "Swedish Player 21",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_22",
+      "number": 22,
+      "name": "Swedish Player 22",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_23",
+      "number": 23,
+      "name": "Swedish Player 23",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_24",
+      "number": 24,
+      "name": "Swedish Player 24",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_25",
+      "number": 25,
+      "name": "Swedish Player 25",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "SWE_26",
+      "number": 26,
+      "name": "Swedish Player 26",
+      "position": "FW",
+      "club": "TBD"
+    }
+  ],
+  "COD": [
+    {
+      "id": "COD_01",
+      "number": 1,
+      "name": "Congolese Player 1",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_02",
+      "number": 2,
+      "name": "Congolese Player 2",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_03",
+      "number": 3,
+      "name": "Congolese Player 3",
+      "position": "GK",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_04",
+      "number": 4,
+      "name": "Congolese Player 4",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_05",
+      "number": 5,
+      "name": "Congolese Player 5",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_06",
+      "number": 6,
+      "name": "Congolese Player 6",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_07",
+      "number": 7,
+      "name": "Congolese Player 7",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_08",
+      "number": 8,
+      "name": "Congolese Player 8",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_09",
+      "number": 9,
+      "name": "Congolese Player 9",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_10",
+      "number": 10,
+      "name": "Congolese Player 10",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_11",
+      "number": 11,
+      "name": "Congolese Player 11",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_12",
+      "number": 12,
+      "name": "Congolese Player 12",
+      "position": "DF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_13",
+      "number": 13,
+      "name": "Congolese Player 13",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_14",
+      "number": 14,
+      "name": "Congolese Player 14",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_15",
+      "number": 15,
+      "name": "Congolese Player 15",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_16",
+      "number": 16,
+      "name": "Congolese Player 16",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_17",
+      "number": 17,
+      "name": "Congolese Player 17",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_18",
+      "number": 18,
+      "name": "Congolese Player 18",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_19",
+      "number": 19,
+      "name": "Congolese Player 19",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_20",
+      "number": 20,
+      "name": "Congolese Player 20",
+      "position": "MF",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_21",
+      "number": 21,
+      "name": "Congolese Player 21",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_22",
+      "number": 22,
+      "name": "Congolese Player 22",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_23",
+      "number": 23,
+      "name": "Congolese Player 23",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_24",
+      "number": 24,
+      "name": "Congolese Player 24",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_25",
+      "number": 25,
+      "name": "Congolese Player 25",
+      "position": "FW",
+      "club": "TBD"
+    },
+    {
+      "id": "COD_26",
+      "number": 26,
+      "name": "Congolese Player 26",
+      "position": "FW",
+      "club": "TBD"
     }
   ]
 }

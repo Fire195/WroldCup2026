@@ -15,7 +15,7 @@ describe('GET /api/teams', () => {
     const bra = result.find((t: any) => t.id === 'BRA')!
     expect(bra.championRate).toBe(18.5)
     expect(bra.recentRecord).toBeDefined()
-    const jam = result.find((t: any) => t.id === 'JAM')!
-    expect(jam.championRate).toBe(0)
+    const bih = result.find((t: any) => t.id === 'BIH')!
+    expect(bih.championRate).toBe(0)
   })
 })
