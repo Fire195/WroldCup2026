@@ -4,10 +4,10 @@ const ui = useUiStore()
 </script>
 <template>
   <button
-    class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 min-w-[44px] min-h-[44px]"
+    class="w-10 h-10 flex items-center justify-center border-2 border-black bg-white hover:bg-wc-gold transition-colors"
     :aria-label="ui.theme === 'dark' ? '切换到浅色' : '切换到深色'"
     @click="ui.toggleTheme"
   >
-    {{ ui.theme === 'dark' ? '☀️' : '🌙' }}
+    <span class="text-base">{{ ui.theme === 'dark' ? '☀' : '◐' }}</span>
   </button>
 </template>

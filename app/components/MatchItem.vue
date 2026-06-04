@@ -12,28 +12,53 @@ const time = computed(() => new Date(props.match.matchTime).toLocaleString('zh-C
 </script>
 <template>
   <NuxtLink :to="`/matches/${match.id}`"
-    class="block p-3 rounded-lg border border-gray-200 dark:border-gray-800 hover:bg-gray-50 dark:hover:bg-gray-900 min-h-[60px]">
-    <div class="flex items-center justify-between text-sm">
-      <span class="text-gray-500">{{ time }}</span>
-      <span class="px-2 py-0.5 rounded text-xs"
-        :class="{
-          'bg-gray-200 dark:bg-gray-800': match.status === 'pending',
-          'bg-red-100 text-red-700 animate-pulse': match.status === 'live',
-          'bg-green-100 text-green-700': match.status === 'ended',
-        }">
-        {{ { pending: '未开始', live: '进行中', ended: '已结束' }[match.status] }}
-      </span>
-    </div>
-    <div class="mt-2 grid grid-cols-[1fr_auto_1fr] items-center gap-2">
-      <div class="text-right truncate">
-        <span v-if="home?.flagEmoji" class="mr-1">{{ home.flagEmoji }}</span>{{ home?.name }}
+    class="block relative bg-white border-2 border-black hover:shadow-brutal transition-all hover:-translate-y-0.5 group">
+    <!-- Green accent bar -->
+    <div class="absolute top-0 left-0 w-1 h-full bg-wc-green"></div>
+
+    <div class="p-4 pl-5">
+      <!-- Header: time + status -->
+      <div class="flex items-center justify-between mb-3">
+        <span class="font-mono text-xs text-wc-gray">{{ time }}</span>
+        <span
+          :class="{
+            'pill-pending': match.status === 'pending',
+            'pill-live': match.status === 'live',
+            'pill-ended': match.status === 'ended',
+          }">
+          {{ { pending: '未开始', live: '进行中', ended: '已结束' }[match.status] }}
+        </span>
       </div>
-      <div class="text-center font-bold tabular-nums min-w-[64px]">
-        <template v-if="match.result">{{ match.result.homeScore }} - {{ match.result.awayScore }}</template>
-        <template v-else>VS</template>
-      </div>
-      <div class="truncate">
-        <span v-if="away?.flagEmoji" class="mr-1">{{ away.flagEmoji }}</span>{{ away?.name }}
+
+      <!-- Match: teams + score -->
+      <div class="grid grid-cols-[1fr_auto_1fr] items-center gap-3">
+        <!-- Home team -->
+        <div class="text-right">
+          <div class="flex items-center justify-end gap-2">
+            <span class="font-bold text-sm truncate">{{ home?.name }}</span>
+            <span v-if="home?.flagEmoji" class="text-2xl flex-shrink-0">{{ home.flagEmoji }}</span>
+          </div>
+        </div>
+
+        <!-- Score / VS -->
+        <div class="text-center min-w-[80px]">
+          <template v-if="match.result">
+            <div class="font-display text-3xl tracking-tighter leading-none">
+              {{ match.result.homeScore }}<span class="text-wc-gray mx-1">:</span>{{ match.result.awayScore }}
+            </div>
+          </template>
+          <template v-else>
+            <div class="font-bold text-wc-gray text-sm">VS</div>
+          </template>
+        </div>
+
+        <!-- Away team -->
+        <div class="text-left">
+          <div class="flex items-center gap-2">
+            <span v-if="away?.flagEmoji" class="text-2xl flex-shrink-0">{{ away.flagEmoji }}</span>
+            <span class="font-bold text-sm truncate">{{ away?.name }}</span>
+          </div>
+        </div>
       </div>
     </div>
   </NuxtLink>
