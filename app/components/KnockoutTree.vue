@@ -81,7 +81,7 @@ function isWinner(m: Match, side: 'home' | 'away'): boolean {
           <div class="space-y-2 text-sm">
             <div :class="isEliminated(leftSF, 'home') ? 'opacity-50' : ''">
               <span class="text-xl mr-1">{{ teamFlag(leftSF.homeTeamId) }}</span>
-              <span class="font-bold text-xs">{{ m.result?.homeScore ?? '-' }}</span>
+              <span class="font-bold">{{ leftSF.result?.homeScore ?? '-' }}</span>
             </div>
             <div :class="isEliminated(leftSF, 'away') ? 'opacity-50' : ''">
               <span class="text-xl mr-1">{{ teamFlag(leftSF.awayTeamId) }}</span>
