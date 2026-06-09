@@ -47,6 +47,7 @@ function getTrend(points: number[]): 'up' | 'down' | 'flat' {
   if (points.length < 2) return 'flat'
   const first = points[0]
   const last = points[points.length - 1]
+  if (first === undefined || last === undefined) return 'flat'
   const diff = last - first
   if (Math.abs(diff) < 0.5) return 'flat'
   return diff > 0 ? 'up' : 'down'
