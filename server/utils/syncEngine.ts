@@ -2,7 +2,7 @@ import schedule from '~~/app/data/schedule.json'
 import teamsJson from '~~/app/data/teams.json'
 import recordsJson from '~~/app/data/recentRecords.json'
 import { fetchWorldCupMatches } from './footballDataClient'
-import { setMatchResult, setChampionRates, getMatchResult } from './kvClient'
+import { setMatchResult, setChampionRates, getMatchResult, setChampionRatesHistory } from './kvClient'
 import { calcChampionRates } from '~/utils/probabilityCalc'
 import type { Team } from '~/types'
 
@@ -46,6 +46,11 @@ export async function runSync(token: string): Promise<SyncResult> {
     const alive = await computeAliveTeams()
     const rates = calcChampionRates(teamArray, alive)
     await setChampionRates(rates)
+
+    // Store historical snapshot for trend chart
+    const today = new Date().toISOString().slice(0, 10) // YYYY-MM-DD
+    await setChampionRatesHistory(today, rates)
+
     return { updated }
   } catch (e: any) {
     return { updated, error: e.message ?? String(e) }
