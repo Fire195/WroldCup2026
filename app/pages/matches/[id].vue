@@ -18,12 +18,12 @@ const away = computed(() => match.value && teams.byId(match.value.awayTeamId))
 </script>
 <template>
   <div v-if="match && home && away" class="max-w-3xl mx-auto px-4 py-6 space-y-5">
-    <h1 class="text-xl font-bold text-center">
+    <h1 class="text-xl font-bold text-center dark:text-gray-100">
       <NuxtLink :to="`/teams/${home.id}`" class="hover:text-brand">{{ home.name }}</NuxtLink>
-      <span class="mx-3 text-gray-400">VS</span>
+      <span class="mx-3 text-gray-400 dark:text-gray-500">VS</span>
       <NuxtLink :to="`/teams/${away.id}`" class="hover:text-brand">{{ away.name }}</NuxtLink>
     </h1>
-    <p class="text-sm text-gray-500 text-center">
+    <p class="text-sm text-gray-500 dark:text-gray-400 text-center">
       {{ new Date(match.matchTime).toLocaleString('zh-CN') }} · {{ match.venue }}
     </p>
 

@@ -16,10 +16,10 @@ const latestEnded = computed(() => matches.latestEnded)
     <!-- Hero -->
     <section class="relative bg-gradient-to-br from-wc-blue via-wc-blue to-wc-green overflow-hidden">
       <!-- Background image with overlay -->
-      <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=1920&q=80')] bg-cover bg-center opacity-20"></div>
-      <div class="absolute inset-0 bg-gradient-to-br from-wc-blue/90 via-wc-blue/85 to-wc-green/90"></div>
+      <div class="absolute inset-0 bg-[url('/hero-bg.webp')] bg-cover bg-center opacity-30"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-wc-blue/80 via-wc-blue/75 to-wc-green/80"></div>
 
-      <!-- Subtle pattern -->
+      <!-- Decorative pattern -->
       <div class="absolute inset-0 opacity-10">
         <div class="absolute top-20 right-20 w-48 h-48 rounded-full border-4 border-white/30"></div>
         <div class="absolute bottom-20 left-20 w-32 h-32 rounded-full border-4 border-white/30"></div>
@@ -67,7 +67,7 @@ const latestEnded = computed(() => matches.latestEnded)
         <div v-if="todayMatches.length === 0"
           class="card-refined p-12 text-center">
           <span class="text-5xl mb-3 block opacity-40">⚽</span>
-          <p class="text-stone-500 font-medium">今日无比赛</p>
+          <p class="text-stone-500 dark:text-gray-400 font-medium">今日无比赛</p>
         </div>
         <div v-else class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <MatchItem v-for="m in todayMatches" :key="m.id" :match="m" />

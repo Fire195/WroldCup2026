@@ -9,14 +9,14 @@ const factors = [
 </script>
 <template>
   <div class="rounded-xl border border-gray-200 dark:border-gray-800 p-5">
-    <h3 class="font-semibold mb-3">预测权重</h3>
+    <h3 class="font-semibold mb-3 dark:text-gray-100">预测权重</h3>
     <div class="space-y-2 text-sm">
       <div v-for="f in factors" :key="f.label" class="flex items-center gap-3">
-        <span class="w-24">{{ f.label }}</span>
+        <span class="w-24 dark:text-gray-100">{{ f.label }}</span>
         <div class="flex-1 h-2 bg-gray-200 dark:bg-gray-800 rounded overflow-hidden">
           <div class="h-full bg-brand" :style="{ width: f.weight * 4 + '%' }" />
         </div>
-        <span class="tabular-nums w-10 text-right">{{ f.weight }}%</span>
+        <span class="tabular-nums w-10 text-right dark:text-gray-100">{{ f.weight }}%</span>
       </div>
     </div>
   </div>

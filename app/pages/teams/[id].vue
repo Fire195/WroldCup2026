@@ -34,12 +34,12 @@ const teamMatches = computed(() =>
     <StrengthWeakness :strength="team.strength" :weakness="team.weakness" />
 
     <section>
-      <h2 class="text-lg font-bold mb-3">阵容</h2>
+      <h2 class="text-lg font-bold dark:text-gray-100 mb-3">阵容</h2>
       <SquadTable :players="players ?? []" />
     </section>
 
     <section>
-      <h2 class="text-lg font-bold mb-3">本届赛程</h2>
+      <h2 class="text-lg font-bold dark:text-gray-100 mb-3">本届赛程</h2>
       <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
         <MatchItem v-for="m in teamMatches" :key="m.id" :match="m" />
       </div>

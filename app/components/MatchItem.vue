@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Match } from '~/types'
 import { useTeamStore } from '~/stores/teamStore'
+import TeamFlag from './TeamFlag.vue'
 
 const props = defineProps<{ match: Match }>()
 const teamStore = useTeamStore()
@@ -15,7 +16,7 @@ const time = computed(() => new Date(props.match.matchTime).toLocaleString('zh-C
     class="card-refined p-4 hover:scale-[1.01] transition-transform">
     <!-- Header -->
     <div class="flex items-center justify-between mb-3">
-      <span class="text-xs text-stone-500 font-medium">{{ time }}</span>
+      <span class="text-xs text-stone-500 dark:text-gray-400 font-medium">{{ time }}</span>
       <span
         :class="{
           'badge-pending': match.status === 'pending',
@@ -32,26 +33,26 @@ const time = computed(() => new Date(props.match.matchTime).toLocaleString('zh-C
       <div class="text-right">
         <div class="flex items-center justify-end gap-2">
           <span class="font-semibold text-sm truncate">{{ home?.name }}</span>
-          <span v-if="home?.flagEmoji" class="text-2xl">{{ home.flagEmoji }}</span>
+          <TeamFlag :team-id="match.homeTeamId" size="lg" />
         </div>
       </div>
 
       <!-- Score / VS -->
       <div class="text-center min-w-[64px]">
         <template v-if="match.result">
-          <div class="font-bold text-2xl text-stone-900 tabular-nums">
-            {{ match.result.homeScore }}<span class="text-stone-400 mx-1">:</span>{{ match.result.awayScore }}
+          <div class="font-bold text-2xl text-stone-900 dark:text-gray-100 tabular-nums">
+            {{ match.result.homeScore }}<span class="text-stone-400 dark:text-gray-500 mx-1">:</span>{{ match.result.awayScore }}
           </div>
         </template>
         <template v-else>
-          <div class="text-xs font-semibold text-stone-400">VS</div>
+          <div class="text-xs font-semibold text-stone-400 dark:text-gray-500">VS</div>
         </template>
       </div>
 
       <!-- Away -->
       <div class="text-left">
         <div class="flex items-center gap-2">
-          <span v-if="away?.flagEmoji" class="text-2xl">{{ away.flagEmoji }}</span>
+          <TeamFlag :team-id="match.awayTeamId" size="lg" />
           <span class="font-semibold text-sm truncate">{{ away?.name }}</span>
         </div>
       </div>

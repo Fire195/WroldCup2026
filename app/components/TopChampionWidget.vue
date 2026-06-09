@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import { useTeamStore } from '~/stores/teamStore'
+import TeamFlag from './TeamFlag.vue'
+
 const teams = useTeamStore()
 </script>
 <template>
@@ -23,7 +25,7 @@ const teams = useTeamStore()
         </span>
 
         <!-- Flag + Name -->
-        <span v-if="t.flagEmoji" class="text-3xl">{{ t.flagEmoji }}</span>
+        <TeamFlag :team-id="t.id" size="lg" />
         <NuxtLink :to="`/teams/${t.id}`"
           class="flex-1 font-semibold truncate group-hover:text-wc-gold transition-colors">
           {{ t.name }}

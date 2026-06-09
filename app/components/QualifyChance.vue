@@ -19,8 +19,8 @@ const chance = computed(() => {
   <div class="space-y-2">
     <div v-for="c in chance" :key="c.teamId" class="text-sm">
       <div class="flex justify-between mb-1">
-        <span>{{ teams.byId(c.teamId)?.name ?? c.teamId }}</span>
-        <span class="tabular-nums">{{ c.locked ? '已晋级' : `${c.pct.toFixed(0)}%` }}</span>
+        <span class="dark:text-gray-100">{{ teams.byId(c.teamId)?.name ?? c.teamId }}</span>
+        <span class="tabular-nums dark:text-gray-100">{{ c.locked ? '已晋级' : `${c.pct.toFixed(0)}%` }}</span>
       </div>
       <div class="h-2 rounded bg-gray-200 dark:bg-gray-800 overflow-hidden">
         <div class="h-full bg-brand" :style="{ width: c.pct + '%' }" />

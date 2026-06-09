@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { GroupStanding } from '~/types'
 import { useTeamStore } from '~/stores/teamStore'
+import TeamFlag from './TeamFlag.vue'
 
 defineProps<{ standings: GroupStanding[] }>()
 const teams = useTeamStore()
@@ -32,7 +33,7 @@ function toggle(id: string) { expanded.value = expanded.value === id ? null : id
           >
             <td class="px-3 py-2">
               <NuxtLink :to="`/teams/${row.teamId}`" class="font-medium hover:text-brand-accent inline-flex items-center gap-1.5">
-                <span v-if="teams.byId(row.teamId)?.flagEmoji">{{ teams.byId(row.teamId)?.flagEmoji }}</span>
+                <TeamFlag :team-id="row.teamId" size="sm" />
                 {{ teams.byId(row.teamId)?.name ?? row.teamId }}
               </NuxtLink>
             </td>

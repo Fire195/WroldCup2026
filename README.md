@@ -27,3 +27,4 @@ pnpm typecheck
    - `CRON_SECRET` — random string; passed as `Authorization: Bearer ...` by Vercel cron
 4. Add the Vercel KV integration from the Vercel dashboard → Storage → KV.
 5. Deploy. Cron job will run at 02:00 / 09:00 / 14:00 / 22:00 UTC.
+# WroldCup2026

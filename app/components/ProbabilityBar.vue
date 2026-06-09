@@ -11,7 +11,7 @@ defineProps<{ homeWin: number; draw: number; awayWin: number; homeName: string; 
       <div class="bg-brand-accent flex items-center justify-center" :style="{ width: awayWin + '%' }"
         :title="`${awayName} 胜 ${awayWin}%`">{{ awayWin }}%</div>
     </div>
-    <div class="mt-1 grid grid-cols-3 text-xs text-gray-500">
+    <div class="mt-1 grid grid-cols-3 text-xs text-gray-500 dark:text-gray-400">
       <span>{{ homeName }} 胜</span>
       <span class="text-center">平</span>
       <span class="text-right">{{ awayName }} 胜</span>
