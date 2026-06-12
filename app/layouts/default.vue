@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import AppHeader from '~/components/AppHeader.vue'
 import MobileTabBar from '~/components/MobileTabBar.vue'
+import ToastContainer from '~/components/ToastContainer.vue'
 </script>
 <template>
   <div class="min-h-screen flex flex-col bg-stone-50 dark:bg-gray-950">
@@ -9,5 +10,6 @@ import MobileTabBar from '~/components/MobileTabBar.vue'
       <slot />
     </main>
     <MobileTabBar />
+    <ToastContainer />
   </div>
 </template>
