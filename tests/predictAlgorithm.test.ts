@@ -16,15 +16,15 @@ const team = (id: string, rank: number, recent: Partial<Team['recentRecord']>): 
 
 describe('predictMatch', () => {
   it('returns probabilities that sum to ~100%', () => {
-    const home = team('BRA', 1, { win: 11, draw: 3, lose: 2, goalsFor: 32, goalsAgainst: 9 })
-    const away = team('JAM', 60, { win: 3, draw: 2, lose: 6, goalsFor: 10, goalsAgainst: 21 })
+    const home = team('BRA', 1, { win: 11, draw: 3, lose: 2, goalsFor: 32, goalsAgainst: 9, avgGoals: 2.1, avgConceded: 0.6 })
+    const away = team('JAM', 60, { win: 3, draw: 2, lose: 6, goalsFor: 10, goalsAgainst: 21, avgGoals: 0.9, avgConceded: 1.9 })
     const p = predictMatch(home, away, [], [])
     expect(p.homeWin + p.draw + p.awayWin).toBeCloseTo(100, 0)
   })
 
   it('favors stronger team', () => {
-    const home = team('BRA', 1, { win: 11, draw: 3, lose: 2, goalsFor: 32, goalsAgainst: 9 })
-    const away = team('JAM', 60, { win: 3, draw: 2, lose: 6, goalsFor: 10, goalsAgainst: 21 })
+    const home = team('BRA', 1, { win: 11, draw: 3, lose: 2, goalsFor: 32, goalsAgainst: 9, avgGoals: 2.1, avgConceded: 0.6 })
+    const away = team('JAM', 60, { win: 3, draw: 2, lose: 6, goalsFor: 10, goalsAgainst: 21, avgGoals: 0.9, avgConceded: 1.9 })
     const p = predictMatch(home, away, [], [])
     expect(p.homeWin).toBeGreaterThan(p.awayWin)
     expect(p.homeWin).toBeGreaterThan(50)
@@ -37,11 +37,49 @@ describe('predictMatch', () => {
     expect(Math.abs(p.homeWin - p.awayWin)).toBeLessThan(15)
   })
 
-  it('produces a valid scoreline string and confidence in [0,1]', () => {
+  it('returns TOP 3 scores with valid format', () => {
     const home = team('BRA', 1, {})
     const away = team('JAM', 60, {})
     const p = predictMatch(home, away, [], [])
-    expect(p.bestScore).toMatch(/^\d+-\d+$/)
+    expect(p.topScores.length).toBe(3)
+    for (const s of p.topScores) {
+      expect(s.score).toMatch(/^\d+-\d+$/)
+      expect(s.probability).toBeGreaterThan(0)
+      expect(s.probability).toBeLessThanOrEqual(1)
+    }
+  })
+
+  it('TOP 3 scores are sorted by probability descending', () => {
+    const home = team('BRA', 1, {})
+    const away = team('JAM', 60, {})
+    const p = predictMatch(home, away, [], [])
+    expect(p.topScores[0].probability).toBeGreaterThanOrEqual(p.topScores[1].probability)
+    expect(p.topScores[1].probability).toBeGreaterThanOrEqual(p.topScores[2].probability)
+  })
+
+  it('bestScore equals first entry of topScores', () => {
+    const home = team('BRA', 1, {})
+    const away = team('JAM', 60, {})
+    const p = predictMatch(home, away, [], [])
+    expect(p.bestScore).toBe(p.topScores[0].score)
+  })
+
+  it('produces varied scores (not always 3-2)', () => {
+    const matchups = [
+      [team('A', 1, { avgGoals: 2.5, avgConceded: 0.5 }), team('B', 80, { avgGoals: 0.8, avgConceded: 2.5 })],
+      [team('A', 30, { avgGoals: 1.2, avgConceded: 1.2 }), team('B', 32, { avgGoals: 1.2, avgConceded: 1.2 })],
+      [team('A', 50, { avgGoals: 0.9, avgConceded: 1.5 }), team('B', 5, { avgGoals: 2.2, avgConceded: 0.7 })],
+      [team('A', 15, { avgGoals: 1.5, avgConceded: 1.0 }), team('B', 18, { avgGoals: 1.4, avgConceded: 1.1 })],
+    ]
+    const scores = matchups.map(([h, a]) => predictMatch(h, a, [], []).bestScore)
+    const unique = new Set(scores)
+    expect(unique.size).toBeGreaterThan(1)
+  })
+
+  it('returns confidence in [0, 1]', () => {
+    const home = team('BRA', 1, {})
+    const away = team('JAM', 60, {})
+    const p = predictMatch(home, away, [], [])
     expect(p.confidence).toBeGreaterThanOrEqual(0)
     expect(p.confidence).toBeLessThanOrEqual(1)
   })

@@ -1,6 +1,9 @@
 import type { Team, GroupStanding, Player, Prediction } from '~/types'
+import { scoreMatrix, topScores, aggregateOutcome } from './poissonPrediction'
 
 const W = { rank: 0.25, form: 0.25, attack: 0.20, group: 0.15, squad: 0.15 } as const
+const LEAGUE_AVG_GOALS = 1.4
+const HOME_ADVANTAGE = 1.15
 
 function rankScore(rank: number): number {
   return Math.max(0, 100 - Math.log2(rank) * 14)
@@ -37,16 +40,21 @@ function teamPower(t: Team, standings: GroupStanding[], squad: Player[]): number
     + squadScore(squad) * W.squad
 }
 
-function bestScoreline(homeAvgGoals: number, awayAvgGoals: number, homeWin: number, awayWin: number): string {
-  let h = Math.round(homeAvgGoals)
-  let a = Math.round(awayAvgGoals)
-  if (homeWin > awayWin && h <= a) h = a + 1
-  if (awayWin > homeWin && a <= h) a = h + 1
-  if (Math.abs(homeWin - awayWin) < 8 && h !== a) {
-    if (h > a) a = h - 1
-    else h = a - 1
-  }
-  return `${Math.max(0, h)}-${Math.max(0, a)}`
+function clamp(x: number, min: number, max: number): number {
+  return Math.max(min, Math.min(max, x))
+}
+
+function expectedGoals(
+  attackingTeam: Team,
+  defendingTeam: Team,
+  powerFactor: number,
+  isHome: boolean
+): number {
+  const base = attackingTeam.recentRecord.avgGoals
+  const defenseAdjustment = defendingTeam.recentRecord.avgConceded / LEAGUE_AVG_GOALS
+  const powerAdjustment = 1 + powerFactor * 0.3
+  const homeMultiplier = isHome ? HOME_ADVANTAGE : 1
+  return clamp(base * defenseAdjustment * powerAdjustment * homeMultiplier, 0.1, 5)
 }
 
 export function predictMatch(
@@ -58,28 +66,23 @@ export function predictMatch(
 ): Prediction {
   const homePower = teamPower(home, groupStandings, homeSquad)
   const awayPower = teamPower(away, groupStandings, awaySquad)
-  const diff = homePower - awayPower
+  const powerFactor = (homePower - awayPower) / 100
 
-  const sigmoid = (x: number) => 1 / (1 + Math.exp(-x / 12))
-  const homeAdvantage = 3
-  const homeRaw = sigmoid(diff + homeAdvantage)
-  const awayRaw = sigmoid(-diff)
+  const lambdaHome = expectedGoals(home, away, powerFactor, true)
+  const lambdaAway = expectedGoals(away, home, -powerFactor, false)
 
-  const totalRaw = homeRaw + awayRaw
-  const competitiveness = 1 - Math.abs(homeRaw - awayRaw) / totalRaw
-  const drawShare = 0.18 + competitiveness * 0.12
-
-  const homeWin = (1 - drawShare) * (homeRaw / totalRaw) * 100
-  const awayWin = (1 - drawShare) * (awayRaw / totalRaw) * 100
-  const draw = drawShare * 100
+  const matrix = scoreMatrix(lambdaHome, lambdaAway)
+  const top = topScores(lambdaHome, lambdaAway, 3)
+  const outcome = aggregateOutcome(matrix)
 
   const confidence = Math.min(1, Math.abs(homePower - awayPower) / 30)
 
   return {
-    homeWin: Math.round(homeWin * 10) / 10,
-    draw: Math.round(draw * 10) / 10,
-    awayWin: Math.round(awayWin * 10) / 10,
-    bestScore: bestScoreline(home.recentRecord.avgGoals, away.recentRecord.avgGoals, homeWin, awayWin),
+    homeWin: Math.round(outcome.homeWin * 10) / 10,
+    draw: Math.round(outcome.draw * 10) / 10,
+    awayWin: Math.round(outcome.awayWin * 10) / 10,
+    topScores: top,
+    bestScore: top[0].score,
     confidence: Math.round(confidence * 100) / 100,
   }
 }
