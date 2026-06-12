@@ -2,21 +2,23 @@
 interface AccuracyStats {
   total: number
   outcomeCorrect: number
-  scoreCorrect: number
+  top1Correct: number
+  top2Correct: number
+  top3Correct: number
   updatedAt: string
 }
 
 const { data } = await useFetch<AccuracyStats>('/api/accuracy-stats')
 
-const outcomePercent = computed(() => {
-  if (!data.value || data.value.total === 0) return 0
-  return Math.round((data.value.outcomeCorrect / data.value.total) * 100)
-})
+const percent = (correct: number | undefined) => {
+  if (!data.value || data.value.total === 0 || correct === undefined) return 0
+  return Math.round((correct / data.value.total) * 100)
+}
 
-const scorePercent = computed(() => {
-  if (!data.value || data.value.total === 0) return 0
-  return Math.round((data.value.scoreCorrect / data.value.total) * 100)
-})
+const outcomePercent = computed(() => percent(data.value?.outcomeCorrect))
+const top1Percent = computed(() => percent(data.value?.top1Correct))
+const top2Percent = computed(() => percent(data.value?.top2Correct))
+const top3Percent = computed(() => percent(data.value?.top3Correct))
 
 const hasData = computed(() => data.value && data.value.total > 0)
 </script>
@@ -54,13 +56,37 @@ const hasData = computed(() => data.value && data.value.total > 0)
 
       <div>
         <div class="flex justify-between items-center mb-2">
-          <span class="text-sm font-medium dark:text-gray-300">比分完全准确</span>
+          <span class="text-sm font-medium dark:text-gray-300">首选比分命中率</span>
           <span class="text-sm font-bold tabular-nums dark:text-gray-100">
-            {{ scorePercent }}% ({{ data?.scoreCorrect }}/{{ data?.total }})
+            {{ top1Percent }}% ({{ data?.top1Correct ?? 0 }}/{{ data?.total }})
           </span>
         </div>
         <div class="h-2 rounded-full bg-stone-200 dark:bg-gray-700 overflow-hidden">
-          <div class="h-full bg-wc-gold transition-all" :style="{ width: scorePercent + '%' }"></div>
+          <div class="h-full bg-wc-gold transition-all" :style="{ width: top1Percent + '%' }"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm font-medium dark:text-gray-300">次选比分命中率</span>
+          <span class="text-sm font-bold tabular-nums dark:text-gray-100">
+            {{ top2Percent }}% ({{ data?.top2Correct ?? 0 }}/{{ data?.total }})
+          </span>
+        </div>
+        <div class="h-2 rounded-full bg-stone-200 dark:bg-gray-700 overflow-hidden">
+          <div class="h-full bg-amber-500 transition-all" :style="{ width: top2Percent + '%' }"></div>
+        </div>
+      </div>
+
+      <div>
+        <div class="flex justify-between items-center mb-2">
+          <span class="text-sm font-medium dark:text-gray-300">第3选比分命中率</span>
+          <span class="text-sm font-bold tabular-nums dark:text-gray-100">
+            {{ top3Percent }}% ({{ data?.top3Correct ?? 0 }}/{{ data?.total }})
+          </span>
+        </div>
+        <div class="h-2 rounded-full bg-stone-200 dark:bg-gray-700 overflow-hidden">
+          <div class="h-full bg-amber-400 transition-all" :style="{ width: top3Percent + '%' }"></div>
         </div>
       </div>
     </div>

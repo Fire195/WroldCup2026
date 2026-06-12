@@ -46,7 +46,9 @@ async function calculateAccuracy(): Promise<void> {
   }
 
   let outcomeCorrect = 0
-  let scoreCorrect = 0
+  let top1Correct = 0
+  let top2Correct = 0
+  let top3Correct = 0
   for (const { match, result } of endedMatches) {
     const home = buildTeam(match.homeTeamId)
     const away = buildTeam(match.awayTeamId)
@@ -74,18 +76,23 @@ async function calculateAccuracy(): Promise<void> {
 
     const actualHome = result.homeScore
     const actualAway = result.awayScore
+    const actualScore = `${actualHome}-${actualAway}`
     const actualOutcome = actualHome > actualAway ? 'home' : actualHome < actualAway ? 'away' : 'draw'
     const max = Math.max(prediction.homeWin, prediction.draw, prediction.awayWin)
     const predictedOutcome = prediction.homeWin === max ? 'home' : prediction.awayWin === max ? 'away' : 'draw'
 
     if (actualOutcome === predictedOutcome) outcomeCorrect++
-    if (prediction.bestScore === `${actualHome}-${actualAway}`) scoreCorrect++
+    if (prediction.topScores[0]?.score === actualScore) top1Correct++
+    if (prediction.topScores[1]?.score === actualScore) top2Correct++
+    if (prediction.topScores[2]?.score === actualScore) top3Correct++
   }
 
   await setAccuracyStats({
     total: endedMatches.length,
     outcomeCorrect,
-    scoreCorrect,
+    top1Correct,
+    top2Correct,
+    top3Correct,
     updatedAt: new Date().toISOString(),
   })
 }

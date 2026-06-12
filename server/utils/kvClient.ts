@@ -72,7 +72,9 @@ export async function getChampionRatesHistory(startDate: string, endDate: string
 export interface AccuracyStats {
   total: number
   outcomeCorrect: number
-  scoreCorrect: number
+  top1Correct: number
+  top2Correct: number
+  top3Correct: number
   updatedAt: string
 }
 

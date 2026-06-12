@@ -16,7 +16,7 @@ function buildTeam(id: string): Team | null {
 }
 
 async function liveCalculate(): Promise<AccuracyStats> {
-  let total = 0, outcomeCorrect = 0, scoreCorrect = 0
+  let total = 0, outcomeCorrect = 0, top1Correct = 0, top2Correct = 0, top3Correct = 0
   for (const m of schedule as any[]) {
     const cached = await getMatchResult(m.id)
     if (cached?.status !== 'ended' || cached.homeScore === null || cached.awayScore === null) continue
@@ -46,14 +46,17 @@ async function liveCalculate(): Promise<AccuracyStats> {
       (playersJson as any)[home.id] ?? [],
     )
 
+    const actualScore = `${cached.homeScore}-${cached.awayScore}`
     const actualOutcome = cached.homeScore > cached.awayScore ? 'home' : cached.homeScore < cached.awayScore ? 'away' : 'draw'
     const max = Math.max(prediction.homeWin, prediction.draw, prediction.awayWin)
     const predictedOutcome = prediction.homeWin === max ? 'home' : prediction.awayWin === max ? 'away' : 'draw'
 
     if (actualOutcome === predictedOutcome) outcomeCorrect++
-    if (prediction.bestScore === `${cached.homeScore}-${cached.awayScore}`) scoreCorrect++
+    if (prediction.topScores[0]?.score === actualScore) top1Correct++
+    if (prediction.topScores[1]?.score === actualScore) top2Correct++
+    if (prediction.topScores[2]?.score === actualScore) top3Correct++
   }
-  return { total, outcomeCorrect, scoreCorrect, updatedAt: new Date().toISOString() }
+  return { total, outcomeCorrect, top1Correct, top2Correct, top3Correct, updatedAt: new Date().toISOString() }
 }
 
 export default defineEventHandler(async () => {
