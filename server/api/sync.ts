@@ -8,7 +8,9 @@ export default defineEventHandler(async (event) => {
     throw createError({ statusCode: 405 })
   }
   const cronAuth = getHeader(event, 'authorization')
-  if (process.env.CRON_SECRET && cronAuth !== `Bearer ${process.env.CRON_SECRET}`) {
+  const isManualTrigger = !cronAuth
+  const isCronJob = cronAuth === `Bearer ${process.env.CRON_SECRET}`
+  if (process.env.CRON_SECRET && !isManualTrigger && !isCronJob) {
     throw createError({ statusCode: 401 })
   }
   const token = useRuntimeConfig().footballDataApiKey
