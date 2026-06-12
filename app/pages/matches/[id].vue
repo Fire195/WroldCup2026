@@ -2,6 +2,7 @@
 import RecentFormCompare from '~/components/RecentFormCompare.vue'
 import ProbabilityBar from '~/components/ProbabilityBar.vue'
 import PredictedScore from '~/components/PredictedScore.vue'
+import MatchResult from '~/components/MatchResult.vue'
 import KeyFactors from '~/components/KeyFactors.vue'
 import { useTeamStore } from '~/stores/teamStore'
 
@@ -15,6 +16,11 @@ const { data: match } = await useFetch<any>(() => `/api/matches/${id.value}`, { 
 
 const home = computed(() => match.value && teams.byId(match.value.homeTeamId))
 const away = computed(() => match.value && teams.byId(match.value.awayTeamId))
+
+const isEnded = computed(() => match.value?.status === 'ended' && match.value?.result)
+const actualScore = computed(() => isEnded.value
+  ? `${match.value.result.homeScore}-${match.value.result.awayScore}`
+  : undefined)
 </script>
 <template>
   <div v-if="match && home && away" class="max-w-3xl mx-auto px-4 py-6 space-y-5">
@@ -27,10 +33,19 @@ const away = computed(() => match.value && teams.byId(match.value.awayTeamId))
       {{ new Date(match.matchTime).toLocaleString('zh-CN') }} · {{ match.venue }}
     </p>
 
+    <MatchResult v-if="isEnded && match.prediction"
+      :home-name="home.name" :away-name="away.name"
+      :home-score="match.result.homeScore" :away-score="match.result.awayScore"
+      :predicted-score="match.prediction.bestScore"
+      :predicted-home-win="match.prediction.homeWin"
+      :predicted-draw="match.prediction.draw"
+      :predicted-away-win="match.prediction.awayWin" />
+
     <PredictedScore v-if="match.prediction"
-      :best-score="match.prediction.bestScore"
+      :top-scores="match.prediction.topScores"
       :confidence="match.prediction.confidence"
-      :home-name="home.name" :away-name="away.name" />
+      :home-name="home.name" :away-name="away.name"
+      :actual-score="actualScore" />
 
     <ProbabilityBar v-if="match.prediction"
       :home-win="match.prediction.homeWin"
