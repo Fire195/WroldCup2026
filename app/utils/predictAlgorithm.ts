@@ -82,7 +82,7 @@ export function predictMatch(
     draw: Math.round(outcome.draw * 10) / 10,
     awayWin: Math.round(outcome.awayWin * 10) / 10,
     topScores: top,
-    bestScore: top[0].score,
+    bestScore: top[0]?.score ?? '0-0',
     confidence: Math.round(confidence * 100) / 100,
   }
 }
