@@ -42,13 +42,16 @@ export function topScores(lambdaHome: number, lambdaAway: number, count = 3): Sc
 }
 
 export function aggregateOutcome(matrix: ScoreCell[]): { homeWin: number; draw: number; awayWin: number } {
-  let homeWin = 0, draw = 0, awayWin = 0
+  let homeWin = 0
+  let draw = 0
+  let awayWin = 0
   for (const cell of matrix) {
     if (cell.home > cell.away) homeWin += cell.probability
     else if (cell.home < cell.away) awayWin += cell.probability
     else draw += cell.probability
   }
   const total = homeWin + draw + awayWin
+  if (total === 0) return { homeWin: 0, draw: 0, awayWin: 0 }
   return {
     homeWin: (homeWin / total) * 100,
     draw: (draw / total) * 100,

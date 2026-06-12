@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { poisson, scoreMatrix, topScores } from '~/utils/poissonPrediction'
+import { poisson, scoreMatrix, topScores, aggregateOutcome } from '~/utils/poissonPrediction'
+import type { ScoreCell } from '~/utils/poissonPrediction'
 
 describe('poisson', () => {
   it('returns e^-lambda for k=0', () => {
@@ -62,5 +63,39 @@ describe('topScores', () => {
     const homeGoals = parseInt(strong[0].score.split('-')[0])
     const awayGoals = parseInt(strong[0].score.split('-')[1])
     expect(homeGoals).toBeGreaterThan(awayGoals)
+  })
+})
+
+describe('aggregateOutcome', () => {
+  it('percentages sum to 100 for a standard matrix', () => {
+    const matrix = scoreMatrix(1.5, 1.2)
+    const out = aggregateOutcome(matrix)
+    expect(out.homeWin + out.draw + out.awayWin).toBeCloseTo(100, 5)
+  })
+
+  it('favors home team when home lambda is much higher', () => {
+    const matrix = scoreMatrix(3.0, 0.5)
+    const out = aggregateOutcome(matrix)
+    expect(out.homeWin).toBeGreaterThan(out.awayWin)
+    expect(out.homeWin).toBeGreaterThan(out.draw)
+  })
+
+  it('returns zeros for an empty matrix instead of NaN', () => {
+    const empty: ScoreCell[] = []
+    const out = aggregateOutcome(empty)
+    expect(out.homeWin).toBe(0)
+    expect(out.draw).toBe(0)
+    expect(out.awayWin).toBe(0)
+  })
+
+  it('returns all percentages in [0, 100]', () => {
+    const matrix = scoreMatrix(1.8, 1.3)
+    const out = aggregateOutcome(matrix)
+    expect(out.homeWin).toBeGreaterThanOrEqual(0)
+    expect(out.homeWin).toBeLessThanOrEqual(100)
+    expect(out.draw).toBeGreaterThanOrEqual(0)
+    expect(out.draw).toBeLessThanOrEqual(100)
+    expect(out.awayWin).toBeGreaterThanOrEqual(0)
+    expect(out.awayWin).toBeLessThanOrEqual(100)
   })
 })
