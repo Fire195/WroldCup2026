@@ -3,6 +3,7 @@ import { useTeamStore } from '~/stores/teamStore'
 import { useMatchStore } from '~/stores/matchStore'
 import MatchItem from '~/components/MatchItem.vue'
 import TopChampionWidget from '~/components/TopChampionWidget.vue'
+import AccuracyStats from '~/components/AccuracyStats.vue'
 
 const teams = useTeamStore()
 const matches = useMatchStore()
@@ -55,8 +56,11 @@ const latestEnded = computed(() => matches.latestEnded)
     </section>
 
     <div class="max-w-6xl mx-auto px-4 py-8 space-y-8">
-      <!-- TOP 5 -->
-      <TopChampionWidget />
+      <!-- TOP 5 + Accuracy Stats -->
+      <div class="grid gap-4 md:grid-cols-2">
+        <TopChampionWidget />
+        <AccuracyStats />
+      </div>
 
       <!-- Today -->
       <section>
