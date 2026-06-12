@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import ThemeToggle from './ThemeToggle.vue'
+import RefreshButton from './RefreshButton.vue'
 const links = [
   { to: '/', label: '首页' },
   { to: '/groups/A', label: '小组赛' },
@@ -30,6 +31,7 @@ const links = [
         </NuxtLink>
       </nav>
 
+      <RefreshButton />
       <ThemeToggle />
     </div>
   </header>
