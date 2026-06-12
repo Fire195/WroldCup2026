@@ -20,11 +20,11 @@ async function liveCalculate(): Promise<AccuracyStats> {
   for (const m of schedule as any[]) {
     const cached = await getMatchResult(m.id)
     if (cached?.status !== 'ended' || cached.homeScore === null || cached.awayScore === null) continue
-    total++
 
     const home = buildTeam(m.homeTeamId)
     const away = buildTeam(m.awayTeamId)
     if (!home || !away) continue
+    total++
 
     let standings: ReturnType<typeof calcGroupStandings> = []
     if (m.group) {
