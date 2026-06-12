@@ -1,10 +1,17 @@
 import schedule from '~~/app/data/schedule.json'
 import teamsJson from '~~/app/data/teams.json'
 import recordsJson from '~~/app/data/recentRecords.json'
+import playersJson from '~~/app/data/players.json'
+import groupsJson from '~~/app/data/groups.json'
 import { fetchWorldCupMatches } from './footballDataClient'
-import { setMatchResult, setChampionRates, getMatchResult, setChampionRatesHistory } from './kvClient'
+import {
+  setMatchResult, setChampionRates, getMatchResult, setChampionRatesHistory,
+  setAccuracyStats,
+} from './kvClient'
 import { calcChampionRates } from '~/utils/probabilityCalc'
-import type { Team } from '~/types'
+import { calcGroupStandings } from '~/utils/standingsCalc'
+import { predictMatch } from '~/utils/predictAlgorithm'
+import type { Team, Match } from '~/types'
 
 interface SyncResult { updated: number; error?: string }
 
@@ -18,6 +25,69 @@ function externalIdMatches(localMatch: any, ext: any): boolean {
 
 async function computeAliveTeams(): Promise<Set<string>> {
   return new Set<string>(Object.keys(teamsJson))
+}
+
+function buildTeam(id: string): Team | null {
+  const t = (teamsJson as any)[id]
+  if (!t) return null
+  return { ...t, recentRecord: (recordsJson as any)[id] }
+}
+
+async function calculateAccuracy(): Promise<void> {
+  const endedMatches: Array<{ match: any; result: { homeScore: number; awayScore: number } }> = []
+  for (const m of schedule as any[]) {
+    const cached = await getMatchResult(m.id)
+    if (cached?.status === 'ended' && cached.homeScore !== null && cached.awayScore !== null) {
+      endedMatches.push({
+        match: m,
+        result: { homeScore: cached.homeScore, awayScore: cached.awayScore },
+      })
+    }
+  }
+
+  let outcomeCorrect = 0
+  let scoreCorrect = 0
+  for (const { match, result } of endedMatches) {
+    const home = buildTeam(match.homeTeamId)
+    const away = buildTeam(match.awayTeamId)
+    if (!home || !away) continue
+
+    let standings: ReturnType<typeof calcGroupStandings> = []
+    if (match.group) {
+      const groupTeams = (groupsJson as any)[match.group] as string[]
+      const groupMatches: Match[] = []
+      for (const gm of (schedule as any[]).filter(g => g.group === match.group)) {
+        const c = await getMatchResult(gm.id)
+        groupMatches.push(c
+          ? { ...gm, status: c.status, result: c.status === 'ended'
+              ? { homeScore: c.homeScore, awayScore: c.awayScore, endedAt: c.endedAt! } : undefined }
+          : gm)
+      }
+      standings = calcGroupStandings(groupTeams, groupMatches)
+    }
+
+    const prediction = predictMatch(
+      home, away, standings,
+      (playersJson as any)[away.id] ?? [],
+      (playersJson as any)[home.id] ?? [],
+    )
+
+    const actualHome = result.homeScore
+    const actualAway = result.awayScore
+    const actualOutcome = actualHome > actualAway ? 'home' : actualHome < actualAway ? 'away' : 'draw'
+    const max = Math.max(prediction.homeWin, prediction.draw, prediction.awayWin)
+    const predictedOutcome = prediction.homeWin === max ? 'home' : prediction.awayWin === max ? 'away' : 'draw'
+
+    if (actualOutcome === predictedOutcome) outcomeCorrect++
+    if (prediction.bestScore === `${actualHome}-${actualAway}`) scoreCorrect++
+  }
+
+  await setAccuracyStats({
+    total: endedMatches.length,
+    outcomeCorrect,
+    scoreCorrect,
+    updatedAt: new Date().toISOString(),
+  })
 }
 
 export async function runSync(token: string): Promise<SyncResult> {
@@ -47,9 +117,10 @@ export async function runSync(token: string): Promise<SyncResult> {
     const rates = calcChampionRates(teamArray, alive)
     await setChampionRates(rates)
 
-    // Store historical snapshot for trend chart
-    const today = new Date().toISOString().slice(0, 10) // YYYY-MM-DD
+    const today = new Date().toISOString().slice(0, 10)
     await setChampionRatesHistory(today, rates)
+
+    await calculateAccuracy()
 
     return { updated }
   } catch (e: any) {
