@@ -55,11 +55,17 @@ export interface Match {
   result?: MatchResult
 }
 
+export interface ScorePrediction {
+  score: string
+  probability: number
+}
+
 export interface Prediction {
   homeWin: number
   draw: number
   awayWin: number
   bestScore: string
+  topScores: ScorePrediction[]
   confidence: number
 }
 
