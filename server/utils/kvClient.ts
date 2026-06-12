@@ -68,3 +68,20 @@ export async function getChampionRatesHistory(startDate: string, endDate: string
 
   return history
 }
+
+export interface AccuracyStats {
+  total: number
+  outcomeCorrect: number
+  scoreCorrect: number
+  updatedAt: string
+}
+
+export async function setAccuracyStats(stats: AccuracyStats): Promise<void> {
+  if (!kvAvailable()) return
+  await kv.set('accuracy:stats', stats)
+}
+
+export async function getAccuracyStats(): Promise<AccuracyStats | null> {
+  if (!kvAvailable()) return null
+  return (await kv.get<AccuracyStats>('accuracy:stats')) ?? null
+}
